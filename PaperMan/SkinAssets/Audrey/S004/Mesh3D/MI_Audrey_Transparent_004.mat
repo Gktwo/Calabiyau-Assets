@@ -1,0 +1,13 @@
+Diffuse=T_Audrey_Transparent_004
+Normal=blue
+Other[0]=T_Audrey_Transparent_S_004
+Other[1]=T_Audrey_Lace_Mask1_Map
+Other[2]=Blue_Mask
+Other[3]=transparent
+Other[4]=DefaultTexture
+Other[5]=T_DefaultBlack_Gamma
+Other[6]=T_DefaultBlack_Linear
+Other[7]=T_DefaultBlue_Linear
+Other[8]=T_DefaultNormal
+Other[9]=T_DefaultWhite_Gamma
+Other[10]=T_DefaultWhite_Grayscale

@@ -1,0 +1,6 @@
+Diffuse=M32_Tripod_D
+Normal=M32_Tripod_N
+Other[0]=M32_Tripod_RMO
+Other[1]=T_DefaultNormal
+Other[2]=T_DefaultWhite_Gamma
+Other[3]=T_DefaultWhite_Linear

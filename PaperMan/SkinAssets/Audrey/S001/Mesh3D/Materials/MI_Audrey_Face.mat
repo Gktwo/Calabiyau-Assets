@@ -1,0 +1,16 @@
+Diffuse=T_Audrey_Face
+Normal=T_DefaultNormal
+Other[0]=expression_Mask
+Other[1]=blush
+Other[2]=perspire
+Other[3]=tears
+Other[4]=T_Audrey_SDF
+Other[5]=T_Audrey_Face_Mask1
+Other[6]=T_Audrey_Face_Mask2
+Other[7]=Black
+Other[8]=DefaultTexture
+Other[9]=T_DefaultWhite_Grayscale
+Other[10]=T_DefaultBlack_Linear
+Other[11]=T_DefaultBlue_Linear
+Other[12]=T_DefaultBlack_Gamma
+Other[13]=T_DefaultWhite_Gamma
