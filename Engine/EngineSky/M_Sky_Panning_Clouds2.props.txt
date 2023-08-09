@@ -1,0 +1,128 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineSky/T_Sky_Blue.T_Sky_Blue'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineSky/T_Sky_Clouds_M.T_Sky_Clouds_M'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Horizon Falloff }
+                    ParameterInfos[1] = { Name=Sun brightness }
+                    ParameterInfos[2] = { Name=Cloud opacity }
+                    ParameterInfos[3] = { Name=Cloud speed }
+                    ParameterInfos[4] = { Name=NoisePower2 }
+                    ParameterInfos[5] = { Name=Stars brightness }
+                    ParameterInfos[6] = { Name=Sun height }
+                    ParameterInfos[7] = { Name=NoisePower1 }
+                    ParameterInfos[8] = { Name=Sun Radius }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Horizon color }
+                    ParameterInfos[1] = { Name=Zenith Color }
+                    ParameterInfos[2] = { Name=Overall Color }
+                    ParameterInfos[3] = { Name=Cloud color }
+                    ParameterInfos[4] = { Name=Sun color }
+                    ParameterInfos[5] = { Name=Light direction }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 3, 50, 1, 0.1, 4, 0.1, 1, 1, 0.0003 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0.940601, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0.085177, G=0.153746, B=0.35, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0.71685, G=0.782221, B=0.885, A=0 }
+            VectorValues[4] = { R=1, G=0.8, B=0.4, A=1 }
+            VectorValues[5] = { R=-2, G=0, B=-1, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineSky/T_Sky_Clouds_M.T_Sky_Clouds_M'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineSky/T_Sky_Blue.T_Sky_Blue'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Horizon Falloff, Group=None }
+    CollectedScalarParameters[1] = { Value=50, Name=Sun brightness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Cloud opacity, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=Cloud speed, Group=None }
+    CollectedScalarParameters[4] = { Value=4, Name=NoisePower2, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=Stars brightness, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Sun height, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=NoisePower1, Group=None }
+    CollectedScalarParameters[8] = { Value=0.0003, Name=Sun Radius, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.940601, G=1, B=1, A=1 }
+        Name = Horizon color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.085177, G=0.153746, B=0.35, A=1 }
+        Name = Zenith Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Overall Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.71685, G=0.782221, B=0.885, A=0 }
+        Name = Cloud color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0.8, B=0.4, A=1 }
+        Name = Sun color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=-2, G=0, B=-1, A=1 }
+        Name = Light direction
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
