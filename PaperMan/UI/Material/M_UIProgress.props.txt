@@ -1,0 +1,101 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/UI/Material/rank_rm_progressbar_circle1.rank_rm_progressbar_circle1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Rotation }
+                    ParameterInfos[1] = { Name=Contrast }
+                    ParameterInfos[2] = { Name=offs }
+                    ParameterInfos[3] = { Name=Size }
+                    ParameterInfos[4] = { Name=Width }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                    ParameterInfos[1] = { Name=Channel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=MainTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0, 100, 0, 1, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=0.679542, B=0, A=1 }
+            VectorValues[1] = { R=1, G=0, B=0, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/UI/Material/rank_rm_progressbar_circle1.rank_rm_progressbar_circle1'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/UI/Material/rank_rm_progressbar_circle1.rank_rm_progressbar_circle1'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/UI/Material/rank_rm_progressbar_circle1.rank_rm_progressbar_circle1'
+        Name = MainTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Rotation, Group=None }
+    CollectedScalarParameters[1] = { Value=100, Name=Contrast, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=offs, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Size, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Width, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.679542, B=0, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Channel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,90 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Rotation }
+                    ParameterInfos[1] = { Name=WorldDimension }
+                    ParameterInfos[2] = { Name=SphereHardness }
+                    ParameterInfos[3] = { Name=WorldY }
+                    ParameterInfos[4] = { Name=Zoom }
+                    ParameterInfos[5] = { Name=WorldX }
+                    ParameterInfos[6] = { Name=Opacity }
+                    ParameterInfos[7] = { Name=Use_BlockArea }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=T_MiniMapBlock }
+                    ParameterInfos[1] = { Name=T_MiniMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 0, 100, 0, 0.8, 0, 0.6, 0 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = T_MiniMapBlock
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = T_MiniMap
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Rotation, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=WorldDimension, Group=None }
+    CollectedScalarParameters[2] = { Value=100, Name=SphereHardness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=WorldY, Group=None }
+    CollectedScalarParameters[4] = { Value=0.8, Name=Zoom, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=WorldX, Group=None }
+    CollectedScalarParameters[6] = { Value=0.6, Name=Opacity, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Use_BlockArea, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
