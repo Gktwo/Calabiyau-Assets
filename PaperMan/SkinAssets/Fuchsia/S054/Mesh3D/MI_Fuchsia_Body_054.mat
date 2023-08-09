@@ -1,0 +1,11 @@
+Diffuse=T_Fuchsia_Body_054
+Normal=T_Fuchsia_Body_N_054
+Other[0]=T_Fuchsia_Body_S_054
+Other[1]=T_Fuchsia_Body_Mask1_054
+Other[2]=DefaultTexture
+Other[3]=T_DefaultBlack_Gamma
+Other[4]=T_DefaultBlack_Linear
+Other[5]=T_DefaultBlue_Linear
+Other[6]=T_DefaultNormal
+Other[7]=T_DefaultWhite_Gamma
+Other[8]=T_DefaultWhite_Grayscale
