@@ -1,0 +1,8 @@
+Diffuse=T_Weap_Grenade_WindField_D
+Normal=T_Weap_Grenade_WindField_N
+Emissive=T_Weap_Grenade_WindField_DropEmissive
+Other[0]=T_Weap_Grenade_WindField_RMO
+Other[1]=black_mask
+Other[2]=blue
+Other[3]=white
+Other[4]=white_mask

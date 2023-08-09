@@ -1,0 +1,180 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SK_Weap_DesertEagle",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2, 3, 4 ],
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ -6.19888e-06, -9.5368e-07, 9.53668e-07, 1 ]
+    },
+    {
+      "name" : "Pull",
+      "translation" : [ 2.94972e-07, 0.0578265, 0.0990941 ],
+      "rotation" : [ -8.47033e-22, 4.54949e-23, -3.92364e-44, -1 ]
+    },
+    {
+      "name" : "Muzzle",
+      "translation" : [ 5.82882e-07, 0.0605411, 0.240349 ],
+      "rotation" : [ 1.3487e-06, 0.707107, 8.76654e-06, -0.707107 ]
+    },
+    {
+      "name" : "Magazine",
+      "translation" : [ -8.92869e-10, -0.0295795, 0.0285072 ],
+      "rotation" : [ 0.530719, -0.530719, 0.467265, 0.467266 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Weap_DesertEagle",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SK_Weap_DesertEagle"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SK_Weap_DesertEagle.bin",
+      "byteLength" : 225280
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 256
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 256,
+      "byteLength" : 19764
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 20020,
+      "byteLength" : 41052
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 61072,
+      "byteLength" : 41052
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 102124,
+      "byteLength" : 54736
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 156860,
+      "byteLength" : 27368
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 184228,
+      "byteLength" : 13684
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 197912,
+      "byteLength" : 27368
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 4,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 9882,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.0188185, -0.0828623, -0.0323254 ],
+      "max" : [ 0.0188176, 0.0844881, 0.24165 ],
+      "componentType" : 5126,
+      "count" : 3421,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 3421,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 3421,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 3421,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 3421,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 3421,
+      "type" : "VEC2"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Diffuse=T_Main_BaseColor
+Normal=T_Main_Normal
+Emissive=T_Weap_Flash_DropEmissive
+Other[0]=T_Main_ARM
+Other[1]=black_mask
+Other[2]=blue
+Other[3]=white
+Other[4]=white_mask

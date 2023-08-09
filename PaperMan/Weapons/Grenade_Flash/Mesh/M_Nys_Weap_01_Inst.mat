@@ -1,0 +1,6 @@
+Diffuse=T_Main_BaseColor
+Normal=T_Main_Normal
+Other[0]=T_Main_ARM
+Other[1]=T_DefaultNormal
+Other[2]=T_DefaultWhite_Gamma
+Other[3]=T_DefaultWhite_Linear

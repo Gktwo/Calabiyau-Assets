@@ -1,0 +1,183 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SK_Projectile_Flash",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "root",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ -1.49012e-08, -1.53277e-07, 4.41795e-08, 1 ]
+    },
+    {
+      "name" : "effect",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 6.97659e-16, -4.37114e-08, 4.37114e-08, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "M_Nys_Weap_01_Inst",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "COLOR_0" : 5,
+            "JOINTS_0" : 6,
+            "WEIGHTS_0" : 7,
+            "TEXCOORD_0" : 8
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SK_Projectile_Flash"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SK_Projectile_Flash.bin",
+      "byteLength" : 214424
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 128
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 128,
+      "byteLength" : 20376
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 20504,
+      "byteLength" : 36360
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 56864,
+      "byteLength" : 36360
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 93224,
+      "byteLength" : 48480
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 141704,
+      "byteLength" : 12120
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 153824,
+      "byteLength" : 24240
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 178064,
+      "byteLength" : 12120
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 190184,
+      "byteLength" : 24240
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 2,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 10188,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.0270105, -0.0821733, -0.0556932 ],
+      "max" : [ 0.0270105, 0.0875123, 0.0261701 ],
+      "componentType" : 5126,
+      "count" : 3030,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 3030,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 3030,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 3030,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5123,
+      "count" : 3030,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 3030,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5126,
+      "count" : 3030,
+      "type" : "VEC2"
+    }
+  ]
+}

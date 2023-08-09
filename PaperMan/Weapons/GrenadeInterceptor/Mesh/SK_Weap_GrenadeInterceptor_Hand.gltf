@@ -1,0 +1,264 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SK_Weap_GrenadeInterceptor_Hand",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "root",
+      "children" : [ 2, 3, 4, 5, 6, 19 ],
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ -5.29845e-15, -1.19209e-07, 4.47035e-08, 1 ]
+    },
+    {
+      "name" : "effect",
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 1.91069e-15, -4.37114e-08, 4.37114e-08, -1 ]
+    },
+    {
+      "name" : "L",
+      "translation" : [ 0.042138, 0.0165935, -1.19298e-08 ],
+      "rotation" : [ -0.215921, -0.673334, -0.673334, -0.21592 ]
+    },
+    {
+      "name" : "F",
+      "translation" : [ 1.08566e-08, 0.0165935, 0.0415179 ],
+      "rotation" : [ -0.628798, -0.628797, 0.32344, -0.323441 ]
+    },
+    {
+      "name" : "R",
+      "translation" : [ -0.042139, 0.0165935, 1.50978e-08 ],
+      "rotation" : [ -0.673334, -0.215921, -0.21592, -0.673334 ]
+    },
+    {
+      "name" : "zong",
+      "children" : [ 7, 10, 13, 16 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ 5.35554e-15, -1.18617e-07, 4.47034e-08, -1 ]
+    },
+    {
+      "name" : "L_01",
+      "children" : [ 8 ],
+      "translation" : [ 0.041209, 0.00273202, 4.75021e-10 ],
+      "rotation" : [ -0.516447, -0.482994, -0.482993, -0.516446 ]
+    },
+    {
+      "name" : "L_02",
+      "children" : [ 9 ],
+      "translation" : [ 0.0138667, -1.18988e-09, 9.76277e-09 ],
+      "rotation" : [ -1.84114e-08, -0.445612, -9.16448e-09, -0.895226 ]
+    },
+    {
+      "name" : "L_03",
+      "translation" : [ 0.0342806, -1.18313e-13, -3.69441e-09 ],
+      "rotation" : [ -3.17152e-14, -0.33589, -1.72593e-14, -0.941901 ]
+    },
+    {
+      "name" : "R_01",
+      "children" : [ 11 ],
+      "translation" : [ -0.04121, 0.00273202, 4.75021e-10 ],
+      "rotation" : [ -0.513397, -0.486232, -0.486233, -0.513399 ]
+    },
+    {
+      "name" : "R_02",
+      "children" : [ 12 ],
+      "translation" : [ 0.0138819, -1.26722e-14, 1.45828e-09 ],
+      "rotation" : [ -1.89887e-08, 0.445612, 9.45189e-09, -0.895226 ]
+    },
+    {
+      "name" : "R_03",
+      "translation" : [ 0.0341115, 2.30141e-09, -5.16577e-10 ],
+      "rotation" : [ 1.9308e-13, -0.121596, -1.88718e-13, -0.99258 ]
+    },
+    {
+      "name" : "F_01",
+      "children" : [ 14 ],
+      "translation" : [ 4.80724e-11, 0.00273202, 0.0405889 ],
+      "rotation" : [ -0.707106, -0.707106, 0.00125987, -0.00124791 ]
+    },
+    {
+      "name" : "F_02",
+      "children" : [ 15 ],
+      "translation" : [ 0.0138615, 1.44722e-12, -7.65273e-10 ],
+      "rotation" : [ 6.75331e-09, 0.445612, -3.41733e-09, -0.895226 ]
+    },
+    {
+      "name" : "F_03",
+      "translation" : [ 0.0346207, 2.33564e-09, -8.09632e-09 ],
+      "rotation" : [ 2.38657e-12, -0.0963531, -1.56861e-12, -0.995347 ]
+    },
+    {
+      "name" : "B_01",
+      "children" : [ 17 ],
+      "translation" : [ -4.03777e-14, 0.00273202, -0.04059 ],
+      "rotation" : [ -0.706711, -0.706711, 0.0236651, -0.023645 ]
+    },
+    {
+      "name" : "B_02",
+      "children" : [ 18 ],
+      "translation" : [ 0.0138271, -1.46332e-08, -0.000976062 ],
+      "rotation" : [ 3.57146e-05, -0.476874, 1.69713e-05, -0.878972 ]
+    },
+    {
+      "name" : "B_03",
+      "translation" : [ 0.0337398, 2.03422e-06, 0.00299912 ],
+      "rotation" : [ -2.74664e-05, 0.131133, -2.86329e-05, -0.991365 ]
+    },
+    {
+      "name" : "B",
+      "translation" : [ -3.08649e-09, 0.0165935, -0.041519 ],
+      "rotation" : [ -0.628798, -0.628797, -0.32344, 0.32344 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Weap_GrenadeInterceptor",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SK_Weap_GrenadeInterceptor_Hand"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SK_Weap_GrenadeInterceptor_Hand.bin",
+      "byteLength" : 350788
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1216
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1216,
+      "byteLength" : 28932
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 30148,
+      "byteLength" : 64128
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 94276,
+      "byteLength" : 64128
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 158404,
+      "byteLength" : 85504
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 243908,
+      "byteLength" : 42752
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 286660,
+      "byteLength" : 21376
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 308036,
+      "byteLength" : 42752
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 19,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 14466,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.0444284, 4.84541e-05, -0.0444284 ],
+      "max" : [ 0.0444284, 0.0376767, 0.0444284 ],
+      "componentType" : 5126,
+      "count" : 5344,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 5344,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 5344,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 5344,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 5344,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 5344,
+      "type" : "VEC2"
+    }
+  ]
+}
