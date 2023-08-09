@@ -1,0 +1,106 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0006.T_Noise_0006'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=AlphaMaskA_UV_Rotator }
+                    ParameterInfos[1] = { Name=AlphaMaskA_UV_Uspeed }
+                    ParameterInfos[2] = { Name=Refraction_Intensity }
+                    ParameterInfos[3] = { Name=AlphaMaskA_UV_Vspeed }
+                    ParameterInfos[4] = { Name=AlphaMaskA_CenterScaleUV }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=AlphaMaskA_UVTiling }
+                    ParameterInfos[1] = { Name=Alpha_Depth }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=RefractionMask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0, 0, 0, 0, 1 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=0, G=1, B=600, A=0.5 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0006.T_Noise_0006'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0006.T_Noise_0006'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0006.T_Noise_0006'
+        Name = RefractionMask
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=AlphaMaskA_UV_Rotator, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=AlphaMaskA_UV_Uspeed, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Refraction_Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=AlphaMaskA_UV_Vspeed, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = AlphaMaskA_CenterScaleUV
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = AlphaMaskA_UVTiling
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=600, A=0.5 }
+        Name = Alpha_Depth
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

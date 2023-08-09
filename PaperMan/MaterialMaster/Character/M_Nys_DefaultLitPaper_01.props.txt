@@ -1,0 +1,76 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.DummySpriteTexture'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Opacity }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=SpriteTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[1] = { 1 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.DummySpriteTexture'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.DummySpriteTexture'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.DummySpriteTexture'
+        Name = SpriteTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DummySpriteTexture
+    }
+}

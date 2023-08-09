@@ -1,0 +1,6 @@
+Normal=T_DefaultNormal
+Other[0]=T_Crystal_BubbleMask
+Other[1]=T_Crystal_FlowMap
+Other[2]=black_mask
+Other[3]=T_DefaultWhite_Gamma
+Other[4]=T_DefaultWhite_Linear

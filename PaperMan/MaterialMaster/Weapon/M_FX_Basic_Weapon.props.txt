@@ -1,0 +1,502 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[46] =
+                {
+                    ParameterInfos[0] = { Name=AlphaMaskB_UV_Vspeed }
+                    ParameterInfos[1] = { Name=MainTexUVNoise_Offset }
+                    ParameterInfos[2] = { Name=DepthFadeDistance }
+                    ParameterInfos[3] = { Name=WP_NoiseMask_Intensity }
+                    ParameterInfos[4] = { Name=DsvOutline }
+                    ParameterInfos[5] = { Name=DissolveMask_UV_Uspeed }
+                    ParameterInfos[6] = { Name=MaskB_Intensity }
+                    ParameterInfos[7] = { Name=MainTexUVNoise_Contrast }
+                    ParameterInfos[8] = { Name=AlphaMaskA_UV_Uspeed }
+                    ParameterInfos[9] = { Name=MainTexUV_Uspeed }
+                    ParameterInfos[10] = { Name=DissolveTexUV_Vspeed }
+                    ParameterInfos[11] = { Name=DepthFadeIntensity }
+                    ParameterInfos[12] = { Name=MainTexUVNoise_Offset_U }
+                    ParameterInfos[13] = { Name=DepthFadePower }
+                    ParameterInfos[14] = { Name=IF_DepthFade_Multiply_or_Add }
+                    ParameterInfos[15] = { Name=Fre_ExponentIn }
+                    ParameterInfos[16] = { Name=AlphaMaskB_UV_Uspeed }
+                    ParameterInfos[17] = { Name=DissolveMask_MipLevel }
+                    ParameterInfos[18] = { Name=Fresnel_Pow }
+                    ParameterInfos[19] = { Name=WP_NoiseTexUV_Vspeed }
+                    ParameterInfos[20] = { Name=ColorMaskLerp }
+                    ParameterInfos[21] = { Name=MainTexUVNoise_Vspeed }
+                    ParameterInfos[22] = { Name=EmissiveIntensity }
+                    ParameterInfos[23] = { Name=DsvOutline_Contrast }
+                    ParameterInfos[24] = { Name=Flash_Speed }
+                    ParameterInfos[25] = { Name=Dissolve(0-1) }
+                    ParameterInfos[26] = { Name=Fre_BaseReflectFractionIn }
+                    ParameterInfos[27] = { Name=DissolveMask_CenterScaleUV }
+                    ParameterInfos[28] = { Name=Flash_Disorder }
+                    ParameterInfos[29] = { Name=DissolveMask_UV_Vspeed }
+                    ParameterInfos[30] = { Name=Switch_MainTexUVNoise_Offset_UV }
+                    ParameterInfos[31] = { Name=DissolveNoise_Intensity }
+                    ParameterInfos[32] = { Name=MaskA_Intensity }
+                    ParameterInfos[33] = { Name=AlphaMaskA_UV_Vspeed }
+                    ParameterInfos[34] = { Name=MainTexUVNoise_Intensity }
+                    ParameterInfos[35] = { Name=MainTexUV_Vspeed }
+                    ParameterInfos[36] = { Name=AlphaMaskA_CenterScaleUV }
+                    ParameterInfos[37] = { Name=Dissolve_Contrast }
+                    ParameterInfos[38] = { Name=AlphaPower }
+                    ParameterInfos[39] = { Name=DissolveTexUV_Uspeed }
+                    ParameterInfos[40] = { Name=IF_1-DepthFade }
+                    ParameterInfos[41] = { Name=WP_NoiseTexUV_Uspeed }
+                    ParameterInfos[42] = { Name=WP_Intensity }
+                    ParameterInfos[43] = { Name=MainTexUVNoise_Uspeed }
+                    ParameterInfos[44] = { Name=WP_pivot_Offs }
+                    ParameterInfos[45] = { Name=DsvMask_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=AlphaMaskA_UVTiling }
+                    ParameterInfos[1] = { Name=MainTexUV_Clamp }
+                    ParameterInfos[2] = { Name=DissolveTexUV_Tiling }
+                    ParameterInfos[3] = { Name=AlphaMaskB_AlphaChannel }
+                    ParameterInfos[4] = { Name=ColorB }
+                    ParameterInfos[5] = { Name=Color_Back }
+                    ParameterInfos[6] = { Name=DissolveMask_UVTiling }
+                    ParameterInfos[7] = { Name=MainTex_Refine }
+                    ParameterInfos[8] = { Name=DissolveTexUV_Clamp }
+                    ParameterInfos[9] = { Name=Alpha_Depth }
+                    ParameterInfos[10] = { Name=AlphaMaskB_UVTiling }
+                    ParameterInfos[11] = { Name=DissolveMaskUV_Clamp }
+                    ParameterInfos[12] = { Name=AlphaMaskA_AlphaChannel }
+                    ParameterInfos[13] = { Name=MainTex_RGBChannelAsAlpha }
+                    ParameterInfos[14] = { Name=Color }
+                    ParameterInfos[15] = { Name=WP_NoiseTexUV_Clamp }
+                    ParameterInfos[16] = { Name=MainTexUV_Tiling }
+                    ParameterInfos[17] = { Name=WP_NoiseTexUV_UVTiling }
+                    ParameterInfos[18] = { Name=WP_NoiseMaskUV_UVTiling }
+                    ParameterInfos[19] = { Name=WP_Axis }
+                    ParameterInfos[20] = { Name=MainTexUVNoise_Tiling }
+                    ParameterInfos[21] = { Name=AlphaMaskA_UVClamp }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=MainTexUVNoise_Tex }
+                    ParameterInfos[1] = { Name=AlphaMaskA_Tex }
+                    ParameterInfos[2] = { Name=WP_NoiseTex }
+                    ParameterInfos[3] = { Name=AlphaMaskB_Tex }
+                    ParameterInfos[4] = { Name=MainTexture }
+                    ParameterInfos[5] = { Name=WP_NoiseMaskTex }
+                    ParameterInfos[6] = { Name=DissolveMask }
+                    ParameterInfos[7] = { Name=DissolveTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[46] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0.5
+            ScalarValues[21] = 0
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1
+            ScalarValues[24] = 5
+            ScalarValues[25] = 1
+            ScalarValues[26] = 0.04
+            ScalarValues[27] = 1
+            ScalarValues[28] = 1.123
+            ScalarValues[29] = 0
+            ScalarValues[30] = 0
+            ScalarValues[31] = 0
+            ScalarValues[32] = 1
+            ScalarValues[33] = 0
+            ScalarValues[34] = 0
+            ScalarValues[35] = 0
+            ScalarValues[36] = 1
+            ScalarValues[37] = 1
+            ScalarValues[38] = 1
+            ScalarValues[39] = 0
+            ScalarValues[40] = 0
+            ScalarValues[41] = 0
+            ScalarValues[42] = 1
+            ScalarValues[43] = 0
+            ScalarValues[44] = 0
+            ScalarValues[45] = 0
+        }
+        VectorValues[22] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=1, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=0 }
+            VectorValues[5] = { R=0.5, G=0.5, B=0.5, A=1 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+            VectorValues[7] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[8] = { R=0, G=0, B=0, A=0 }
+            VectorValues[9] = { R=0, G=1, B=600, A=0 }
+            VectorValues[10] = { R=1, G=1, B=0, A=0 }
+            VectorValues[11] = { R=0, G=0, B=0, A=0 }
+            VectorValues[12] = { R=1, G=0, B=0, A=0 }
+            VectorValues[13] = { R=1, G=0, B=0, A=0 }
+            VectorValues[14] = { R=1, G=1, B=1, A=1 }
+            VectorValues[15] = { R=0, G=0, B=0, A=0 }
+            VectorValues[16] = { R=1, G=1, B=0, A=0 }
+            VectorValues[17] = { R=1, G=1, B=0, A=0 }
+            VectorValues[18] = { R=1, G=1, B=0, A=0 }
+            VectorValues[19] = { R=0, G=0, B=0, A=0 }
+            VectorValues[20] = { R=1, G=1, B=0, A=0 }
+            VectorValues[21] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[5] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+            TextureValues[6] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+            TextureValues[7] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+        Name = MainTexUVNoise_Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = AlphaMaskA_Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+        Name = WP_NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = AlphaMaskB_Tex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+        Name = WP_NoiseMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+        Name = DissolveMask
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = DissolveTex
+        Group = None
+    }
+}
+CollectedScalarParameters[46] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=AlphaMaskB_UV_Vspeed, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=MainTexUVNoise_Offset, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=DepthFadeDistance, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=WP_NoiseMask_Intensity, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=DsvOutline, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=DissolveMask_UV_Uspeed, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=MaskB_Intensity, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1
+        Name = MainTexUVNoise_Contrast
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0, Name=AlphaMaskA_UV_Uspeed, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=MainTexUV_Uspeed, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=DissolveTexUV_Vspeed, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=DepthFadeIntensity, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0
+        Name = MainTexUVNoise_Offset_U
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=1, Name=DepthFadePower, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0
+        Name = IF_DepthFade_Multiply_or_Add
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=1, Name=Fre_ExponentIn, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=AlphaMaskB_UV_Uspeed, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=DissolveMask_MipLevel, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Fresnel_Pow, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=WP_NoiseTexUV_Vspeed, Group=None }
+    CollectedScalarParameters[20] = { Value=0.5, Name=ColorMaskLerp, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=MainTexUVNoise_Vspeed, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=DsvOutline_Contrast, Group=None }
+    CollectedScalarParameters[24] = { Value=5, Name=Flash_Speed, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=Dissolve(0-1), Group=None }
+    CollectedScalarParameters[26] =
+    {
+        Value = 0.04
+        Name = Fre_BaseReflectFractionIn
+        Group = None
+    }
+    CollectedScalarParameters[27] =
+    {
+        Value = 1
+        Name = DissolveMask_CenterScaleUV
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=1.123, Name=Flash_Disorder, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=DissolveMask_UV_Vspeed, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = 0
+        Name = Switch_MainTexUVNoise_Offset_UV
+        Group = None
+    }
+    CollectedScalarParameters[31] =
+    {
+        Value = 0
+        Name = DissolveNoise_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[32] = { Value=1, Name=MaskA_Intensity, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=AlphaMaskA_UV_Vspeed, Group=None }
+    CollectedScalarParameters[34] =
+    {
+        Value = 0
+        Name = MainTexUVNoise_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[35] = { Value=0, Name=MainTexUV_Vspeed, Group=None }
+    CollectedScalarParameters[36] =
+    {
+        Value = 1
+        Name = AlphaMaskA_CenterScaleUV
+        Group = None
+    }
+    CollectedScalarParameters[37] = { Value=1, Name=Dissolve_Contrast, Group=None }
+    CollectedScalarParameters[38] = { Value=1, Name=AlphaPower, Group=None }
+    CollectedScalarParameters[39] = { Value=0, Name=DissolveTexUV_Uspeed, Group=None }
+    CollectedScalarParameters[40] = { Value=0, Name=IF_1-DepthFade, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=WP_NoiseTexUV_Uspeed, Group=None }
+    CollectedScalarParameters[42] = { Value=1, Name=WP_Intensity, Group=None }
+    CollectedScalarParameters[43] = { Value=0, Name=MainTexUVNoise_Uspeed, Group=None }
+    CollectedScalarParameters[44] = { Value=0, Name=WP_pivot_Offs, Group=None }
+    CollectedScalarParameters[45] = { Value=0, Name=DsvMask_Intensity, Group=None }
+}
+CollectedVectorParameters[22] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = AlphaMaskA_UVTiling
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = MainTexUV_Clamp
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DissolveTexUV_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = AlphaMaskB_AlphaChannel
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ColorB
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = Color_Back
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DissolveMask_UVTiling
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = MainTex_Refine
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = DissolveTexUV_Clamp
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=1, B=600, A=0 }
+        Name = Alpha_Depth
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = AlphaMaskB_UVTiling
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = DissolveMaskUV_Clamp
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = AlphaMaskA_AlphaChannel
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = MainTex_RGBChannelAsAlpha
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WP_NoiseTexUV_Clamp
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MainTexUV_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = WP_NoiseTexUV_UVTiling
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = WP_NoiseMaskUV_UVTiling
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WP_Axis
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MainTexUVNoise_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = AlphaMaskA_UVClamp
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Gamma
+    }
+}

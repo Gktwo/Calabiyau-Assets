@@ -1,0 +1,273 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Decals/T_Envi_Umeda_Decal_01_Mask.T_Envi_Umeda_Decal_01_Mask'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Blend_N.Blend_N'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Wall.Wall'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Wall_N.Wall_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=Tiling U }
+                    ParameterInfos[1] = { Name=Blend Offset U }
+                    ParameterInfos[2] = { Name=Blend AO Pow }
+                    ParameterInfos[3] = { Name=Tiling V }
+                    ParameterInfos[4] = { Name=AO Pow }
+                    ParameterInfos[5] = { Name=Blend Offset V }
+                    ParameterInfos[6] = { Name=BaseBlendBlur }
+                    ParameterInfos[7] = { Name=OverlayBlur }
+                    ParameterInfos[8] = { Name=Blend Roughness Pow }
+                    ParameterInfos[9] = { Name=Offset U }
+                    ParameterInfos[10] = { Name=Blend Tiling V }
+                    ParameterInfos[11] = { Name=Metal Pow }
+                    ParameterInfos[12] = { Name=BaseBlendRange }
+                    ParameterInfos[13] = { Name=Offset V }
+                    ParameterInfos[14] = { Name=Roughness Pow }
+                    ParameterInfos[15] = { Name=Blend Tiling U }
+                    ParameterInfos[16] = { Name=OverlayRange }
+                    ParameterInfos[17] = { Name=Blend Metal Pow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=MulDiffuseColor }
+                    ParameterInfos[1] = { Name=BlendColor }
+                    ParameterInfos[2] = { Name=Color_UV4_R }
+                    ParameterInfos[3] = { Name=AddDiffuseColor }
+                    ParameterInfos[4] = { Name=OverlayColor }
+                    ParameterInfos[5] = { Name=Color_UV4_G }
+                    ParameterInfos[6] = { Name=Color_UV3_A }
+                    ParameterInfos[7] = { Name=Color_UV4_B }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Alpha }
+                    ParameterInfos[2] = { Name=BlendNormal }
+                    ParameterInfos[3] = { Name=DiffuseAndAlpha }
+                    ParameterInfos[4] = { Name=AO_R_M_MASK }
+                    ParameterInfos[5] = { Name=BlendBase }
+                    ParameterInfos[6] = { Name=Blend_AO_R_M_MASK }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 15
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 15
+            ScalarValues[17] = 1
+        }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0.833333, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=0.833333, G=0, B=0, A=1 }
+            VectorValues[6] = { R=0.833333, G=0, B=0, A=1 }
+            VectorValues[7] = { R=0.833333, G=0, B=0, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Wall_N.Wall_N'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Decals/T_Envi_Umeda_Decal_01_Mask.T_Envi_Umeda_Decal_01_Mask'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Blend_N.Blend_N'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Wall.Wall'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+            TextureValues[5] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[6] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Wall.Wall'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Wall_N.Wall_N'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Blend_N.Blend_N'
+        ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Decals/T_Envi_Umeda_Decal_01_Mask.T_Envi_Umeda_Decal_01_Mask'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Wall_N.Wall_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Environment/Textures/Decals/T_Envi_Umeda_Decal_01_Mask.T_Envi_Umeda_Decal_01_Mask'
+        Name = Alpha
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Blend_N.Blend_N'
+        Name = BlendNormal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialMaster/Scene/Wall.Wall'
+        Name = DiffuseAndAlpha
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        Name = AO_R_M_MASK
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = BlendBase
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        Name = Blend_AO_R_M_MASK
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Tiling U, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Blend Offset U, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Blend AO Pow, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Tiling V, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=AO Pow, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Blend Offset V, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=BaseBlendBlur, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=OverlayBlur, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Blend Roughness Pow, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Offset U, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Blend Tiling V, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Metal Pow, Group=None }
+    CollectedScalarParameters[12] = { Value=15, Name=BaseBlendRange, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Offset V, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Roughness Pow, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Blend Tiling U, Group=None }
+    CollectedScalarParameters[16] = { Value=15, Name=OverlayRange, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Blend Metal Pow, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MulDiffuseColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BlendColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.833333, G=0, B=0, A=1 }
+        Name = Color_UV4_R
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = AddDiffuseColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = OverlayColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.833333, G=0, B=0, A=1 }
+        Name = Color_UV4_G
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.833333, G=0, B=0, A=1 }
+        Name = Color_UV3_A
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.833333, G=0, B=0, A=1 }
+        Name = Color_UV4_B
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black_mask
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Wall
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Wall_N
+    }
+}

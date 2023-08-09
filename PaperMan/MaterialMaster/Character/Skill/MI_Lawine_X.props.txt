@@ -1,0 +1,194 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Character/Skill/M_Lawin_X.M_Lawin_X'
+ScalarParameterValues[9] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=afadf }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=CC }
+        ParameterValue = -0.569452
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=FresnelBaseReflectFractionIn }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=FresnelExponentIn }
+        ParameterValue = 0.439972
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=patten_offsetMin }
+        ParameterValue = 0.32111
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=power }
+        ParameterValue = -0.476615
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Scan_Intensity }
+        ParameterValue = 22
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=MainTexture }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0031.T_Mask_0031'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MaskTexture }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0039.T_Noise_0039'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=ScanTextureB }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_LKL_005.T_Mask_LKL_005'
+        ParameterName = None
+    }
+}
+VectorParameterValues[13] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0, G=0.100631, B=0.109375, A=4.63073 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=OutColor1 }
+        ParameterValue = { R=0, G=0.192708, B=0.057687, A=0.598 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=OutColor2 }
+        ParameterValue = { R=1.11536, G=0, B=11, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=OutColorPanner }
+        ParameterValue = { R=0.07, G=-1, B=28.5714, A=2 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=OutColorUV }
+        ParameterValue = { R=-1, G=-1.34054, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=PatternColorA_Bot }
+        ParameterValue = { R=0, G=0.6, B=0.567905, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=PatternColorA_Top }
+        ParameterValue = { R=0, G=0.742964, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=TexutrePanner2 }
+        ParameterValue = { R=0.4, G=-1, B=5, A=2 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=TexutrePanner3 }
+        ParameterValue = { R=-0.4, G=-1, B=5, A=2 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=TexutreUV }
+        ParameterValue = { R=11, G=11, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=TexutreUV2 }
+        ParameterValue = { R=3.42035, G=-2, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=TexutreUV3 }
+        ParameterValue = { R=3.42291, G=-2, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[12] =
+    {
+        ParameterInfo = { Name=uv }
+        ParameterValue = { R=130, G=120, B=177.709, A=4.63073 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Additive (3)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = T_Mask_LKL_005
+    }
+}

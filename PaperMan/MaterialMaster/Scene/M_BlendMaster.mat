@@ -1,0 +1,6 @@
+Diffuse=T_Envi_Umeda_Decal_01_Mask
+Normal=Blend_N
+Other[0]=DefaultTexture
+Other[1]=black_mask
+Other[2]=Wall
+Other[3]=Wall_N

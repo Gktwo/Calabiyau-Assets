@@ -1,0 +1,169 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2009.T_Noise_2009'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5045_1.T_Noise_5045_1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=MinAlpha }
+                    ParameterInfos[1] = { Name=NOise_Mutiply }
+                    ParameterInfos[2] = { Name=IF_Desaturation }
+                    ParameterInfos[3] = { Name=MaskTex_CheapContrast }
+                    ParameterInfos[4] = { Name=ColorLerp }
+                    ParameterInfos[5] = { Name=Depth }
+                    ParameterInfos[6] = { Name=ColorContrast }
+                    ParameterInfos[7] = { Name=DepthContrast }
+                    ParameterInfos[8] = { Name=Depth_Power }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=MaskTex_UV }
+                    ParameterInfos[1] = { Name=ColorB }
+                    ParameterInfos[2] = { Name=ColorA }
+                    ParameterInfos[3] = { Name=TexColor }
+                    ParameterInfos[4] = { Name=StarTex_UV }
+                    ParameterInfos[5] = { Name=NoiseTex_UV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Noise_Tex }
+                    ParameterInfos[1] = { Name=MaskTex }
+                    ParameterInfos[2] = { Name=StarTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 0.1, 0.761905, 0, 0, 0, 0, 0, 0, 0 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=0.012564, B=0, A=0 }
+            VectorValues[2] = { R=1, G=0.012564, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2009.T_Noise_2009'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5045_1.T_Noise_5045_1'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5045_1.T_Noise_5045_1'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2009.T_Noise_2009'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2009.T_Noise_2009'
+        Name = Noise_Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5045_1.T_Noise_5045_1'
+        Name = MaskTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+        Name = StarTex
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=MinAlpha, Group=None }
+    CollectedScalarParameters[1] = { Value=0.761905, Name=NOise_Mutiply, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=IF_Desaturation, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=MaskTex_CheapContrast, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=ColorLerp, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Depth, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=ColorContrast, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=DepthContrast, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Depth_Power, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MaskTex_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.012564, B=0, A=0 }
+        Name = ColorB
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.012564, B=0, A=0 }
+        Name = ColorA
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = TexColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = StarTex_UV
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseTex_UV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_0063
+    }
+}

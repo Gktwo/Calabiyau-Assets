@@ -1,0 +1,241 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+    ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+    ReferencedTextures[7] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+    ReferencedTextures[8] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=ColorPow }
+                    ParameterInfos[2] = { Name=RawEmissiveScale }
+                    ParameterInfos[3] = { Name=Emissive Scale }
+                    ParameterInfos[4] = { Name=Metal }
+                    ParameterInfos[5] = { Name=OverheatIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=LowHeatEmissive }
+                    ParameterInfos[1] = { Name=InnerLabelRotateControl }
+                    ParameterInfos[2] = { Name=LabelTexTintColor }
+                    ParameterInfos[3] = { Name=LabelCenterPosition }
+                    ParameterInfos[4] = { Name=HighHeatEmissive }
+                    ParameterInfos[5] = { Name=LabelSize }
+                    ParameterInfos[6] = { Name=InnerLabelSequenceUVControl }
+                    ParameterInfos[7] = { Name=InnerLabelRotatingControl }
+                    ParameterInfos[8] = { Name=InnerLabelMaskChannel }
+                    ParameterInfos[9] = { Name=OverheatMaskChannel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=CombineMaskTex }
+                    ParameterInfos[2] = { Name=LabelTex }
+                    ParameterInfos[3] = { Name=BaseColor_LOW }
+                    ParameterInfos[4] = { Name=RM }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 1, 1, 1, 0, 1, 0 }
+        VectorValues[10] =
+        {
+            VectorValues[0] = { R=0.35, G=0.00875, B=0.042875, A=1 }
+            VectorValues[1] = { R=0.5, G=0.5, B=0, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=5, G=0.083333, B=0, A=1 }
+            VectorValues[5] = { R=10, G=10, B=0, A=0 }
+            VectorValues[6] = { R=2, G=2, B=1, A=1 }
+            VectorValues[7] = { R=0, G=1, B=0, A=0 }
+            VectorValues[8] = { R=1, G=0, B=0, A=0 }
+            VectorValues[9] = { R=1, G=0, B=0, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        ReferencedTextures[7] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        ReferencedTextures[8] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        ReferencedTextures[9] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        Name = CombineMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+        Name = LabelTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = BaseColor_LOW
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        Name = RM
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ColorPow, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=RawEmissiveScale, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Emissive Scale, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Metal, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=OverheatIntensity, Group=None }
+}
+CollectedVectorParameters[10] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.35, G=0.00875, B=0.042875, A=1 }
+        Name = LowHeatEmissive
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.5, G=0.5, B=0, A=1 }
+        Name = InnerLabelRotateControl
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = LabelTexTintColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LabelCenterPosition
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=5, G=0.083333, B=0, A=1 }
+        Name = HighHeatEmissive
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=10, G=10, B=0, A=0 }
+        Name = LabelSize
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=2, G=2, B=1, A=1 }
+        Name = InnerLabelSequenceUVControl
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = InnerLabelRotatingControl
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = InnerLabelMaskChannel
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = OverheatMaskChannel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black_mask
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Gamma
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Linear
+    }
+}

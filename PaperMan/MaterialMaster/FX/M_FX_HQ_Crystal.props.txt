@@ -1,0 +1,191 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_BubbleMask.T_Crystal_BubbleMask'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/10019__2__11.10019__2__11'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Height }
+                    ParameterInfos[1] = { Name=OutlineIntensity }
+                    ParameterInfos[2] = { Name=OutlineContrast }
+                    ParameterInfos[3] = { Name=HeightRatio }
+                    ParameterInfos[4] = { Name=FresnelContrast }
+                    ParameterInfos[5] = { Name=Dissolve }
+                    ParameterInfos[6] = { Name=MainPartContrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=DissolveUVControl }
+                    ParameterInfos[1] = { Name=MatCapTintColor }
+                    ParameterInfos[2] = { Name=NoiseItemColor }
+                    ParameterInfos[3] = { Name=NoiseUVControl }
+                    ParameterInfos[4] = { Name=FresnelTintColor }
+                    ParameterInfos[5] = { Name=OutlineColor }
+                    ParameterInfos[6] = { Name=MainColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=CombineMaskTex }
+                    ParameterInfos[1] = { Name=InnerNoiseTex }
+                    ParameterInfos[2] = { Name=MatCapTex }
+                    ParameterInfos[3] = { Name=DissolveMask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { -1, 1, 1, 0.05, 2, 1, 1 }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+            VectorValues[6] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_BubbleMask.T_Crystal_BubbleMask'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/10019__2__11.10019__2__11'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_BubbleMask.T_Crystal_BubbleMask'
+        ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/10019__2__11.10019__2__11'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = CombineMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_BubbleMask.T_Crystal_BubbleMask'
+        Name = InnerNoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/10019__2__11.10019__2__11'
+        Name = MatCapTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = DissolveMask
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=-1, Name=Height, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=OutlineIntensity, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=OutlineContrast, Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=HeightRatio, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=FresnelContrast, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Dissolve, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=MainPartContrast, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DissolveUVControl
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MatCapTintColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = NoiseItemColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseUVControl
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = FresnelTintColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = OutlineColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MainColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1.02716
+        UVChannelIndex = 0
+        TextureName = T_Crystal_BubbleMask
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Gamma
+    }
+}

@@ -1,0 +1,190 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0026.T_Noise_0026'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0001.T_smk_0001'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0003.T_smk_0003'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=OutDissolveSoft }
+                    ParameterInfos[1] = { Name=depthFade }
+                    ParameterInfos[2] = { Name=MT_Speed_X }
+                    ParameterInfos[3] = { Name=M_UTiling }
+                    ParameterInfos[4] = { Name=T_Speed_X }
+                    ParameterInfos[5] = { Name=Diss_T_Intensity }
+                    ParameterInfos[6] = { Name=T_Tiling_V }
+                    ParameterInfos[7] = { Name=InnDissSoft }
+                    ParameterInfos[8] = { Name=MT_Speed_Y }
+                    ParameterInfos[9] = { Name=Shapr_T_Intensity }
+                    ParameterInfos[10] = { Name=T_Tiling_U }
+                    ParameterInfos[11] = { Name=T_Speed_Y }
+                    ParameterInfos[12] = { Name=OutDissPower }
+                    ParameterInfos[13] = { Name=M_VTiling }
+                    ParameterInfos[14] = { Name=InnDissPower }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=InnerColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=InnerShapeMap }
+                    ParameterInfos[1] = { Name=ShapeTwiseTex }
+                    ParameterInfos[2] = { Name=ShapeMap }
+                    ParameterInfos[3] = { Name=DissTwiseTex }
+                    ParameterInfos[4] = { Name=DissolveFlowTex }
+                    ParameterInfos[5] = { Name=DissolveTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 0.361905
+            ScalarValues[1] = 10
+            ScalarValues[2] = -0.02
+            ScalarValues[3] = 0.2
+            ScalarValues[4] = -0.1
+            ScalarValues[5] = 0.1
+            ScalarValues[6] = 0.5
+            ScalarValues[7] = 0.361905
+            ScalarValues[8] = 0.05
+            ScalarValues[9] = 0.05
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 0.2
+            ScalarValues[12] = 10
+            ScalarValues[13] = 0.2
+            ScalarValues[14] = 0.8
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=50, G=5.59153, B=0, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0001.T_smk_0001'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0001.T_smk_0001'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0026.T_Noise_0026'
+            TextureValues[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0003.T_smk_0003'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0001.T_smk_0001'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0003.T_smk_0003'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0026.T_Noise_0026'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0001.T_smk_0001'
+        Name = InnerShapeMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+        Name = ShapeTwiseTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0001.T_smk_0001'
+        Name = ShapeMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+        Name = DissTwiseTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0026.T_Noise_0026'
+        Name = DissolveFlowTex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Smoke/T_smk_0003.T_smk_0003'
+        Name = DissolveTex
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=0.361905, Name=OutDissolveSoft, Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=depthFade, Group=None }
+    CollectedScalarParameters[2] = { Value=-0.02, Name=MT_Speed_X, Group=None }
+    CollectedScalarParameters[3] = { Value=0.2, Name=M_UTiling, Group=None }
+    CollectedScalarParameters[4] = { Value=-0.1, Name=T_Speed_X, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=Diss_T_Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=0.5, Name=T_Tiling_V, Group=None }
+    CollectedScalarParameters[7] = { Value=0.361905, Name=InnDissSoft, Group=None }
+    CollectedScalarParameters[8] = { Value=0.05, Name=MT_Speed_Y, Group=None }
+    CollectedScalarParameters[9] = { Value=0.05, Name=Shapr_T_Intensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=T_Tiling_U, Group=None }
+    CollectedScalarParameters[11] = { Value=0.2, Name=T_Speed_Y, Group=None }
+    CollectedScalarParameters[12] = { Value=10, Name=OutDissPower, Group=None }
+    CollectedScalarParameters[13] = { Value=0.2, Name=M_VTiling, Group=None }
+    CollectedScalarParameters[14] = { Value=0.8, Name=InnDissPower, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=50, G=5.59153, B=0, A=1 }
+        Name = InnerColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Noise_0003
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.203125
+        UVChannelIndex = 0
+        TextureName = T_Noise_0026
+    }
+}

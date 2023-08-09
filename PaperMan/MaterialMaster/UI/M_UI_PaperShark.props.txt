@@ -1,0 +1,167 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0058.T_Noise_0058'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8008.T_Noise_8008'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_NB004.T_UI_NB004'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=FS_OpenMouth }
+                    ParameterInfos[1] = { Name=Noise_Speed }
+                    ParameterInfos[2] = { Name=Blood_fade }
+                    ParameterInfos[3] = { Name=BloodTexutreB_UTiling }
+                    ParameterInfos[4] = { Name=BloodTexutreB_Fade }
+                    ParameterInfos[5] = { Name=SphereMask }
+                    ParameterInfos[6] = { Name=Param_1 }
+                    ParameterInfos[7] = { Name=Curve_Power }
+                    ParameterInfos[8] = { Name=Blood_Tiling_V }
+                    ParameterInfos[9] = { Name=Curve_Mul }
+                    ParameterInfos[10] = { Name=Noise_intensity }
+                    ParameterInfos[11] = { Name=Blood_Tiling_U }
+                    ParameterInfos[12] = { Name=Param }
+                    ParameterInfos[13] = { Name=cut }
+                    ParameterInfos[14] = { Name=TextureB intensity }
+                    ParameterInfos[15] = { Name=Noise_Tiling }
+                    ParameterInfos[16] = { Name=Blood_contrast }
+                    ParameterInfos[17] = { Name=BloodTexutreB_VTiling }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=color }
+                    ParameterInfos[1] = { Name=ToothTiling }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=MainTex }
+                    ParameterInfos[1] = { Name=BloodTexture }
+                    ParameterInfos[2] = { Name=BloodTexutreB }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 1.18263
+            ScalarValues[1] = -0.223875
+            ScalarValues[2] = 0.866667
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.4
+            ScalarValues[6] = 1.57131
+            ScalarValues[7] = 0.860055
+            ScalarValues[8] = 0.641817
+            ScalarValues[9] = 0.49181
+            ScalarValues[10] = 0.06999
+            ScalarValues[11] = 0.740735
+            ScalarValues[12] = 0.5
+            ScalarValues[13] = -0.607196
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0.97328
+            ScalarValues[16] = 1.30163
+            ScalarValues[17] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.296138, G=0, B=0.03434, A=1 }
+            VectorValues[1] = { R=0.85, G=-0.6, B=0.9, A=0.9 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_NB004.T_UI_NB004'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8008.T_Noise_8008'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0058.T_Noise_0058'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_NB004.T_UI_NB004'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0058.T_Noise_0058'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8008.T_Noise_8008'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_NB004.T_UI_NB004'
+        Name = MainTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8008.T_Noise_8008'
+        Name = BloodTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0058.T_Noise_0058'
+        Name = BloodTexutreB
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=1.18263, Name=FS_OpenMouth, Group=None }
+    CollectedScalarParameters[1] = { Value=-0.223875, Name=Noise_Speed, Group=None }
+    CollectedScalarParameters[2] = { Value=0.866667, Name=Blood_fade, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=BloodTexutreB_UTiling, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=BloodTexutreB_Fade, Group=None }
+    CollectedScalarParameters[5] = { Value=0.4, Name=SphereMask, Group=None }
+    CollectedScalarParameters[6] = { Value=1.57131, Name=Param_1, Group=None }
+    CollectedScalarParameters[7] = { Value=0.860055, Name=Curve_Power, Group=None }
+    CollectedScalarParameters[8] = { Value=0.641817, Name=Blood_Tiling_V, Group=None }
+    CollectedScalarParameters[9] = { Value=0.49181, Name=Curve_Mul, Group=None }
+    CollectedScalarParameters[10] = { Value=0.06999, Name=Noise_intensity, Group=None }
+    CollectedScalarParameters[11] = { Value=0.740735, Name=Blood_Tiling_U, Group=None }
+    CollectedScalarParameters[12] = { Value=0.5, Name=Param, Group=None }
+    CollectedScalarParameters[13] = { Value=-0.607196, Name=cut, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=TextureB intensity, Group=None }
+    CollectedScalarParameters[15] = { Value=0.97328, Name=Noise_Tiling, Group=None }
+    CollectedScalarParameters[16] = { Value=1.30163, Name=Blood_contrast, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=BloodTexutreB_VTiling, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.296138, G=0, B=0.03434, A=1 }
+        Name = color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.85, G=-0.6, B=0.9, A=0.9 }
+        Name = ToothTiling
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

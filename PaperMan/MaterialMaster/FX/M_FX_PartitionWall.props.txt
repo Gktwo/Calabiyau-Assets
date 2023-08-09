@@ -1,0 +1,76 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0013.T_Mask_0013'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0030.T_Mask_0030'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2013.T_Noise_2013'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2014.T_Noise_2014'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_MM_11.T_Noise_MM_11'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_MM_3.T_Noise_MM_3'
+    ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_MM_4.T_Noise_MM_4'
+    ReferencedTextures[7] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_NB_0091.T_Noise_NB_0091'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_MM_3.T_Noise_MM_3'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_NB_0091.T_Noise_NB_0091'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2013.T_Noise_2013'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_MM_4.T_Noise_MM_4'
+        ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2014.T_Noise_2014'
+        ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0030.T_Mask_0030'
+        ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0013.T_Mask_0013'
+        ReferencedTextures[7] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_MM_11.T_Noise_MM_11'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mask_0013
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.03125
+        UVChannelIndex = 0
+        TextureName = T_Noise_2014
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_Noise_MM_4
+    }
+}

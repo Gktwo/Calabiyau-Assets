@@ -1,0 +1,124 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0020.T_Noise_0020'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleHUD/T_Dynamic_RoleHUD_108.T_Dynamic_RoleHUD_108'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Jitter-TexControl_NumSize }
+                    ParameterInfos[1] = { Name=Jitter-Times }
+                    ParameterInfos[2] = { Name=Jitter-LineIntensity }
+                    ParameterInfos[3] = { Name=ScaleUVsByCenter }
+                    ParameterInfos[4] = { Name=Jitter-TexControl_MapPow }
+                    ParameterInfos[5] = { Name=Jitter-Speed }
+                    ParameterInfos[6] = { Name=Lines Intensity }
+                    ParameterInfos[7] = { Name=Jitter-Lines }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Tint Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Map }
+                    ParameterInfos[1] = { Name=NoiseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 256, 1, 0.401936, 1, 3, 0.473448, 0.695238, 9 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleHUD/T_Dynamic_RoleHUD_108.T_Dynamic_RoleHUD_108'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0020.T_Noise_0020'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleHUD/T_Dynamic_RoleHUD_108.T_Dynamic_RoleHUD_108'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0020.T_Noise_0020'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleHUD/T_Dynamic_RoleHUD_108.T_Dynamic_RoleHUD_108'
+        Name = Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0020.T_Noise_0020'
+        Name = NoiseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 256
+        Name = Jitter-TexControl_NumSize
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Jitter-Times, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.401936
+        Name = Jitter-LineIntensity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=ScaleUVsByCenter, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 3
+        Name = Jitter-TexControl_MapPow
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0.473448, Name=Jitter-Speed, Group=None }
+    CollectedScalarParameters[6] = { Value=0.695238, Name=Lines Intensity, Group=None }
+    CollectedScalarParameters[7] = { Value=9, Name=Jitter-Lines, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Tint Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

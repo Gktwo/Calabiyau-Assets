@@ -1,0 +1,130 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0042.T_Mask_0042'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/Weapons/Common/T_HDR_Panorama_Ball.T_HDR_Panorama_Ball'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=ColorPow }
+                    ParameterInfos[2] = { Name=Emissive Scale }
+                    ParameterInfos[3] = { Name=MaskPower }
+                    ParameterInfos[4] = { Name=Metal }
+                    ParameterInfos[5] = { Name=HDR }
+                    ParameterInfos[6] = { Name=OpacityAdd }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=Mask_A_Dissolve }
+                    ParameterInfos[2] = { Name=SphereReflectionTexture }
+                    ParameterInfos[3] = { Name=BaseColor_LOW }
+                    ParameterInfos[4] = { Name=RM }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 1, 1, 0, 0, 1, 1, 0.05 }
+        VectorValues[0] = {}
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0042.T_Mask_0042'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Weapons/Common/T_HDR_Panorama_Ball.T_HDR_Panorama_Ball'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0042.T_Mask_0042'
+        ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Weapons/Common/T_HDR_Panorama_Ball.T_HDR_Panorama_Ball'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0042.T_Mask_0042'
+        Name = Mask_A_Dissolve
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Weapons/Common/T_HDR_Panorama_Ball.T_HDR_Panorama_Ball'
+        Name = SphereReflectionTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = BaseColor_LOW
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        Name = RM
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ColorPow, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Emissive Scale, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=MaskPower, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Metal, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=HDR, Group=None }
+    CollectedScalarParameters[6] = { Value=0.05, Name=OpacityAdd, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mask_0042
+    }
+}

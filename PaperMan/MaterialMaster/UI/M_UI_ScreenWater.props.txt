@@ -1,0 +1,149 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_NB_013_LinearGrayscale.T_Noise_NB_013_LinearGrayscale'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Radial_Inner }
+                    ParameterInfos[1] = { Name=ColorOuter_Lerp }
+                    ParameterInfos[2] = { Name=HighLightContrast }
+                    ParameterInfos[3] = { Name=DissolveContrast }
+                    ParameterInfos[4] = { Name=Noise_Intensity }
+                    ParameterInfos[5] = { Name=Dissolve }
+                    ParameterInfos[6] = { Name=MidContrest }
+                    ParameterInfos[7] = { Name=HighLight_Size }
+                    ParameterInfos[8] = { Name=Radial_Outer }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=ColorHighLight }
+                    ParameterInfos[1] = { Name=MainTexture_UV }
+                    ParameterInfos[2] = { Name=NoiseTexture_UV }
+                    ParameterInfos[3] = { Name=Color }
+                    ParameterInfos[4] = { Name=ColorOuter }
+                    ParameterInfos[5] = { Name=ColorOutline }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MainTexture }
+                    ParameterInfos[1] = { Name=NoiseTexutre }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 0, 0, 11, 0, 0, 0, 0, -0.457143, 0 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0.030713, G=0.266356, B=0.141263, A=1 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0.030713, G=0.266356, B=0.141263, A=1 }
+            VectorValues[4] = { R=0.030713, G=0.266356, B=0.141263, A=1 }
+            VectorValues[5] = { R=0.030713, G=0.266356, B=0.141263, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_NB_013_LinearGrayscale.T_Noise_NB_013_LinearGrayscale'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_NB_013_LinearGrayscale.T_Noise_NB_013_LinearGrayscale'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_NB_013_LinearGrayscale.T_Noise_NB_013_LinearGrayscale'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_NB_013_LinearGrayscale.T_Noise_NB_013_LinearGrayscale'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_NB_013_LinearGrayscale.T_Noise_NB_013_LinearGrayscale'
+        Name = NoiseTexutre
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Radial_Inner, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=ColorOuter_Lerp, Group=None }
+    CollectedScalarParameters[2] = { Value=11, Name=HighLightContrast, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=DissolveContrast, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Noise_Intensity, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=MidContrest, Group=None }
+    CollectedScalarParameters[7] = { Value=-0.457143, Name=HighLight_Size, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Radial_Outer, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.030713, G=0.266356, B=0.141263, A=1 }
+        Name = ColorHighLight
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MainTexture_UV
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseTexture_UV
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.030713, G=0.266356, B=0.141263, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.030713, G=0.266356, B=0.141263, A=1 }
+        Name = ColorOuter
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.030713, G=0.266356, B=0.141263, A=1 }
+        Name = ColorOutline
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

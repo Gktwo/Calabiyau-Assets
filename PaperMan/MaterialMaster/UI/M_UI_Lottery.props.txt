@@ -1,0 +1,114 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_LKL_029.T_Mask_LKL_029'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_Ui_Cbn_048.T_Ui_Cbn_048'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Width_Height (S) }
+                    ParameterInfos[1] = { Name=Width_Low (S) }
+                    ParameterInfos[2] = { Name=DownScaleCenter }
+                    ParameterInfos[3] = { Name=Offset }
+                    ParameterInfos[4] = { Name=UpScaleCenter }
+                    ParameterInfos[5] = { Name=Cycle }
+                    ParameterInfos[6] = { Name=Segmente }
+                    ParameterInfos[7] = { Name=Speed }
+                    ParameterInfos[8] = { Name=SingleCenter }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Mask_Uv }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] =
+        {
+            ScalarValues[0] = 1.17381
+            ScalarValues[1] = 0.866667
+            ScalarValues[2] = 0.75
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.25
+            ScalarValues[5] = 2.5
+            ScalarValues[6] = 20
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 0.5
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_Ui_Cbn_048.T_Ui_Cbn_048'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_Ui_Cbn_048.T_Ui_Cbn_048'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_LKL_029.T_Mask_LKL_029'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_Ui_Cbn_048.T_Ui_Cbn_048'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=1.17381, Name=Width_Height (S), Group=None }
+    CollectedScalarParameters[1] = { Value=0.866667, Name=Width_Low (S), Group=None }
+    CollectedScalarParameters[2] = { Value=0.75, Name=DownScaleCenter, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Offset, Group=None }
+    CollectedScalarParameters[4] = { Value=0.25, Name=UpScaleCenter, Group=None }
+    CollectedScalarParameters[5] = { Value=2.5, Name=Cycle, Group=None }
+    CollectedScalarParameters[6] = { Value=20, Name=Segmente, Group=None }
+    CollectedScalarParameters[7] = { Value=0.1, Name=Speed, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=SingleCenter, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask_Uv
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

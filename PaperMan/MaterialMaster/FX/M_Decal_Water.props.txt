@@ -1,0 +1,127 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Linear/T_Noise_NB_010_LinearColor.T_Noise_NB_010_LinearColor'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=DissolveTex_Intensity }
+                    ParameterInfos[3] = { Name=Normal_Intensity }
+                    ParameterInfos[4] = { Name=Emissive }
+                    ParameterInfos[5] = { Name=Specular }
+                    ParameterInfos[6] = { Name=Radius }
+                    ParameterInfos[7] = { Name=DecalUV }
+                    ParameterInfos[8] = { Name=Hardness }
+                    ParameterInfos[9] = { Name=Dissolve }
+                    ParameterInfos[10] = { Name=MainTexture_MipLevel }
+                    ParameterInfos[11] = { Name=Opacity }
+                    ParameterInfos[12] = { Name=Outline }
+                    ParameterInfos[13] = { Name=Dissolve_Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=MainTex_UV }
+                    ParameterInfos[1] = { Name=ColorB }
+                    ParameterInfos[2] = { Name=ColorA }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=MainTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] = { 0, 0, 0, 1, 0, 0, 1, 0, 11, 0, 0, 1, 0, 1 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Linear/T_Noise_NB_010_LinearColor.T_Noise_NB_010_LinearColor'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Linear/T_Noise_NB_010_LinearColor.T_Noise_NB_010_LinearColor'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Linear/T_Noise_NB_010_LinearColor.T_Noise_NB_010_LinearColor'
+        Name = MainTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Base Color, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=DissolveTex_Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Normal_Intensity, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Emissive, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Specular, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Radius, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=DecalUV, Group=None }
+    CollectedScalarParameters[8] = { Value=11, Name=Hardness, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=MainTexture_MipLevel, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Outline, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Dissolve_Contrast, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MainTex_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ColorB
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ColorA
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

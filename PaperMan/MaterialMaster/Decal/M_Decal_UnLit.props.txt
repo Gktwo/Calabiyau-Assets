@@ -1,0 +1,162 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=ZTiling U }
+                    ParameterInfos[1] = { Name=Rotate }
+                    ParameterInfos[2] = { Name=XOffset U }
+                    ParameterInfos[3] = { Name=ZOffset V }
+                    ParameterInfos[4] = { Name=YOffset U }
+                    ParameterInfos[5] = { Name=ZTiling V }
+                    ParameterInfos[6] = { Name=OpacityPower }
+                    ParameterInfos[7] = { Name=AlphaPow }
+                    ParameterInfos[8] = { Name=XTiling V }
+                    ParameterInfos[9] = { Name=YTiling V }
+                    ParameterInfos[10] = { Name=ZOffset U }
+                    ParameterInfos[11] = { Name=AlpahAlignExponent }
+                    ParameterInfos[12] = { Name=XOffset V }
+                    ParameterInfos[13] = { Name=YTiling U }
+                    ParameterInfos[14] = { Name=YOffset V }
+                    ParameterInfos[15] = { Name=XTiling U }
+                    ParameterInfos[16] = { Name=AlpahAlignBase }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                    ParameterInfos[1] = { Name=FlipBook }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=BaseColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 12
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 5
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+            TextureValues[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = BaseColor
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=ZTiling U, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Rotate, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=XOffset U, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=ZOffset V, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=YOffset U, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=ZTiling V, Group=None }
+    CollectedScalarParameters[6] = { Value=12, Name=OpacityPower, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=AlphaPow, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=XTiling V, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=YTiling V, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=ZOffset U, Group=None }
+    CollectedScalarParameters[11] = { Value=5, Name=AlpahAlignExponent, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=XOffset V, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=YTiling U, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=YOffset V, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=XTiling U, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=AlpahAlignBase, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = FlipBook
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,183 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=OutUTiling }
+                    ParameterInfos[1] = { Name=ReflectFraction }
+                    ParameterInfos[2] = { Name=FreScopeMin }
+                    ParameterInfos[3] = { Name=FreScopeMax }
+                    ParameterInfos[4] = { Name=DaYin_Offset }
+                    ParameterInfos[5] = { Name=TexPower }
+                    ParameterInfos[6] = { Name=Radius }
+                    ParameterInfos[7] = { Name=OutUVSpeed }
+                    ParameterInfos[8] = { Name=OutBrightness }
+                    ParameterInfos[9] = { Name=UVSpeed }
+                    ParameterInfos[10] = { Name=Hardness }
+                    ParameterInfos[11] = { Name=VTiling }
+                    ParameterInfos[12] = { Name=Expinentln }
+                    ParameterInfos[13] = { Name=Opacity_Offset }
+                    ParameterInfos[14] = { Name=MaskPower }
+                    ParameterInfos[15] = { Name=OutTexPower }
+                    ParameterInfos[16] = { Name=UTiling }
+                    ParameterInfos[17] = { Name=InnerBrightness }
+                    ParameterInfos[18] = { Name=Opacity }
+                    ParameterInfos[19] = { Name=MaskTex_UVtiling }
+                    ParameterInfos[20] = { Name=OutVTiling }
+                    ParameterInfos[21] = { Name=Opacity_Pow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=OutColor }
+                    ParameterInfos[1] = { Name=InnerColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Mask Tex }
+                    ParameterInfos[1] = { Name=InnerMap }
+                    ParameterInfos[2] = { Name=OutTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = 2
+            ScalarValues[1] = -0.21
+            ScalarValues[2] = 0.1
+            ScalarValues[3] = 0.2
+            ScalarValues[4] = 0
+            ScalarValues[5] = 2
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1.5
+            ScalarValues[8] = 4
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.1
+            ScalarValues[11] = 3
+            ScalarValues[12] = 1.5
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1.5
+            ScalarValues[16] = 3
+            ScalarValues[17] = 2
+            ScalarValues[18] = 1
+            ScalarValues[19] = 2
+            ScalarValues[20] = 3
+            ScalarValues[21] = 5
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=10, G=0, B=0.454378, A=1 }
+            VectorValues[1] = { R=10, G=0, B=1.06573, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+        Name = Mask Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+        Name = InnerMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+        Name = OutTex
+        Group = None
+    }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=OutUTiling, Group=None }
+    CollectedScalarParameters[1] = { Value=-0.21, Name=ReflectFraction, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=FreScopeMin, Group=None }
+    CollectedScalarParameters[3] = { Value=0.2, Name=FreScopeMax, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=DaYin_Offset, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=TexPower, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Radius, Group=None }
+    CollectedScalarParameters[7] = { Value=1.5, Name=OutUVSpeed, Group=None }
+    CollectedScalarParameters[8] = { Value=4, Name=OutBrightness, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=UVSpeed, Group=None }
+    CollectedScalarParameters[10] = { Value=0.1, Name=Hardness, Group=None }
+    CollectedScalarParameters[11] = { Value=3, Name=VTiling, Group=None }
+    CollectedScalarParameters[12] = { Value=1.5, Name=Expinentln, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Opacity_Offset, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=MaskPower, Group=None }
+    CollectedScalarParameters[15] = { Value=1.5, Name=OutTexPower, Group=None }
+    CollectedScalarParameters[16] = { Value=3, Name=UTiling, Group=None }
+    CollectedScalarParameters[17] = { Value=2, Name=InnerBrightness, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[19] = { Value=2, Name=MaskTex_UVtiling, Group=None }
+    CollectedScalarParameters[20] = { Value=3, Name=OutVTiling, Group=None }
+    CollectedScalarParameters[21] = { Value=5, Name=Opacity_Pow, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=10, G=0, B=0.454378, A=1 }
+        Name = OutColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=10, G=0, B=1.06573, A=1 }
+        Name = InnerColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_Noise_2018
+    }
+}

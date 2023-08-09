@@ -1,0 +1,7 @@
+Diffuse=DefaultTexture
+Normal=T_DefaultNormal
+Other[0]=T_DefaultBlack_Linear
+Other[1]=T_DefaultBlue_Linear
+Other[2]=T_DefaultBlack_Gamma
+Other[3]=T_DefaultWhite_Gamma
+Other[4]=T_DefaultWhite_Grayscale

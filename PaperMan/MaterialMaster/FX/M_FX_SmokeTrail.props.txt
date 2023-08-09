@@ -1,0 +1,173 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Flow/T_Flow_0000.T_Flow_0000'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0004.T_Noise_0004'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Ramp/T_Ramp_0000.T_Ramp_0000'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[23] =
+                {
+                    ParameterInfos[0] = { Name=alphaSharpness }
+                    ParameterInfos[1] = { Name=GradientMask }
+                    ParameterInfos[2] = { Name=AfterGradientGain }
+                    ParameterInfos[3] = { Name=Speed_2 }
+                    ParameterInfos[4] = { Name=ColorIntensity }
+                    ParameterInfos[5] = { Name=Blur_3 }
+                    ParameterInfos[6] = { Name=Speed_3 }
+                    ParameterInfos[7] = { Name=Strength_1 }
+                    ParameterInfos[8] = { Name=Blur_1 }
+                    ParameterInfos[9] = { Name=BackFade }
+                    ParameterInfos[10] = { Name=LightThreshold }
+                    ParameterInfos[11] = { Name=NoiseGain }
+                    ParameterInfos[12] = { Name=Strength_3 }
+                    ParameterInfos[13] = { Name=FrontFade }
+                    ParameterInfos[14] = { Name=Speed_1 }
+                    ParameterInfos[15] = { Name=TrailSlide }
+                    ParameterInfos[16] = { Name=Blur_2 }
+                    ParameterInfos[17] = { Name=FireLength }
+                    ParameterInfos[18] = { Name=NoiseSamplePos }
+                    ParameterInfos[19] = { Name=SmokeSharpness }
+                    ParameterInfos[20] = { Name=Alpha_Offset }
+                    ParameterInfos[21] = { Name=EdgeFade }
+                    ParameterInfos[22] = { Name=Strength_2 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=FillLight }
+                    ParameterInfos[1] = { Name=Experimental_LightDirection }
+                    ParameterInfos[2] = { Name=KeyLight }
+                    ParameterInfos[3] = { Name=FireColor }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[23] =
+        {
+            ScalarValues[0] = 8
+            ScalarValues[1] = 0.4
+            ScalarValues[2] = 4
+            ScalarValues[3] = -0.04
+            ScalarValues[4] = 10
+            ScalarValues[5] = 8
+            ScalarValues[6] = -0.02
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 8.5
+            ScalarValues[9] = 3
+            ScalarValues[10] = 0.05
+            ScalarValues[11] = 2
+            ScalarValues[12] = 1
+            ScalarValues[13] = 60
+            ScalarValues[14] = 0.1
+            ScalarValues[15] = -0.1
+            ScalarValues[16] = 2
+            ScalarValues[17] = 10
+            ScalarValues[18] = 0
+            ScalarValues[19] = 200
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0.05
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.0184, G=0.025336, B=0.04, A=1 }
+            VectorValues[1] = { R=0, G=0.1, B=0, A=1 }
+            VectorValues[2] = { R=0.0506, G=0.069675, B=0.11, A=1 }
+            VectorValues[3] = { R=10, G=8.57493, B=0, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Flow/T_Flow_0000.T_Flow_0000'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0004.T_Noise_0004'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Ramp/T_Ramp_0000.T_Ramp_0000'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[23] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=alphaSharpness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.4, Name=GradientMask, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=AfterGradientGain, Group=None }
+    CollectedScalarParameters[3] = { Value=-0.04, Name=Speed_2, Group=None }
+    CollectedScalarParameters[4] = { Value=10, Name=ColorIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=8, Name=Blur_3, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.02, Name=Speed_3, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=Strength_1, Group=None }
+    CollectedScalarParameters[8] = { Value=8.5, Name=Blur_1, Group=None }
+    CollectedScalarParameters[9] = { Value=3, Name=BackFade, Group=None }
+    CollectedScalarParameters[10] = { Value=0.05, Name=LightThreshold, Group=None }
+    CollectedScalarParameters[11] = { Value=2, Name=NoiseGain, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Strength_3, Group=None }
+    CollectedScalarParameters[13] = { Value=60, Name=FrontFade, Group=None }
+    CollectedScalarParameters[14] = { Value=0.1, Name=Speed_1, Group=None }
+    CollectedScalarParameters[15] = { Value=-0.1, Name=TrailSlide, Group=None }
+    CollectedScalarParameters[16] = { Value=2, Name=Blur_2, Group=None }
+    CollectedScalarParameters[17] = { Value=10, Name=FireLength, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=NoiseSamplePos, Group=None }
+    CollectedScalarParameters[19] = { Value=200, Name=SmokeSharpness, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=Alpha_Offset, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=EdgeFade, Group=None }
+    CollectedScalarParameters[22] = { Value=0.05, Name=Strength_2, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.0184, G=0.025336, B=0.04, A=1 }
+        Name = FillLight
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0.1, B=0, A=1 }
+        Name = Experimental_LightDirection
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.0506, G=0.069675, B=0.11, A=1 }
+        Name = KeyLight
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=10, G=8.57493, B=0, A=1 }
+        Name = FireColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.09375
+        UVChannelIndex = 1
+        TextureName = T_Flow_0000
+    }
+}

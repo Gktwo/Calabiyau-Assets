@@ -1,0 +1,156 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0002.T_Mask_0002'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5050_1.T_Noise_5050_1'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_00072.T_Object_00072'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_00081.T_Object_00081'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=NoiseIntensity }
+                    ParameterInfos[1] = { Name=TextureB intensity }
+                    ParameterInfos[2] = { Name=NoiseUV_Offset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=StarColor }
+                    ParameterInfos[1] = { Name=NoiseUV }
+                    ParameterInfos[2] = { Name=UVset }
+                    ParameterInfos[3] = { Name=Color }
+                    ParameterInfos[4] = { Name=StarTexUV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=TextureB }
+                    ParameterInfos[2] = { Name=starTex }
+                    ParameterInfos[3] = { Name=TextureA }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { -0.02, 0.085714, 0 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=1, G=0.401258, B=0, A=1 }
+            VectorValues[1] = { R=11, G=3, B=0.05, A=-0.5 }
+            VectorValues[2] = { R=0.57381, G=0.752381, B=0.5, A=0 }
+            VectorValues[3] = { R=1, G=0.412238, B=0, A=0.274 }
+            VectorValues[4] = { R=11, G=2, B=0.1, A=-0.3 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0002.T_Mask_0002'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_00081.T_Object_00081'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5050_1.T_Noise_5050_1'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_00072.T_Object_00072'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0002.T_Mask_0002'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_00072.T_Object_00072'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_00081.T_Object_00081'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5050_1.T_Noise_5050_1'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0002.T_Mask_0002'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_00081.T_Object_00081'
+        Name = TextureB
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5050_1.T_Noise_5050_1'
+        Name = starTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_00072.T_Object_00072'
+        Name = TextureA
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=-0.02, Name=NoiseIntensity, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.085714
+        Name = TextureB intensity
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0, Name=NoiseUV_Offset, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.401258, B=0, A=1 }
+        Name = StarColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=11, G=3, B=0.05, A=-0.5 }
+        Name = NoiseUV
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.57381, G=0.752381, B=0.5, A=0 }
+        Name = UVset
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=0.412238, B=0, A=0.274 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=11, G=2, B=0.1, A=-0.3 }
+        Name = StarTexUV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

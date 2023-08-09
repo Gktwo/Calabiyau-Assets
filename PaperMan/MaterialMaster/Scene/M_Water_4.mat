@@ -1,0 +1,4 @@
+Diffuse=T_CartoonFoam_M
+Normal=WaterNormalA
+Other[0]=water_paome
+Other[1]=WaterNormalB

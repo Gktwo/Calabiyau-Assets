@@ -1,0 +1,151 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+    ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/173422gvp1popogdroy3zg.173422gvp1popogdroy3zg'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=ColorPow }
+                    ParameterInfos[2] = { Name=Emissive Scale }
+                    ParameterInfos[3] = { Name=Metal }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MetalIrisationColor }
+                    ParameterInfos[1] = { Name=MetalIrisationMaskChannel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=CombineMaskTex }
+                    ParameterInfos[2] = { Name=MatCapTex }
+                    ParameterInfos[3] = { Name=BaseColor_LOW }
+                    ParameterInfos[4] = { Name=RM }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 1, 1, 0, 1 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.5, G=0.5, B=0.5, A=1 }
+            VectorValues[1] = { R=1, G=0, B=0, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/173422gvp1popogdroy3zg.173422gvp1popogdroy3zg'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/173422gvp1popogdroy3zg.173422gvp1popogdroy3zg'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        Name = CombineMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/173422gvp1popogdroy3zg.173422gvp1popogdroy3zg'
+        Name = MatCapTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = BaseColor_LOW
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        Name = RM
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ColorPow, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Emissive Scale, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Metal, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = MetalIrisationColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = MetalIrisationMaskChannel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black_mask
+    }
+}

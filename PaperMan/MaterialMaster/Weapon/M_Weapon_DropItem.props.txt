@@ -1,0 +1,175 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/blue.blue'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white_mask.white_mask'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=FresnelStrong }
+                    ParameterInfos[1] = { Name=PeriodAdd }
+                    ParameterInfos[2] = { Name=FresnelContrast }
+                    ParameterInfos[3] = { Name=BreatheConstrast }
+                    ParameterInfos[4] = { Name=BreatheTimeSpeed }
+                    ParameterInfos[5] = { Name=PeriodSpeed }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=BaseColor_Bright }
+                    ParameterInfos[1] = { Name=CornerEmissive_Bright }
+                    ParameterInfos[2] = { Name=BaseColor_Dark }
+                    ParameterInfos[3] = { Name=CornerEmissive_Dark }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=CornerEmissiveTex }
+                    ParameterInfos[1] = { Name=RMTex }
+                    ParameterInfos[2] = { Name=BaseColorTex }
+                    ParameterInfos[3] = { Name=NormalTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0.2, -0.7, 2, 1, 1, 0.2 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1.3, G=1.3, B=1.3, A=1 }
+            VectorValues[1] = { R=0, G=15, B=0, A=1 }
+            VectorValues[2] = { R=0.7, G=0.7, B=0.7, A=1 }
+            VectorValues[3] = { R=0, G=0.2, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white_mask.white_mask'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/blue.blue'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white_mask.white_mask'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/blue.blue'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        Name = CornerEmissiveTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white_mask.white_mask'
+        Name = RMTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+        Name = BaseColorTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/blue.blue'
+        Name = NormalTex
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=FresnelStrong, Group=None }
+    CollectedScalarParameters[1] = { Value=-0.7, Name=PeriodAdd, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=FresnelContrast, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=BreatheConstrast, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=BreatheTimeSpeed, Group=None }
+    CollectedScalarParameters[5] = { Value=0.2, Name=PeriodSpeed, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1.3, G=1.3, B=1.3, A=1 }
+        Name = BaseColor_Bright
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=15, B=0, A=1 }
+        Name = CornerEmissive_Bright
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.7, G=0.7, B=0.7, A=1 }
+        Name = BaseColor_Dark
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0.2, B=0, A=1 }
+        Name = CornerEmissive_Dark
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black_mask
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = blue
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = white
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = white_mask
+    }
+}

@@ -1,0 +1,164 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5002.T_Noise_5002'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=MainTexUVNoise_Vspeed }
+                    ParameterInfos[1] = { Name=Mask 1 Muitiply }
+                    ParameterInfos[2] = { Name=Mask 1 Power }
+                    ParameterInfos[3] = { Name=Main V_Speed }
+                    ParameterInfos[4] = { Name=Main U_Speed }
+                    ParameterInfos[5] = { Name=MainTex_Desaturation }
+                    ParameterInfos[6] = { Name=Rotation Angle (0-1) (S) }
+                    ParameterInfos[7] = { Name=MainTexUVNoise_Uspeed }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Mask 1 UV }
+                    ParameterInfos[1] = { Name=Main Refine }
+                    ParameterInfos[2] = { Name=Main UV }
+                    ParameterInfos[3] = { Name=MainTexUVNoise }
+                    ParameterInfos[4] = { Name=Main Color }
+                    ParameterInfos[5] = { Name=MainTexUVNoise_Tiling }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Main Tex }
+                    ParameterInfos[1] = { Name=MainTexUVNoise_Tex }
+                    ParameterInfos[2] = { Name=Mask 1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 1, 1, 0, 0, 0, 0, 0 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5002.T_Noise_5002'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5002.T_Noise_5002'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+        Name = Main Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5002.T_Noise_5002'
+        Name = MainTexUVNoise_Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+        Name = Mask 1
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=MainTexUVNoise_Vspeed, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Mask 1 Muitiply, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Mask 1 Power, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Main V_Speed, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Main U_Speed, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=MainTex_Desaturation, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = Rotation Angle (0-1) (S)
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0, Name=MainTexUVNoise_Uspeed, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask 1 UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Main Refine
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Main UV
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = MainTexUVNoise
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Main Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MainTexUVNoise_Tiling
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

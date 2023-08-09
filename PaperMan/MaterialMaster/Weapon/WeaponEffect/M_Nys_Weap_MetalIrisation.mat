@@ -1,0 +1,7 @@
+Diffuse=BlendFunc_DefBase
+Normal=T_DefaultNormal
+Other[0]=BlendFunc_DefBlend
+Other[1]=black_mask
+Other[2]=T_DefaultWhite_Gamma
+Other[3]=T_DefaultWhite_Linear
+Other[4]=173422gvp1popogdroy3zg

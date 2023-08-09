@@ -1,0 +1,161 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516.T_Water_516'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_517_Normal.T_Water_517_Normal'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Sequence/T_Water_532.T_Water_532'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=ADD }
+                    ParameterInfos[2] = { Name=Hilight_Desaturation }
+                    ParameterInfos[3] = { Name=Height Map UV Offset }
+                    ParameterInfos[4] = { Name=Metallic }
+                    ParameterInfos[5] = { Name=U_Tile }
+                    ParameterInfos[6] = { Name=Specular }
+                    ParameterInfos[7] = { Name=Spe }
+                    ParameterInfos[8] = { Name=Fresnel_Exponenth }
+                    ParameterInfos[9] = { Name=V_Tile }
+                    ParameterInfos[10] = { Name=Fresnel_ReflectFractionIn }
+                    ParameterInfos[11] = { Name=Normla Map Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=NormalDirection }
+                    ParameterInfos[1] = { Name=ChannelSelection }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Spe }
+                    ParameterInfos[1] = { Name=Texture }
+                    ParameterInfos[2] = { Name=NormalForFresnel }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 0, 1, 0, 0.02, 0, 1, 0, 1, 1, 1, 0.01, 5 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=1 }
+            VectorValues[1] = { R=0, G=1, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Sequence/T_Water_532.T_Water_532'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516.T_Water_516'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_517_Normal.T_Water_517_Normal'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516.T_Water_516'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Sequence/T_Water_532.T_Water_532'
+        ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_517_Normal.T_Water_517_Normal'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Sequence/T_Water_532.T_Water_532'
+        Name = Spe
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516.T_Water_516'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_517_Normal.T_Water_517_Normal'
+        Name = NormalForFresnel
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ADD, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Hilight_Desaturation, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.02
+        Name = Height Map UV Offset
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=U_Tile, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Specular, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Spe, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Fresnel_Exponenth, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=V_Tile, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.01
+        Name = Fresnel_ReflectFractionIn
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=5, Name=Normla Map Intensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = NormalDirection
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = ChannelSelection
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_516
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_517_Normal
+    }
+}

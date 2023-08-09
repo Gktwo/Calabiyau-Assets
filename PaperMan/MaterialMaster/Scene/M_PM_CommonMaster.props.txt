@@ -1,0 +1,213 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_RMO.T_Notex_RMO'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Decals/T_Envi_Umeda_Decal_01_Mask.T_Envi_Umeda_Decal_01_Mask'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Brightness }
+                    ParameterInfos[1] = { Name=Rotate }
+                    ParameterInfos[2] = { Name=Tiling U }
+                    ParameterInfos[3] = { Name=E_Level }
+                    ParameterInfos[4] = { Name=Specular }
+                    ParameterInfos[5] = { Name=Tiling V }
+                    ParameterInfos[6] = { Name=AO Level }
+                    ParameterInfos[7] = { Name=Offset U }
+                    ParameterInfos[8] = { Name=Offset V }
+                    ParameterInfos[9] = { Name=Roughness Level }
+                    ParameterInfos[10] = { Name=AlphaScale }
+                    ParameterInfos[11] = { Name=Metal Level }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Color_UV4_R }
+                    ParameterInfos[1] = { Name=ORMConst }
+                    ParameterInfos[2] = { Name=E_Color }
+                    ParameterInfos[3] = { Name=Color_UV4_G }
+                    ParameterInfos[4] = { Name=Color }
+                    ParameterInfos[5] = { Name=DConst }
+                    ParameterInfos[6] = { Name=Color_UV3_A }
+                    ParameterInfos[7] = { Name=Color_UV4_B }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=D }
+                    ParameterInfos[2] = { Name=ORM }
+                    ParameterInfos[3] = { Name=Alpha }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 1, 0, 1, 1, 0.1, 1, 1, 0, 0, 1, 1, 1 }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=0.833333, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0.833333, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=0, A=1 }
+            VectorValues[6] = { R=0.833333, G=0, B=0, A=1 }
+            VectorValues[7] = { R=0.833333, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_RMO.T_Notex_RMO'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Decals/T_Envi_Umeda_Decal_01_Mask.T_Envi_Umeda_Decal_01_Mask'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_RMO.T_Notex_RMO'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+        ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Decals/T_Envi_Umeda_Decal_01_Mask.T_Envi_Umeda_Decal_01_Mask'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+        Name = D
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_RMO.T_Notex_RMO'
+        Name = ORM
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Environment/Textures/Decals/T_Envi_Umeda_Decal_01_Mask.T_Envi_Umeda_Decal_01_Mask'
+        Name = Alpha
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Rotate, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Tiling U, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=E_Level, Group=None }
+    CollectedScalarParameters[4] = { Value=0.1, Name=Specular, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Tiling V, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=AO Level, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Offset U, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Offset V, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Roughness Level, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=AlphaScale, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Metal Level, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.833333, G=0, B=0, A=1 }
+        Name = Color_UV4_R
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = ORMConst
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = E_Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.833333, G=0, B=0, A=1 }
+        Name = Color_UV4_G
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = DConst
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.833333, G=0, B=0, A=1 }
+        Name = Color_UV3_A
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.833333, G=0, B=0, A=1 }
+        Name = Color_UV4_B
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = BaseFlattenNormalMap
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Notex_D
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Notex_RMO
+    }
+}

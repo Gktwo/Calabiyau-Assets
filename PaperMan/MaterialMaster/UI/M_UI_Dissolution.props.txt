@@ -1,0 +1,125 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/fx_sekuai.fx_sekuai'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/FX_UI_victory.FX_UI_victory'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Dissolution }
+                    ParameterInfos[1] = { Name=Dissolution_Lerp }
+                    ParameterInfos[2] = { Name=Disturbance }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Text1_Panner }
+                    ParameterInfos[1] = { Name=Color_02 }
+                    ParameterInfos[2] = { Name=Color_01 }
+                    ParameterInfos[3] = { Name=Text1_Coord_1 }
+                    ParameterInfos[4] = { Name=Text1_Coord }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Text1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.5, 1, 0 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/FX_UI_victory.FX_UI_victory'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/FX_UI_victory.FX_UI_victory'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/fx_sekuai.fx_sekuai'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.1
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/FX_UI_victory.FX_UI_victory'
+        Name = Text1
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Dissolution, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Dissolution_Lerp, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Disturbance, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Text1_Panner
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color_02
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color_01
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Text1_Coord_1
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Text1_Coord
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

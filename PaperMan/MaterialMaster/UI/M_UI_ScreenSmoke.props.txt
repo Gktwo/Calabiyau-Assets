@@ -1,0 +1,109 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0008.T_Noise_0008'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=Brightness }
+                    ParameterInfos[2] = { Name=MaxOpacity }
+                    ParameterInfos[3] = { Name=V Tilling }
+                    ParameterInfos[4] = { Name=U Tilling }
+                    ParameterInfos[5] = { Name=Speed }
+                    ParameterInfos[6] = { Name=Opacity }
+                    ParameterInfos[7] = { Name=Deform Scale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=DeformTex }
+                    ParameterInfos[1] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 0.26, 0.7, 1, 1, 0.1, 0.22381, 0 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.670566, G=0.670054, B=0.899702, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0008.T_Noise_0008'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0008.T_Noise_0008'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0003.T_Noise_0003'
+        Name = DeformTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0008.T_Noise_0008'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Noise, Group=None }
+    CollectedScalarParameters[1] = { Value=0.26, Name=Brightness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.7, Name=MaxOpacity, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=V Tilling, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=U Tilling, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=Speed, Group=None }
+    CollectedScalarParameters[6] = { Value=0.22381, Name=Opacity, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Deform Scale, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.670566, G=0.670054, B=0.899702, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

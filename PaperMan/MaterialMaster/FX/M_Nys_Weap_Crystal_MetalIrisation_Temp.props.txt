@@ -1,0 +1,341 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_BubbleMask.T_Crystal_BubbleMask'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_FlowMap.T_Crystal_FlowMap'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+    ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+    ReferencedTextures[7] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+    ReferencedTextures[8] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/173422gvp1popogdroy3zg.173422gvp1popogdroy3zg'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=CrystalSpecular }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=ColorPow }
+                    ParameterInfos[3] = { Name=Content_01_Contrast }
+                    ParameterInfos[4] = { Name=CrystalMetallic }
+                    ParameterInfos[5] = { Name=CrystalRoughness }
+                    ParameterInfos[6] = { Name=Content_02_Contrast }
+                    ParameterInfos[7] = { Name=Emissive Scale }
+                    ParameterInfos[8] = { Name=ContentHeightRatio }
+                    ParameterInfos[9] = { Name=Metal }
+                    ParameterInfos[10] = { Name=ContentHeight }
+                    ParameterInfos[11] = { Name=FlowMapIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=ContentLocalUVScale }
+                    ParameterInfos[1] = { Name=Content_01_Emissive_Dark }
+                    ParameterInfos[2] = { Name=ContentChannel_02 }
+                    ParameterInfos[3] = { Name=EmissiveColor }
+                    ParameterInfos[4] = { Name=ContentChannel_01 }
+                    ParameterInfos[5] = { Name=ContentLocalUVPannerDirection }
+                    ParameterInfos[6] = { Name=CrystalContentPannerControl }
+                    ParameterInfos[7] = { Name=Content_02_Emissive_Bright }
+                    ParameterInfos[8] = { Name=ContentLocalUVPannerControl }
+                    ParameterInfos[9] = { Name=CrystalMaskChannel }
+                    ParameterInfos[10] = { Name=MetalIrisationColor }
+                    ParameterInfos[11] = { Name=Content_02_Emissive_Dark }
+                    ParameterInfos[12] = { Name=MetalIrisationMaskChannel }
+                    ParameterInfos[13] = { Name=ContentLocalUVOffset }
+                    ParameterInfos[14] = { Name=CrystalContentUVControl }
+                    ParameterInfos[15] = { Name=InvertLayerMaskChannel }
+                    ParameterInfos[16] = { Name=Content_01_Emissive_Bright }
+                    ParameterInfos[17] = { Name=FlowMapUVControl }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=CombineMaskTex }
+                    ParameterInfos[2] = { Name=CrystalContentTex }
+                    ParameterInfos[3] = { Name=MatCapTex }
+                    ParameterInfos[4] = { Name=FlowMap }
+                    ParameterInfos[5] = { Name=BaseColor_LOW }
+                    ParameterInfos[6] = { Name=RM }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] =
+        {
+            ScalarValues[0] = 0.2
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 2.5
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.15
+            ScalarValues[6] = 3
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.2
+            ScalarValues[9] = 1
+            ScalarValues[10] = -1
+            ScalarValues[11] = 0.2
+        }
+        VectorValues[18] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=0, B=0, A=0 }
+            VectorValues[5] = { R=0, G=1, B=0, A=1 }
+            VectorValues[6] = { R=0, G=0.05, B=1, A=20 }
+            VectorValues[7] = { R=0.8, G=0.16, B=0.394667, A=1 }
+            VectorValues[8] = { R=1, G=1, B=0, A=0 }
+            VectorValues[9] = { R=1, G=0, B=0, A=0 }
+            VectorValues[10] = { R=1, G=1, B=1, A=1 }
+            VectorValues[11] = { R=0.15, G=0, B=0, A=1 }
+            VectorValues[12] = { R=1, G=0, B=0, A=0 }
+            VectorValues[13] = { R=0, G=0, B=0, A=1 }
+            VectorValues[14] = { R=2.4, G=2.4, B=0, A=0 }
+            VectorValues[15] = { R=1, G=0, B=0, A=0 }
+            VectorValues[16] = { R=4, G=0.08, B=0.08, A=1 }
+            VectorValues[17] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_BubbleMask.T_Crystal_BubbleMask'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/173422gvp1popogdroy3zg.173422gvp1popogdroy3zg'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_FlowMap.T_Crystal_FlowMap'
+            TextureValues[5] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[6] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_FlowMap.T_Crystal_FlowMap'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_BubbleMask.T_Crystal_BubbleMask'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/173422gvp1popogdroy3zg.173422gvp1popogdroy3zg'
+        ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        ReferencedTextures[7] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        ReferencedTextures[8] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        Name = CombineMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_BubbleMask.T_Crystal_BubbleMask'
+        Name = CrystalContentTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/173422gvp1popogdroy3zg.173422gvp1popogdroy3zg'
+        Name = MatCapTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Crystal_FlowMap.T_Crystal_FlowMap'
+        Name = FlowMap
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = BaseColor_LOW
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        Name = RM
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=CrystalSpecular, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=ColorPow, Group=None }
+    CollectedScalarParameters[3] = { Value=2.5, Name=Content_01_Contrast, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=CrystalMetallic, Group=None }
+    CollectedScalarParameters[5] = { Value=0.15, Name=CrystalRoughness, Group=None }
+    CollectedScalarParameters[6] = { Value=3, Name=Content_02_Contrast, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Emissive Scale, Group=None }
+    CollectedScalarParameters[8] = { Value=0.2, Name=ContentHeightRatio, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Metal, Group=None }
+    CollectedScalarParameters[10] = { Value=-1, Name=ContentHeight, Group=None }
+    CollectedScalarParameters[11] = { Value=0.2, Name=FlowMapIntensity, Group=None }
+}
+CollectedVectorParameters[18] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ContentLocalUVScale
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Content_01_Emissive_Dark
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = ContentChannel_02
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = ContentChannel_01
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = ContentLocalUVPannerDirection
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0.05, B=1, A=20 }
+        Name = CrystalContentPannerControl
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.8, G=0.16, B=0.394667, A=1 }
+        Name = Content_02_Emissive_Bright
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = ContentLocalUVPannerControl
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = CrystalMaskChannel
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MetalIrisationColor
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.15, G=0, B=0, A=1 }
+        Name = Content_02_Emissive_Dark
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = MetalIrisationMaskChannel
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ContentLocalUVOffset
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=2.4, G=2.4, B=0, A=0 }
+        Name = CrystalContentUVControl
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = InvertLayerMaskChannel
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=4, G=0.08, B=0.08, A=1 }
+        Name = Content_01_Emissive_Bright
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = FlowMapUVControl
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Gamma
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Linear
+    }
+}

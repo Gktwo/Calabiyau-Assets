@@ -1,0 +1,184 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2015.T_Noise_2015'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/Ref_001_tex.Ref_001_tex'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=Top Offset }
+                    ParameterInfos[1] = { Name=DepthFade }
+                    ParameterInfos[2] = { Name=Reflection }
+                    ParameterInfos[3] = { Name=Noise }
+                    ParameterInfos[4] = { Name=Brightness }
+                    ParameterInfos[5] = { Name=Contrast }
+                    ParameterInfos[6] = { Name=Top Ramp }
+                    ParameterInfos[7] = { Name=V Tilling }
+                    ParameterInfos[8] = { Name=U Tilling }
+                    ParameterInfos[9] = { Name=DepthPower }
+                    ParameterInfos[10] = { Name=Frensel }
+                    ParameterInfos[11] = { Name=VertexOffset }
+                    ParameterInfos[12] = { Name=Deform Scale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=TexturePanner }
+                    ParameterInfos[1] = { Name=DeformTexPanner }
+                    ParameterInfos[2] = { Name=Colorful }
+                    ParameterInfos[3] = { Name=TexturePanner_02 }
+                    ParameterInfos[4] = { Name=Color }
+                    ParameterInfos[5] = { Name=DepthFade Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=DeformTex }
+                    ParameterInfos[1] = { Name=Texture }
+                    ParameterInfos[2] = { Name=Ref_Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = -0.37
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.314286
+            ScalarValues[4] = 0.469524
+            ScalarValues[5] = 1.42606
+            ScalarValues[6] = 30.6077
+            ScalarValues[7] = 3
+            ScalarValues[8] = 3
+            ScalarValues[9] = 1
+            ScalarValues[10] = 2
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0.142857
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0, G=0, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0, B=1, A=1 }
+            VectorValues[4] = { R=0.670566, G=0.670054, B=0.899702, A=1 }
+            VectorValues[5] = { R=1, G=0.65713, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2015.T_Noise_2015'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/Ref_001_tex.Ref_001_tex'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2015.T_Noise_2015'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+        Name = DeformTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0063.T_Noise_0063'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2015.T_Noise_2015'
+        Name = Ref_Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=-0.37, Name=Top Offset, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=DepthFade, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Reflection, Group=None }
+    CollectedScalarParameters[3] = { Value=0.314286, Name=Noise, Group=None }
+    CollectedScalarParameters[4] = { Value=0.469524, Name=Brightness, Group=None }
+    CollectedScalarParameters[5] = { Value=1.42606, Name=Contrast, Group=None }
+    CollectedScalarParameters[6] = { Value=30.6077, Name=Top Ramp, Group=None }
+    CollectedScalarParameters[7] = { Value=3, Name=V Tilling, Group=None }
+    CollectedScalarParameters[8] = { Value=3, Name=U Tilling, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=DepthPower, Group=None }
+    CollectedScalarParameters[10] = { Value=2, Name=Frensel, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=VertexOffset, Group=None }
+    CollectedScalarParameters[12] = { Value=0.142857, Name=Deform Scale, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = TexturePanner
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = DeformTexPanner
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Colorful
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = TexturePanner_02
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.670566, G=0.670054, B=0.899702, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0.65713, B=0, A=1 }
+        Name = DepthFade Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

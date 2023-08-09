@@ -1,0 +1,181 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=WP_NoiseMaskUV_Uspeed }
+                    ParameterInfos[2] = { Name=ColorPow }
+                    ParameterInfos[3] = { Name=WP_NoiseMask_Intensity }
+                    ParameterInfos[4] = { Name=WP_NoiseTexUV_Vspeed }
+                    ParameterInfos[5] = { Name=WP_NoiseMaskUV_Vspeed }
+                    ParameterInfos[6] = { Name=Emissive Scale }
+                    ParameterInfos[7] = { Name=WP_NoiseTexUV_Rotator }
+                    ParameterInfos[8] = { Name=Metal }
+                    ParameterInfos[9] = { Name=WP_NoiseTexUV_Uspeed }
+                    ParameterInfos[10] = { Name=WP_Intensity }
+                    ParameterInfos[11] = { Name=WP_pivot_Offs }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=WP_NoiseTexUV_UVTiling }
+                    ParameterInfos[1] = { Name=WP_NoiseMaskUV_UVTiling }
+                    ParameterInfos[2] = { Name=WP_Axis }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=WP_NoiseTex }
+                    ParameterInfos[2] = { Name=WP_NoiseMaskTex }
+                    ParameterInfos[3] = { Name=BaseColor_LOW }
+                    ParameterInfos[4] = { Name=RM }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+        Name = WP_NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+        Name = WP_NoiseMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = BaseColor_LOW
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        Name = RM
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=WP_NoiseMaskUV_Uspeed, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=ColorPow, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=WP_NoiseMask_Intensity, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=WP_NoiseTexUV_Vspeed, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=WP_NoiseMaskUV_Vspeed, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Emissive Scale, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=WP_NoiseTexUV_Rotator, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Metal, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=WP_NoiseTexUV_Uspeed, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=WP_Intensity, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=WP_pivot_Offs, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = WP_NoiseTexUV_UVTiling
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = WP_NoiseMaskUV_UVTiling
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WP_Axis
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Gamma
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Linear
+    }
+}

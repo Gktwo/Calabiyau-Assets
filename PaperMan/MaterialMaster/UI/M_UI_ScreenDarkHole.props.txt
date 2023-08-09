@@ -1,0 +1,196 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5048_1.T_Noise_5048_1'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5049_1.T_Noise_5049_1'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5050_1.T_Noise_5050_1'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_1.T_Noise_5055_1'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_2.T_Noise_5055_2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Star Power }
+                    ParameterInfos[1] = { Name=Surface Noise Muitiply }
+                    ParameterInfos[2] = { Name=Dissolve }
+                    ParameterInfos[3] = { Name=Smooth (S) }
+                    ParameterInfos[4] = { Name=Color Muitiply }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Surface_Noise_UV }
+                    ParameterInfos[1] = { Name=Star Color }
+                    ParameterInfos[2] = { Name=Surface Color }
+                    ParameterInfos[3] = { Name=Surface Refine }
+                    ParameterInfos[4] = { Name=Star UV }
+                    ParameterInfos[5] = { Name=Main UV }
+                    ParameterInfos[6] = { Name=Surface UV }
+                    ParameterInfos[7] = { Name=Dissolve_UV }
+                    ParameterInfos[8] = { Name=Main Color }
+                    ParameterInfos[9] = { Name=Star Mask UV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Main Tex }
+                    ParameterInfos[1] = { Name=Dissolve Tex }
+                    ParameterInfos[2] = { Name=Surface_Noise }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 5, 0.05, 1, 3, 0 }
+        VectorValues[10] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0.3 }
+            VectorValues[1] = { R=2, G=1.48258, B=0.099137, A=0 }
+            VectorValues[2] = { R=0.355838, G=0.092733, B=1, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[4] = { R=2, G=2, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=0.25, A=-0.1 }
+            VectorValues[6] = { R=0.5, G=1, B=0.25, A=-0.02 }
+            VectorValues[7] = { R=1, G=2, B=-0.03, A=0 }
+            VectorValues[8] = { R=0.010417, G=0.007041, B=0.003526, A=0 }
+            VectorValues[9] = { R=1, G=1, B=0.25, A=-0.05 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_2.T_Noise_5055_2'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_1.T_Noise_5055_1'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5048_1.T_Noise_5048_1'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5050_1.T_Noise_5050_1'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5049_1.T_Noise_5049_1'
+        ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_1.T_Noise_5055_1'
+        ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_2.T_Noise_5055_2'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_2.T_Noise_5055_2'
+        Name = Main Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_1.T_Noise_5055_1'
+        Name = Dissolve Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+        Name = Surface_Noise
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=Star Power, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.05
+        Name = Surface Noise Muitiply
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=Dissolve, Group=None }
+    CollectedScalarParameters[3] = { Value=3, Name=Smooth (S), Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Color Muitiply, Group=None }
+}
+CollectedVectorParameters[10] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0.3 }
+        Name = Surface_Noise_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=2, G=1.48258, B=0.099137, A=0 }
+        Name = Star Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.355838, G=0.092733, B=1, A=0 }
+        Name = Surface Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Surface Refine
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=2, G=2, B=0, A=0 }
+        Name = Star UV
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0.25, A=-0.1 }
+        Name = Main UV
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.5, G=1, B=0.25, A=-0.02 }
+        Name = Surface UV
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=2, B=-0.03, A=0 }
+        Name = Dissolve_UV
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.010417, G=0.007041, B=0.003526, A=0 }
+        Name = Main Color
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=0.25, A=-0.05 }
+        Name = Star Mask UV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

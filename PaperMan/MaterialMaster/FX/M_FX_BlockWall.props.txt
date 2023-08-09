@@ -1,0 +1,227 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0034.T_Noise_0034'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0052.T_Noise_0052'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5047_1.T_Noise_5047_1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Mask2 Noise Intensity }
+                    ParameterInfos[1] = { Name=Flash_Offs }
+                    ParameterInfos[2] = { Name=Color Intensity }
+                    ParameterInfos[3] = { Name=Power }
+                    ParameterInfos[4] = { Name=Fraction }
+                    ParameterInfos[5] = { Name=Dissolve }
+                    ParameterInfos[6] = { Name=Flash  Speed }
+                    ParameterInfos[7] = { Name=Smooth (S) }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Mask1 Tex UV }
+                    ParameterInfos[1] = { Name=Mask1 Refine }
+                    ParameterInfos[2] = { Name=Color Tex UV }
+                    ParameterInfos[3] = { Name=Main Refine }
+                    ParameterInfos[4] = { Name=Dissolve Tex UV }
+                    ParameterInfos[5] = { Name=Mask1 Color }
+                    ParameterInfos[6] = { Name=Dissove Refine }
+                    ParameterInfos[7] = { Name=Mask2 Noise UV }
+                    ParameterInfos[8] = { Name=Mask2 Tex UV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Mask1 Tex }
+                    ParameterInfos[1] = { Name=Mask2 Tex }
+                    ParameterInfos[2] = { Name=Color Tex }
+                    ParameterInfos[3] = { Name=Mask2 Noise Tex }
+                    ParameterInfos[4] = { Name=Dissolve Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 0, 1, 0, 0, 1, 1, 0 }
+        VectorValues[9] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=1, A=0 }
+            VectorValues[6] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[7] = { R=1, G=1, B=0, A=0 }
+            VectorValues[8] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5047_1.T_Noise_5047_1'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0052.T_Noise_0052'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0034.T_Noise_0034'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0052.T_Noise_0052'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5047_1.T_Noise_5047_1'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0034.T_Noise_0034'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5047_1.T_Noise_5047_1'
+        Name = Mask1 Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+        Name = Mask2 Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0052.T_Noise_0052'
+        Name = Color Tex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5042_1.T_Noise_5042_1'
+        Name = Mask2 Noise Tex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0034.T_Noise_0034'
+        Name = Dissolve Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Mask2 Noise Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Flash_Offs, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Color Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Power, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Fraction, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Dissolve, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Flash  Speed, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Smooth (S), Group=None }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask1 Tex UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Mask1 Refine
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Color Tex UV
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Main Refine
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Dissolve Tex UV
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Mask1 Color
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Dissove Refine
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask2 Noise UV
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask2 Tex UV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_0034
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_0052
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_5042_1
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_5047_1
+    }
+}

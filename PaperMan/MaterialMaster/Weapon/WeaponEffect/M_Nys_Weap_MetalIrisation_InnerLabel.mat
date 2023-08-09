@@ -1,0 +1,12 @@
+Diffuse=DefaultDiffuse
+Normal=T_DefaultNormal
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=DebugNumberStrip
+Other[3]=DebugNumberPeriod
+Other[4]=flipbook
+Other[5]=black_mask
+Other[6]=white
+Other[7]=T_DefaultWhite_Gamma
+Other[8]=T_DefaultWhite_Linear
+Other[9]=173422gvp1popogdroy3zg

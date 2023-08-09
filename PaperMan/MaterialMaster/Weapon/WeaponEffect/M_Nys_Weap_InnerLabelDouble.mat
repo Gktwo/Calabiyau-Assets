@@ -1,0 +1,9 @@
+Diffuse=DefaultDiffuse
+Normal=T_DefaultNormal
+Other[0]=DebugNumberStrip
+Other[1]=DebugNumberPeriod
+Other[2]=flipbook
+Other[3]=black_mask
+Other[4]=white
+Other[5]=T_DefaultWhite_Gamma
+Other[6]=T_DefaultWhite_Linear

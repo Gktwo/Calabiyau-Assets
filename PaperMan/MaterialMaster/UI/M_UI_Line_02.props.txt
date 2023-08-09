@@ -1,0 +1,80 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0024.T_Mask_0024'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_2002.T_Mask_2002'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Alpha_Multiply }
+                    ParameterInfos[1] = { Name=Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Mask_UV }
+                    ParameterInfos[1] = { Name=color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 1, 1 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=0.822917, G=1.5824, B=2, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_2002.T_Mask_2002'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0024.T_Mask_0024'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Alpha_Multiply, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Intensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.822917, G=1.5824, B=2, A=0 }
+        Name = color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

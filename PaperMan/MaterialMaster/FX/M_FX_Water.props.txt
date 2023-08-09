@@ -1,0 +1,150 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2009.T_Noise_2009'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516_Normal.T_Water_516_Normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Emissive }
+                    ParameterInfos[1] = { Name=Dissolve }
+                    ParameterInfos[2] = { Name=NormalUV_Uspeed }
+                    ParameterInfos[3] = { Name=NormalNoise_Intensity }
+                    ParameterInfos[4] = { Name=NormalUV_Vspeed }
+                    ParameterInfos[5] = { Name=Normal_Mask_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=NormalNoiseUV }
+                    ParameterInfos[1] = { Name=NormalUV }
+                    ParameterInfos[2] = { Name=PBR }
+                    ParameterInfos[3] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=NormalNoise_Texture }
+                    ParameterInfos[1] = { Name=Normal }
+                    ParameterInfos[2] = { Name=Normal_Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0, 1, 0, 0, 0, 0.5 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=-5 }
+            VectorValues[3] = { R=1, G=0.188499, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2009.T_Noise_2009'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516_Normal.T_Water_516_Normal'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516_Normal.T_Water_516_Normal'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516_Normal.T_Water_516_Normal'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2009.T_Noise_2009'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.142824
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2009.T_Noise_2009'
+        Name = NormalNoise_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516_Normal.T_Water_516_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Water_516_Normal.T_Water_516_Normal'
+        Name = Normal_Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Emissive, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Dissolve, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=NormalUV_Uspeed, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=NormalNoise_Intensity, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=NormalUV_Vspeed, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.5
+        Name = Normal_Mask_Intensity
+        Group = None
+    }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NormalNoiseUV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NormalUV
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=-5 }
+        Name = PBR
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=0.188499, B=0, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_516_Normal
+    }
+}

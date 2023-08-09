@@ -1,0 +1,5 @@
+Diffuse=BlendFunc_DefBase
+Other[0]=BlendFunc_DefBlend
+Other[1]=T_Crystal_BubbleMask
+Other[2]=T_DefaultWhite_Gamma
+Other[3]=10019__2__11

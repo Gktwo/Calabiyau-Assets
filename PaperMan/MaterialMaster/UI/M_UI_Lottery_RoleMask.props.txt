@@ -1,0 +1,61 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31000001.T_Dynamic_IdCard_31000001'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/UI/Atlas/PC/Frontend/LotteryPC/NotPack/T_UI_LotteryPC_Result_mask.T_UI_LotteryPC_Result_mask'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=RoleSkin }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31000001.T_Dynamic_IdCard_31000001'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31000001.T_Dynamic_IdCard_31000001'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/UI/Atlas/PC/Frontend/LotteryPC/NotPack/T_UI_LotteryPC_Result_mask.T_UI_LotteryPC_Result_mask'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31000001.T_Dynamic_IdCard_31000001'
+        Name = RoleSkin
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

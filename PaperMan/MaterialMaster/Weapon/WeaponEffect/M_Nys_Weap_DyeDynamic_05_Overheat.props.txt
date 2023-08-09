@@ -1,0 +1,204 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=FrameChangingTimePeriod }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=ColorPow }
+                    ParameterInfos[3] = { Name=FrameChangingSpeed }
+                    ParameterInfos[4] = { Name=HueShift_Bright }
+                    ParameterInfos[5] = { Name=Emissive Scale }
+                    ParameterInfos[6] = { Name=HueShift_Dark }
+                    ParameterInfos[7] = { Name=Metal }
+                    ParameterInfos[8] = { Name=OverheatIntensity }
+                    ParameterInfos[9] = { Name=DyeIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=LowHeatEmissive }
+                    ParameterInfos[1] = { Name=HighHeatEmissive }
+                    ParameterInfos[2] = { Name=DyeMaskChannel }
+                    ParameterInfos[3] = { Name=BaseColor_HSV_Control }
+                    ParameterInfos[4] = { Name=Emissive_HSV_Control }
+                    ParameterInfos[5] = { Name=OverheatMaskChannel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=CombineMaskTex }
+                    ParameterInfos[2] = { Name=BaseColor_LOW }
+                    ParameterInfos[3] = { Name=RM }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 4, 1, 1, 0.25, 0, 0, 0, 1, 0, 1 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0.35, G=0.00875, B=0.042875, A=1 }
+            VectorValues[1] = { R=5, G=0.083333, B=0, A=1 }
+            VectorValues[2] = { R=1, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=1, A=1 }
+            VectorValues[4] = { R=0, G=0, B=1, A=1 }
+            VectorValues[5] = { R=1, G=0, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        Name = CombineMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = BaseColor_LOW
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Linear.T_DefaultWhite_Linear'
+        Name = RM
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 4
+        Name = FrameChangingTimePeriod
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=ColorPow, Group=None }
+    CollectedScalarParameters[3] = { Value=0.25, Name=FrameChangingSpeed, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=HueShift_Bright, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Emissive Scale, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=HueShift_Dark, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Metal, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=OverheatIntensity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=DyeIntensity, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.35, G=0.00875, B=0.042875, A=1 }
+        Name = LowHeatEmissive
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=5, G=0.083333, B=0, A=1 }
+        Name = HighHeatEmissive
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = DyeMaskChannel
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = BaseColor_HSV_Control
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = Emissive_HSV_Control
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = OverheatMaskChannel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black_mask
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Gamma
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Linear
+    }
+}

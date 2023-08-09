@@ -1,0 +1,148 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0053.T_Noise_0053'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=T_Intensity }
+                    ParameterInfos[1] = { Name=MT_Speed_X }
+                    ParameterInfos[2] = { Name=N_Speed_Y }
+                    ParameterInfos[3] = { Name=Highlights }
+                    ParameterInfos[4] = { Name=M_UTiling }
+                    ParameterInfos[5] = { Name=N_Intensity }
+                    ParameterInfos[6] = { Name=T_Speed_X }
+                    ParameterInfos[7] = { Name=alpha }
+                    ParameterInfos[8] = { Name=T_Tiling_V }
+                    ParameterInfos[9] = { Name=MT_Speed_Y }
+                    ParameterInfos[10] = { Name=N_Tiling_V }
+                    ParameterInfos[11] = { Name=IntermediateColor }
+                    ParameterInfos[12] = { Name=N_Speed_X }
+                    ParameterInfos[13] = { Name=Shadow }
+                    ParameterInfos[14] = { Name=T_Tiling_U }
+                    ParameterInfos[15] = { Name=T_Speed_Y }
+                    ParameterInfos[16] = { Name=M_VTiling }
+                    ParameterInfos[17] = { Name=N_Tiling_U }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=MinaTex }
+                    ParameterInfos[2] = { Name=Twise }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 0.1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 3
+            ScalarValues[4] = 1
+            ScalarValues[5] = 5
+            ScalarValues[6] = -1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 2
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1
+        }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0053.T_Noise_0053'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0053.T_Noise_0053'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0053.T_Noise_0053'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0053.T_Noise_0053'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Trail/T_tra_0001.T_tra_0001'
+        Name = MinaTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0053.T_Noise_0053'
+        Name = Twise
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=T_Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=MT_Speed_X, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=N_Speed_Y, Group=None }
+    CollectedScalarParameters[3] = { Value=3, Name=Highlights, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=M_UTiling, Group=None }
+    CollectedScalarParameters[5] = { Value=5, Name=N_Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=-1, Name=T_Speed_X, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=alpha, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=T_Tiling_V, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=MT_Speed_Y, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=N_Tiling_V, Group=None }
+    CollectedScalarParameters[11] = { Value=2, Name=IntermediateColor, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=N_Speed_X, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Shadow, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=T_Tiling_U, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=T_Speed_Y, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=M_VTiling, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=N_Tiling_U, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_0053
+    }
+}

@@ -1,0 +1,238 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[23] =
+                {
+                    ParameterInfos[0] = { Name=RedPointRadius }
+                    ParameterInfos[1] = { Name=PB_Contrast }
+                    ParameterInfos[2] = { Name=BaseBlankBeginPosition }
+                    ParameterInfos[3] = { Name=Rotate }
+                    ParameterInfos[4] = { Name=PB_RemapMax }
+                    ParameterInfos[5] = { Name=BlankBeginPosition }
+                    ParameterInfos[6] = { Name=BloomRadius }
+                    ParameterInfos[7] = { Name=RedPointOpacityContrast }
+                    ParameterInfos[8] = { Name=CrossWidthness }
+                    ParameterInfos[9] = { Name=RingWidthness }
+                    ParameterInfos[10] = { Name=CenterVOffset }
+                    ParameterInfos[11] = { Name=CenterUOffset }
+                    ParameterInfos[12] = { Name=PB_Rotation }
+                    ParameterInfos[13] = { Name=BaseBlankEndPosition }
+                    ParameterInfos[14] = { Name=RedPointColorContrast }
+                    ParameterInfos[15] = { Name=PB_RemapMin }
+                    ParameterInfos[16] = { Name=RedPointOpacity }
+                    ParameterInfos[17] = { Name=InnerRadius }
+                    ParameterInfos[18] = { Name=BloomColorContrast }
+                    ParameterInfos[19] = { Name=BlankEndPosition }
+                    ParameterInfos[20] = { Name=CrossBaseWidthness }
+                    ParameterInfos[21] = { Name=Progress }
+                    ParameterInfos[22] = { Name=CenterOffset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=RedPointColor_Outside }
+                    ParameterInfos[1] = { Name=ProgressBar_Color }
+                    ParameterInfos[2] = { Name=CrossBaseColor }
+                    ParameterInfos[3] = { Name=RingCrossColor }
+                    ParameterInfos[4] = { Name=CrossColor }
+                    ParameterInfos[5] = { Name=RedPointColor_Core }
+                    ParameterInfos[6] = { Name=Color }
+                    ParameterInfos[7] = { Name=BloomColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MainTexture }
+                    ParameterInfos[1] = { Name=ProgressBarMask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[23] =
+        {
+            ScalarValues[0] = 0.007
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0.35
+            ScalarValues[3] = 0.125
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.05
+            ScalarValues[6] = 0.04
+            ScalarValues[7] = 10
+            ScalarValues[8] = 0.0025
+            ScalarValues[9] = 0.01
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0.5
+            ScalarValues[14] = 4
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0.1
+            ScalarValues[18] = 3
+            ScalarValues[19] = 0.35
+            ScalarValues[20] = 0.01
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0.05
+        }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=2, G=0, B=0.02, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=3, G=2.95088, B=2.3125, A=1 }
+            VectorValues[6] = { R=1, G=1, B=1, A=1 }
+            VectorValues[7] = { R=5, G=0.132594, B=0, A=0.5 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+        Name = ProgressBarMask
+        Group = None
+    }
+}
+CollectedScalarParameters[23] =
+{
+    CollectedScalarParameters[0] = { Value=0.007, Name=RedPointRadius, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=PB_Contrast, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.35
+        Name = BaseBlankBeginPosition
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0.125, Name=Rotate, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=PB_RemapMax, Group=None }
+    CollectedScalarParameters[5] = { Value=0.05, Name=BlankBeginPosition, Group=None }
+    CollectedScalarParameters[6] = { Value=0.04, Name=BloomRadius, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 10
+        Name = RedPointOpacityContrast
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.0025, Name=CrossWidthness, Group=None }
+    CollectedScalarParameters[9] = { Value=0.01, Name=RingWidthness, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=CenterVOffset, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=CenterUOffset, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=PB_Rotation, Group=None }
+    CollectedScalarParameters[13] = { Value=0.5, Name=BaseBlankEndPosition, Group=None }
+    CollectedScalarParameters[14] = { Value=4, Name=RedPointColorContrast, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=PB_RemapMin, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=RedPointOpacity, Group=None }
+    CollectedScalarParameters[17] = { Value=0.1, Name=InnerRadius, Group=None }
+    CollectedScalarParameters[18] = { Value=3, Name=BloomColorContrast, Group=None }
+    CollectedScalarParameters[19] = { Value=0.35, Name=BlankEndPosition, Group=None }
+    CollectedScalarParameters[20] = { Value=0.01, Name=CrossBaseWidthness, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=Progress, Group=None }
+    CollectedScalarParameters[22] = { Value=0.05, Name=CenterOffset, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=0, B=0.02, A=1 }
+        Name = RedPointColor_Outside
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ProgressBar_Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = CrossBaseColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = RingCrossColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = CrossColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=3, G=2.95088, B=2.3125, A=1 }
+        Name = RedPointColor_Core
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=5, G=0.132594, B=0, A=0.5 }
+        Name = BloomColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultWhite_Gamma
+    }
+}

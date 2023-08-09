@@ -1,0 +1,137 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Lawine/S001/Mesh3D/Textuers/T_Lawine_Body_N.T_Lawine_Body_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=LineSpeedY }
+                    ParameterInfos[1] = { Name=PixelSpeedX }
+                    ParameterInfos[2] = { Name=LineSpeedX }
+                    ParameterInfos[3] = { Name=Radius }
+                    ParameterInfos[4] = { Name=LineBrightness }
+                    ParameterInfos[5] = { Name=Power }
+                    ParameterInfos[6] = { Name=PixelSpeedY }
+                    ParameterInfos[7] = { Name=Amount }
+                    ParameterInfos[8] = { Name=FresnelExponentln }
+                    ParameterInfos[9] = { Name=LinePowr }
+                    ParameterInfos[10] = { Name=Alpha Multiply }
+                    ParameterInfos[11] = { Name=NormalFlatness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Color2 }
+                    ParameterInfos[1] = { Name=Color1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=NormalMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] =
+        {
+            ScalarValues[0] = -0.58
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 30
+            ScalarValues[4] = 4
+            ScalarValues[5] = 2.2
+            ScalarValues[6] = 0
+            ScalarValues[7] = 28
+            ScalarValues[8] = 1.8
+            ScalarValues[9] = 2
+            ScalarValues[10] = 1
+            ScalarValues[11] = 2.6
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=2, G=1.4661, B=0, A=1 }
+            VectorValues[1] = { R=2, G=0.391522, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Lawine/S001/Mesh3D/Textuers/T_Lawine_Body_N.T_Lawine_Body_N'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Lawine/S001/Mesh3D/Textuers/T_Lawine_Body_N.T_Lawine_Body_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Lawine/S001/Mesh3D/Textuers/T_Lawine_Body_N.T_Lawine_Body_N'
+        Name = NormalMap
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=-0.58, Name=LineSpeedY, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=PixelSpeedX, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=LineSpeedX, Group=None }
+    CollectedScalarParameters[3] = { Value=30, Name=Radius, Group=None }
+    CollectedScalarParameters[4] = { Value=4, Name=LineBrightness, Group=None }
+    CollectedScalarParameters[5] = { Value=2.2, Name=Power, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=PixelSpeedY, Group=None }
+    CollectedScalarParameters[7] = { Value=28, Name=Amount, Group=None }
+    CollectedScalarParameters[8] = { Value=1.8, Name=FresnelExponentln, Group=None }
+    CollectedScalarParameters[9] = { Value=2, Name=LinePowr, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Alpha Multiply, Group=None }
+    CollectedScalarParameters[11] = { Value=2.6, Name=NormalFlatness, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=1.4661, B=0, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=2, G=0.391522, B=0, A=1 }
+        Name = Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Lawine_Body_N
+    }
+}

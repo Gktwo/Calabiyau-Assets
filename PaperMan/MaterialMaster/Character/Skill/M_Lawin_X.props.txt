@@ -1,0 +1,242 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0031.T_Mask_0031'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0039.T_Noise_0039'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Scan_Intensity }
+                    ParameterInfos[1] = { Name=FresnelBaseReflectFractionIn }
+                    ParameterInfos[2] = { Name=FresnelExponentIn }
+                    ParameterInfos[3] = { Name=power }
+                    ParameterInfos[4] = { Name=patten_offsetMin }
+                    ParameterInfos[5] = { Name=afadf }
+                    ParameterInfos[6] = { Name=Opacity }
+                    ParameterInfos[7] = { Name=CC }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=OutColorUV }
+                    ParameterInfos[1] = { Name=TexutreUV }
+                    ParameterInfos[2] = { Name=TexutrePanner3 }
+                    ParameterInfos[3] = { Name=TexutrePanner2 }
+                    ParameterInfos[4] = { Name=TexutreUV2 }
+                    ParameterInfos[5] = { Name=OutColor2 }
+                    ParameterInfos[6] = { Name=PatternColorA_Top }
+                    ParameterInfos[7] = { Name=OutColor1 }
+                    ParameterInfos[8] = { Name=TexutreUV3 }
+                    ParameterInfos[9] = { Name=OutColorPanner }
+                    ParameterInfos[10] = { Name=Color }
+                    ParameterInfos[11] = { Name=PatternColorA_Bot }
+                    ParameterInfos[12] = { Name=uv }
+                    ParameterInfos[13] = { Name=TexutrePanner }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=ScanTextureB }
+                    ParameterInfos[1] = { Name=MainTexture }
+                    ParameterInfos[2] = { Name=ScanTextureA }
+                    ParameterInfos[3] = { Name=MaskTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 1, 0.1, 5, 1, 0, 0, 0.5, 0 }
+        VectorValues[14] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=1, A=1 }
+            VectorValues[3] = { R=0, G=0, B=1, A=1 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=0.256028, G=0.449055, B=1, A=0 }
+            VectorValues[6] = { R=0.603049, G=0, B=1, A=0 }
+            VectorValues[7] = { R=0.256028, G=0.449055, B=1, A=0 }
+            VectorValues[8] = { R=1, G=1, B=0, A=0 }
+            VectorValues[9] = { R=0, G=0, B=1, A=1 }
+            VectorValues[10] = { R=0, G=0, B=0, A=0 }
+            VectorValues[11] = { R=0.603049, G=0, B=1, A=0 }
+            VectorValues[12] = { R=1, G=1, B=1, A=0 }
+            VectorValues[13] = { R=0, G=0, B=1, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0031.T_Mask_0031'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0031.T_Mask_0031'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0031.T_Mask_0031'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0039.T_Noise_0039'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0039.T_Noise_0039'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0031.T_Mask_0031'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0031.T_Mask_0031'
+        Name = ScanTextureB
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0031.T_Mask_0031'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0031.T_Mask_0031'
+        Name = ScanTextureA
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0039.T_Noise_0039'
+        Name = MaskTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Scan_Intensity, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.1
+        Name = FresnelBaseReflectFractionIn
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=5, Name=FresnelExponentIn, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=power, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=patten_offsetMin, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=afadf, Group=None }
+    CollectedScalarParameters[6] = { Value=0.5, Name=Opacity, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=CC, Group=None }
+}
+CollectedVectorParameters[14] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = OutColorUV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = TexutreUV
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = TexutrePanner3
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = TexutrePanner2
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = TexutreUV2
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.256028, G=0.449055, B=1, A=0 }
+        Name = OutColor2
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.603049, G=0, B=1, A=0 }
+        Name = PatternColorA_Top
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.256028, G=0.449055, B=1, A=0 }
+        Name = OutColor1
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = TexutreUV3
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = OutColorPanner
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.603049, G=0, B=1, A=0 }
+        Name = PatternColorA_Bot
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = uv
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = TexutrePanner
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = T_Mask_0031
+    }
+}

@@ -1,0 +1,174 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5008_1.T_Mask_5008_1'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_GS.T_Noise_5055_GS'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_Cbn_007.T_Noise_Cbn_007'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[23] =
+                {
+                    ParameterInfos[0] = { Name=MainTex_V_Offset }
+                    ParameterInfos[1] = { Name=Flash_Min }
+                    ParameterInfos[2] = { Name=Noise_Tex_V_Tiling }
+                    ParameterInfos[3] = { Name=Mask_Radius }
+                    ParameterInfos[4] = { Name=Color_Mask_Multiply }
+                    ParameterInfos[5] = { Name=Mask_Multiply }
+                    ParameterInfos[6] = { Name=Alpha_Intensity }
+                    ParameterInfos[7] = { Name=MainTex2_V_Tiling }
+                    ParameterInfos[8] = { Name=Color_Mask_Power_Value }
+                    ParameterInfos[9] = { Name=Mask_Power_Value }
+                    ParameterInfos[10] = { Name=Noise_Tex_U_Offset }
+                    ParameterInfos[11] = { Name=MainTex2_U_Tiling }
+                    ParameterInfos[12] = { Name=Flash_Speed }
+                    ParameterInfos[13] = { Name=MainTex_Remap }
+                    ParameterInfos[14] = { Name=MainTex_U_Tiling }
+                    ParameterInfos[15] = { Name=MainTex2_U_Speed }
+                    ParameterInfos[16] = { Name=MainTex_V_Tiling }
+                    ParameterInfos[17] = { Name=Noise_Tex_U_Tiling }
+                    ParameterInfos[18] = { Name=MainTex_U_Offset }
+                    ParameterInfos[19] = { Name=Noise_Tex_V_Offset }
+                    ParameterInfos[20] = { Name=MainTex2_V_Speed }
+                    ParameterInfos[21] = { Name=Color_Mask_Radius }
+                    ParameterInfos[22] = { Name=Noise_Tex_Speed }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=MainTex }
+                    ParameterInfos[1] = { Name=Noise_Tex }
+                    ParameterInfos[2] = { Name=MainTex2 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[23] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0.2
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0.2
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_GS.T_Noise_5055_GS'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_Cbn_007.T_Noise_Cbn_007'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5008_1.T_Mask_5008_1'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_GS.T_Noise_5055_GS'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_Cbn_007.T_Noise_Cbn_007'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5008_1.T_Mask_5008_1'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5055_GS.T_Noise_5055_GS'
+        Name = MainTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_Cbn_007.T_Noise_Cbn_007'
+        Name = Noise_Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5008_1.T_Mask_5008_1'
+        Name = MainTex2
+        Group = None
+    }
+}
+CollectedScalarParameters[23] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=MainTex_V_Offset, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=Flash_Min, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Noise_Tex_V_Tiling, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Color_Mask_Multiply, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Mask_Multiply, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Alpha_Intensity, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=MainTex2_V_Tiling, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Color_Mask_Power_Value, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Mask_Power_Value, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Noise_Tex_U_Offset, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=MainTex2_U_Tiling, Group=None }
+    CollectedScalarParameters[12] = { Value=0.2, Name=Flash_Speed, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=MainTex_Remap, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=MainTex_U_Tiling, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=MainTex2_U_Speed, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=MainTex_V_Tiling, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Noise_Tex_U_Tiling, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=MainTex_U_Offset, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Noise_Tex_V_Offset, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=MainTex2_V_Speed, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=Color_Mask_Radius, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=Noise_Tex_Speed, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

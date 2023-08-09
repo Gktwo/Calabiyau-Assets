@@ -1,0 +1,181 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Linear.T_DefaultBlack_Linear'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlue_Linear.T_DefaultBlue_Linear'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Grayscale.T_DefaultWhite_Grayscale'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=MiddleValue }
+                    ParameterInfos[1] = { Name=HairShadowBias }
+                    ParameterInfos[2] = { Name=HightLightPow }
+                    ParameterInfos[3] = { Name=ViewLimit }
+                    ParameterInfos[4] = { Name=LightDirX }
+                    ParameterInfos[5] = { Name=LightDirY }
+                    ParameterInfos[6] = { Name=ViewLimitBlur }
+                    ParameterInfos[7] = { Name=RampID }
+                    ParameterInfos[8] = { Name=RimLightPow }
+                    ParameterInfos[9] = { Name=Opacity }
+                    ParameterInfos[10] = { Name=PrintOffset }
+                    ParameterInfos[11] = { Name=MatCapPow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                    ParameterInfos[1] = { Name=RimLightColor }
+                    ParameterInfos[2] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=BaseMap }
+                    ParameterInfos[1] = { Name=NormalMap }
+                    ParameterInfos[2] = { Name=MatCapTexture }
+                    ParameterInfos[3] = { Name=FaceShadowMask }
+                    ParameterInfos[4] = { Name=Mask1 }
+                    ParameterInfos[5] = { Name=Mask2 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 0.15, 0, 1, 1, 0, 0, 0.1, 1, 1, 1, 0, 0 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Grayscale.T_DefaultWhite_Grayscale'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Linear.T_DefaultBlack_Linear'
+            TextureValues[5] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlue_Linear.T_DefaultBlue_Linear'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlue_Linear.T_DefaultBlue_Linear'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Linear.T_DefaultBlack_Linear'
+        ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Grayscale.T_DefaultWhite_Grayscale'
+        ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.3
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = BaseMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultNormal.T_DefaultNormal'
+        Name = NormalMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma'
+        Name = MatCapTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Grayscale.T_DefaultWhite_Grayscale'
+        Name = FaceShadowMask
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Linear.T_DefaultBlack_Linear'
+        Name = Mask1
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlue_Linear.T_DefaultBlue_Linear'
+        Name = Mask2
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0.15, Name=MiddleValue, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=HairShadowBias, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=HightLightPow, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=ViewLimit, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=LightDirX, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=LightDirY, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=ViewLimitBlur, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=RampID, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=RimLightPow, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=PrintOffset, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=MatCapPow, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = RimLightColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+}
