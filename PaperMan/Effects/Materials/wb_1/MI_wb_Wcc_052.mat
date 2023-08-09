@@ -1,0 +1,4 @@
+Diffuse=T_DefaultBlack_Gamma
+Opacity=T_DefaultWhite_Gamma
+Other[0]=T_wb_Wcc_040
+Other[1]=Good64x64TilingNoiseHighFreq

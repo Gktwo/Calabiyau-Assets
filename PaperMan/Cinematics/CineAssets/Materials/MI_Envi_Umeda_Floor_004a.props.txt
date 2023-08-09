@@ -1,0 +1,196 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Scene/M_BlendMaster.M_BlendMaster'
+ScalarParameterValues[12] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Offset U }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tiling U }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tiling V }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=AO Pow }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Metal Pow }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Roughness Pow }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=BaseBlendBlur }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=BaseBlendRange }
+        ParameterValue = 16.2398
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Blend AO Pow }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Blend Metal Pow }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Blend Roughness Pow }
+        ParameterValue = 0.45
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AO_R_M_MASK }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/T_Envi_Umeda_Floor_001a_ORM.T_Envi_Umeda_Floor_001a_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=DiffuseAndAlpha }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/T_Envi_Umeda_Floor_001b_D.T_Envi_Umeda_Floor_001b_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/T_Envi_Umeda_Floor_001a_N.T_Envi_Umeda_Floor_001a_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Blend_AO_R_M_MASK }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/T_Envi_Umeda_Floor_004a_ORM.T_Envi_Umeda_Floor_004a_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=BlendBase }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/T_Envi_Umeda_Floor_004a_D.T_Envi_Umeda_Floor_004a_D'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=BlendNormal }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/T_Envi_Umeda_Floor_004a_N.T_Envi_Umeda_Floor_004a_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=MulDiffuseColor }
+        ParameterValue = { R=0.890625, G=0.789019, B=0.686945, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BlendColor }
+        ParameterValue = { R=0.520833, G=0.520833, B=0.520833, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseBlendTexture }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseBlendOther }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=UseUVLayer }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_Envi_Umeda_Floor_001a_N
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_Envi_Umeda_Floor_001b_D
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_Envi_Umeda_Floor_004a_ORM
+    }
+}

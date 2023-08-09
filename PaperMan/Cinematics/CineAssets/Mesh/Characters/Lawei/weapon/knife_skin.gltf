@@ -1,0 +1,164 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "knife_skin",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ 4.41214e-08, 4.34229e-08, -2.98023e-08, 1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Lawei_knfe",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "knife_skin"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "knife_skin.bin",
+      "byteLength" : 297424
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 64
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 64,
+      "byteLength" : 31620
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 31684,
+      "byteLength" : 53148
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 84832,
+      "byteLength" : 53148
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 137980,
+      "byteLength" : 70864
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 208844,
+      "byteLength" : 35432
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 244276,
+      "byteLength" : 17716
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 261992,
+      "byteLength" : 35432
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 1,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 15810,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.187419, -0.00726584, -0.0178306 ],
+      "max" : [ 0.0614231, 0.00726585, 0.0182963 ],
+      "componentType" : 5126,
+      "count" : 4429,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 4429,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 4429,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 4429,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 4429,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 4429,
+      "type" : "VEC2"
+    }
+  ]
+}

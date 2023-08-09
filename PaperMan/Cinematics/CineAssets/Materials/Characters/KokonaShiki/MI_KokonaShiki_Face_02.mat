@@ -1,0 +1,11 @@
+Diffuse=T_KokonaShiki_Face
+Normal=T_DefaultNormal
+Other[0]=T_KokonaShiki_SDF
+Other[1]=T_KokonaShiki_Face_Mask1_Map
+Other[2]=T_KokonaShiki_Face_mask2_Map
+Other[3]=DefaultTexture
+Other[4]=T_DefaultWhite_Grayscale
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultWhite_Gamma

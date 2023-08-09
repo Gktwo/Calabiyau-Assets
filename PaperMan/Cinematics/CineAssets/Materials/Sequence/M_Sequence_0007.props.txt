@@ -1,0 +1,94 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Noise/T_Noise_0001.T_Noise_0001'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Sequence/T_Sequence_0004.T_Sequence_0004'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Sequence/T_Sequence_0005.T_Sequence_0005'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Distort_Intensity }
+                    ParameterInfos[1] = { Name=Distort_UV_Scale }
+                    ParameterInfos[2] = { Name=DIstort_Speed_U }
+                    ParameterInfos[3] = { Name=Distort_Speed_V }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=TEX_Distort }
+                    ParameterInfos[1] = { Name=TEX_FB }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0.15, 4, 0.4, 0.2 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Noise/T_Noise_0001.T_Noise_0001'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Sequence/T_Sequence_0004.T_Sequence_0004'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Sequence/T_Sequence_0005.T_Sequence_0005'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Noise/T_Noise_0001.T_Noise_0001'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Sequence/T_Sequence_0004.T_Sequence_0004'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Noise/T_Noise_0001.T_Noise_0001'
+        Name = TEX_Distort
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Cinematics/CineAssets/Textures/Sequence/T_Sequence_0004.T_Sequence_0004'
+        Name = TEX_FB
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.15, Name=Distort_Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=4, Name=Distort_UV_Scale, Group=None }
+    CollectedScalarParameters[2] = { Value=0.4, Name=DIstort_Speed_U, Group=None }
+    CollectedScalarParameters[3] = { Value=0.2, Name=Distort_Speed_V, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = T_Noise_0001
+    }
+}

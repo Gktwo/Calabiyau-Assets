@@ -1,0 +1,376 @@
+Parent = Material3'/PM/Content/PaperMan/Environment/Materials/Common/M_BarCrystal_Translucent.M_BarCrystal_Translucent'
+ScalarParameterValues[29] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Metallic }
+        ParameterValue = 6.01802
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Specular }
+        ParameterValue = 3.21772
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 3.02236
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=NormalIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=EmissiveDesaturation }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Opacity_Hard }
+        ParameterValue = -0.614286
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Opacity_Radius }
+        ParameterValue = 0.533333
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=SceneColorBrightness }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=RefractionIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=FresnelContrast }
+        ParameterValue = 4.32392
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=NoiseHeight }
+        ParameterValue = -2
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=NoiseHeightRatio }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Noise qiangdu }
+        ParameterValue = 0.382913
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=NoiseContrast }
+        ParameterValue = 2.7606
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Boundingbox power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=Boundingbox v }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=add }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=divide }
+        ParameterValue = 0.348595
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=qiangdu }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=fangkuai_Height }
+        ParameterValue = -0.965258
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=fangkuai_HeightRatio }
+        ParameterValue = 0.330421
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=Hard }
+        ParameterValue = 0.504763
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=Radius }
+        ParameterValue = 0.288095
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=rongjie biankuandu }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=rongjie mask power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=rongjie qiangdu }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=rongjie touming }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColorTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=NormalTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/blue.blue'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=EmissiveTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black.black'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=NoiseTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Naki.T_Naki'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=fangkuai }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=rongjie mask }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0010.T_Mask_0010'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=rongjie_fangkuai }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_017.T_Object_Cbn_017'
+        ParameterName = None
+    }
+}
+VectorParameterValues[13] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColorTint }
+        ParameterValue = { R=0.109656, G=0.507953, B=0.90625, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=EmissiveTint }
+        ParameterValue = { R=0, G=4.16665, B=10, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Opacity_spheremask uv }
+        ParameterValue = { R=1, G=1, B=0, A=0.036007 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=FresnelTintColor }
+        ParameterValue = { R=0, G=33.75, B=45, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=NoiseTexUVControl }
+        ParameterValue = { R=1, G=0.5, B=0, A=0.01 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=NoiseColor_BrightArea }
+        ParameterValue = { R=0, G=0.093313, B=0.223958, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=NoiseColor_DarkArea }
+        ParameterValue = { R=0.032091, G=0.385473, B=0.880208, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=basetex color }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=fangkuai TexUVControl }
+        ParameterValue = { R=2, G=2, B=0, A=1.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=fangkuai spheremask uv }
+        ParameterValue = { R=1, G=1, B=0, A=-0.038095 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=color }
+        ParameterValue = { R=0, G=1.75166, B=2, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=Param }
+        ParameterValue = { R=0, G=2.4, B=3, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[12] =
+    {
+        ParameterInfo = { Name=rongjie TexUVControl }
+        ParameterValue = { R=20, G=0.5, B=0, A=-0.3 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.001
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=add multiply }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[6] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = blue
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 2
+        TextureName = T_Mask_0010
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 2.1524
+        UVChannelIndex = 1
+        TextureName = T_Noise_2018
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 2
+        TextureName = T_Object_Cbn_017
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = white
+    }
+}

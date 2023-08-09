@@ -1,0 +1,6 @@
+Diffuse=T_Envi_Umeda_Weap_001_D
+Normal=T_Envi_Umeda_Weap_001_N
+Other[0]=T_Envi_Umeda_Weap_001_ORM
+Other[1]=T_DefaultNormal
+Other[2]=T_DefaultWhite_Gamma
+Other[3]=T_DefaultWhite_Linear

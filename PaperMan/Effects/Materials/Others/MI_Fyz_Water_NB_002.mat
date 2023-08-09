@@ -1,0 +1,5 @@
+Diffuse=T_Ramp_NB_001
+Normal=T_StylizedWater_03_N
+Other[0]=T_Noise_StylizedWaterWave
+Other[1]=T_Noise_Cell_01
+Other[2]=T_DefaultFlowMap_Linear

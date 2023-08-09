@@ -1,0 +1,382 @@
+Parent = Material3'/PM/Content/PaperMan/Effects/MainMaterials/M_FxBasic.M_FxBasic'
+ScalarParameterValues[19] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=AlphaPower }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=IF_1-DepthFade }
+        ParameterValue = 0.609524
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=IF_DepthFade_Multiply_or_Add }
+        ParameterValue = 0.449524
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=DepthFadeDistance }
+        ParameterValue = 0.55619
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=DepthFadePower }
+        ParameterValue = 1.66258
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=DepthFadeIntensity }
+        ParameterValue = 1.80694
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=MainTexUV_Vspeed }
+        ParameterValue = -1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=MainTexUVNoise_Uspeed }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Dissolve(0-1) }
+        ParameterValue = 0.23
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=DsvOutline }
+        ParameterValue = -0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=DsvOutline_Contrast }
+        ParameterValue = -172
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=DissolveTexUV_Uspeed }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=DissolveTexUV_Vspeed }
+        ParameterValue = -0.35
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=WP_pivot_Offs }
+        ParameterValue = 0.062054
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=WP_Intensity }
+        ParameterValue = -20
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=WP_NoiseTexUV_Uspeed }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=WP_NoiseTexUV_Vspeed }
+        ParameterValue = -0.528571
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=WP_NoiseMask_Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=MainTexture }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Ramp/T_Ramp_NB_001.T_Ramp_NB_001'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MainTexUVNoise_Tex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Water/T_Water_MM_8.T_Water_MM_8'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=AlphaMaskA_Tex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=DissolveTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_MM_15.T_Noise_MM_15'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=DissolveMask }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=WP_NoiseTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0026.T_Noise_0026'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=WP_NoiseMaskTex }
+        ParameterValue = None
+        ParameterName = None
+    }
+}
+VectorParameterValues[12] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color_Back }
+        ParameterValue = { R=0.5, G=0.5, B=0.5, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=ColorB }
+        ParameterValue = { R=0.449574, G=0.521875, B=0.513289, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=MainTex_Refine }
+        ParameterValue = { R=1, G=1, B=1, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=MainTex_RGBChannelAsAlpha }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=MainTexUV_Tiling }
+        ParameterValue = { R=-1, G=-1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=MainTexUVNoise_Tiling }
+        ParameterValue = { R=10, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=DissolveTexUV_Tiling }
+        ParameterValue = { R=4, G=0.198574, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=DissolveMask_UVTiling }
+        ParameterValue = { R=1, G=1, B=0, A=0.828571 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=WP_Axis }
+        ParameterValue = { R=-0.218355, G=1.49302, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=WP_NoiseTexUV_UVTiling }
+        ParameterValue = { R=33.3503, G=0.5, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=WP_NoiseMaskUV_UVTiling }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = true
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[18] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=IF_DitherTemporalAA }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_AlphaMultiply }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_NoParticleColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=TwoSide }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_ParticleColorForLerp }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_ModulateMode }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = false
+            ParameterInfo = { Name=IF_NoMainTexture }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_MainTex_RGBChannelAsAlpha }
+            bOverride = true
+        }
+        StaticSwitchParameters[8] =
+        {
+            Value = false
+            ParameterInfo = { Name=IF_MainTexUV_Noise }
+            bOverride = true
+        }
+        StaticSwitchParameters[9] =
+        {
+            Value = false
+            ParameterInfo = { Name=IF_AlphaMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[10] =
+        {
+            Value = false
+            ParameterInfo = { Name=IF_ColorMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[11] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_Dissolve }
+            bOverride = true
+        }
+        StaticSwitchParameters[12] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_1-Dissolve }
+            bOverride = true
+        }
+        StaticSwitchParameters[13] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_DsvOutLine }
+            bOverride = true
+        }
+        StaticSwitchParameters[14] =
+        {
+            Value = false
+            ParameterInfo = { Name=IF_DissolveMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[15] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_WorldPosition_Offset }
+            bOverride = true
+        }
+        StaticSwitchParameters[16] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_WP_Local }
+            bOverride = true
+        }
+        StaticSwitchParameters[17] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_WP_Mask }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_MM_15
+    }
+}

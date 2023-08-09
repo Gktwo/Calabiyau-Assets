@@ -1,0 +1,469 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0010.T_Mask_0010'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_2006.T_Mask_2006'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5001.T_Mask_5001'
+    ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Naki.T_Naki'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8003.T_Noise_8003'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_017.T_Object_Cbn_017'
+    ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black.black'
+    ReferencedTextures[7] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/blue.blue'
+    ReferencedTextures[8] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[36] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=add }
+                    ParameterInfos[2] = { Name=fangkuai Boundingbox power }
+                    ParameterInfos[3] = { Name=rongjie biankuandu }
+                    ParameterInfos[4] = { Name=Dissolve (S) }
+                    ParameterInfos[5] = { Name=Dissovle Intensity }
+                    ParameterInfos[6] = { Name=Metallic }
+                    ParameterInfos[7] = { Name=NoiseContrast }
+                    ParameterInfos[8] = { Name=Specular }
+                    ParameterInfos[9] = { Name=Radius }
+                    ParameterInfos[10] = { Name=Opacity_Hard }
+                    ParameterInfos[11] = { Name=fangkuai_HeightRatio }
+                    ParameterInfos[12] = { Name=fangkuai_Height }
+                    ParameterInfos[13] = { Name=Mask Intensity }
+                    ParameterInfos[14] = { Name=EmissiveDesaturation }
+                    ParameterInfos[15] = { Name=Fresnel Boundingbox power }
+                    ParameterInfos[16] = { Name=FresnelContrast }
+                    ParameterInfos[17] = { Name=fangkuai Boundingbox v }
+                    ParameterInfos[18] = { Name=divide }
+                    ParameterInfos[19] = { Name=rongjie mask power }
+                    ParameterInfos[20] = { Name=NoiseHeight }
+                    ParameterInfos[21] = { Name=NoiseHeightRatio }
+                    ParameterInfos[22] = { Name=Opacity_Radius }
+                    ParameterInfos[23] = { Name=Boundingbox v }
+                    ParameterInfos[24] = { Name=Fresnel Boundingbox v }
+                    ParameterInfos[25] = { Name=rongjie touming }
+                    ParameterInfos[26] = { Name=NormalIntensity }
+                    ParameterInfos[27] = { Name=RefractionIntensity }
+                    ParameterInfos[28] = { Name=Smooth (S) }
+                    ParameterInfos[29] = { Name=rongjie qiangdu }
+                    ParameterInfos[30] = { Name=Boundingbox power }
+                    ParameterInfos[31] = { Name=Opacity }
+                    ParameterInfos[32] = { Name=SceneColorBrightness }
+                    ParameterInfos[33] = { Name=qiangdu }
+                    ParameterInfos[34] = { Name=Hard }
+                    ParameterInfos[35] = { Name=Noise qiangdu }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=NoiseColor_BrightArea }
+                    ParameterInfos[1] = { Name=NoiseTexUVControl }
+                    ParameterInfos[2] = { Name=fangkuai TexUVControl }
+                    ParameterInfos[3] = { Name=rongjie TexUVControl }
+                    ParameterInfos[4] = { Name=Param_1 }
+                    ParameterInfos[5] = { Name=FresnelTintColor }
+                    ParameterInfos[6] = { Name=Dissovle }
+                    ParameterInfos[7] = { Name=basetex color }
+                    ParameterInfos[8] = { Name=Param }
+                    ParameterInfos[9] = { Name=Opacity_spheremask uv }
+                    ParameterInfos[10] = { Name=BaseColorTint }
+                    ParameterInfos[11] = { Name=color }
+                    ParameterInfos[12] = { Name=EmissiveTint }
+                    ParameterInfos[13] = { Name=Emissive Mask UV }
+                    ParameterInfos[14] = { Name=fangkuai spheremask uv }
+                    ParameterInfos[15] = { Name=NoiseColor_DarkArea }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=rongjie mask }
+                    ParameterInfos[1] = { Name=EmissiveMask }
+                    ParameterInfos[2] = { Name=Dissovle }
+                    ParameterInfos[3] = { Name=EmissiveTex }
+                    ParameterInfos[4] = { Name=rongjie_fangkuai }
+                    ParameterInfos[5] = { Name=NoiseTex }
+                    ParameterInfos[6] = { Name=fangkuai }
+                    ParameterInfos[7] = { Name=BaseColorTex }
+                    ParameterInfos[8] = { Name=NormalTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[36] =
+        {
+            ScalarValues[0] = 0.08
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1.5
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 4
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 0.4
+            ScalarValues[10] = 0.2
+            ScalarValues[11] = 0.1
+            ScalarValues[12] = -1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 4
+            ScalarValues[17] = -1
+            ScalarValues[18] = 1
+            ScalarValues[19] = 1.5
+            ScalarValues[20] = -1
+            ScalarValues[21] = 0.1
+            ScalarValues[22] = 0.4
+            ScalarValues[23] = -1
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0.5
+            ScalarValues[26] = 1
+            ScalarValues[27] = 0.1
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0.5
+            ScalarValues[30] = 0
+            ScalarValues[31] = 1
+            ScalarValues[32] = 0.05
+            ScalarValues[33] = 0
+            ScalarValues[34] = 1
+            ScalarValues[35] = 1
+        }
+        VectorValues[16] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=0, A=1 }
+            VectorValues[2] = { R=1, G=1, B=0, A=1 }
+            VectorValues[3] = { R=1, G=1, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+            VectorValues[7] = { R=1, G=1, B=1, A=1 }
+            VectorValues[8] = { R=3.11909, G=0, B=100, A=0 }
+            VectorValues[9] = { R=1, G=1, B=0, A=0 }
+            VectorValues[10] = { R=1, G=1, B=1, A=1 }
+            VectorValues[11] = { R=1, G=1, B=1, A=0 }
+            VectorValues[12] = { R=1, G=1, B=1, A=1 }
+            VectorValues[13] = { R=1, G=1, B=0, A=0 }
+            VectorValues[14] = { R=1, G=1, B=0, A=0 }
+            VectorValues[15] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0010.T_Mask_0010'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5001.T_Mask_5001'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_2006.T_Mask_2006'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black.black'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_017.T_Object_Cbn_017'
+            TextureValues[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Naki.T_Naki'
+            TextureValues[6] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8003.T_Noise_8003'
+            TextureValues[7] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+            TextureValues[8] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/blue.blue'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/blue.blue'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black.black'
+        ReferencedTextures[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Naki.T_Naki'
+        ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8003.T_Noise_8003'
+        ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0010.T_Mask_0010'
+        ReferencedTextures[6] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_017.T_Object_Cbn_017'
+        ReferencedTextures[7] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_2006.T_Mask_2006'
+        ReferencedTextures[8] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5001.T_Mask_5001'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.001
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0010.T_Mask_0010'
+        Name = rongjie mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5001.T_Mask_5001'
+        Name = EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_2006.T_Mask_2006'
+        Name = Dissovle
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black.black'
+        Name = EmissiveTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_017.T_Object_Cbn_017'
+        Name = rongjie_fangkuai
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Naki.T_Naki'
+        Name = NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8003.T_Noise_8003'
+        Name = fangkuai
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/white.white'
+        Name = BaseColorTex
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/blue.blue'
+        Name = NormalTex
+        Group = None
+    }
+}
+CollectedScalarParameters[36] =
+{
+    CollectedScalarParameters[0] = { Value=0.08, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=add, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0
+        Name = fangkuai Boundingbox power
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1.5, Name=rongjie biankuandu, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Dissolve (S), Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Dissovle Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[7] = { Value=4, Name=NoiseContrast, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[9] = { Value=0.4, Name=Radius, Group=None }
+    CollectedScalarParameters[10] = { Value=0.2, Name=Opacity_Hard, Group=None }
+    CollectedScalarParameters[11] = { Value=0.1, Name=fangkuai_HeightRatio, Group=None }
+    CollectedScalarParameters[12] = { Value=-1, Name=fangkuai_Height, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Mask Intensity, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=EmissiveDesaturation, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 1
+        Name = Fresnel Boundingbox power
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=4, Name=FresnelContrast, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = -1
+        Name = fangkuai Boundingbox v
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=1, Name=divide, Group=None }
+    CollectedScalarParameters[19] = { Value=1.5, Name=rongjie mask power, Group=None }
+    CollectedScalarParameters[20] = { Value=-1, Name=NoiseHeight, Group=None }
+    CollectedScalarParameters[21] = { Value=0.1, Name=NoiseHeightRatio, Group=None }
+    CollectedScalarParameters[22] = { Value=0.4, Name=Opacity_Radius, Group=None }
+    CollectedScalarParameters[23] = { Value=-1, Name=Boundingbox v, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=Fresnel Boundingbox v, Group=None }
+    CollectedScalarParameters[25] = { Value=0.5, Name=rongjie touming, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=NormalIntensity, Group=None }
+    CollectedScalarParameters[27] = { Value=0.1, Name=RefractionIntensity, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=Smooth (S), Group=None }
+    CollectedScalarParameters[29] = { Value=0.5, Name=rongjie qiangdu, Group=None }
+    CollectedScalarParameters[30] = { Value=0, Name=Boundingbox power, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[32] =
+    {
+        Value = 0.05
+        Name = SceneColorBrightness
+        Group = None
+    }
+    CollectedScalarParameters[33] = { Value=0, Name=qiangdu, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Hard, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=Noise qiangdu, Group=None }
+}
+CollectedVectorParameters[16] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = NoiseColor_BrightArea
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = NoiseTexUVControl
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = fangkuai TexUVControl
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = rongjie TexUVControl
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Param_1
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = FresnelTintColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Dissovle
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = basetex color
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=3.11909, G=0, B=100, A=0 }
+        Name = Param
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Opacity_spheremask uv
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = color
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = EmissiveTint
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Emissive Mask UV
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = fangkuai spheremask uv
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = NoiseColor_DarkArea
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[9] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = blue
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mask_2006
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mask_5001
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mask_0010
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1.03381
+        UVChannelIndex = 1
+        TextureName = T_Naki
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1.06512
+        UVChannelIndex = 1
+        TextureName = T_Noise_8003
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Object_Cbn_017
+    }
+    TextureStreamingData[8] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = white
+    }
+}

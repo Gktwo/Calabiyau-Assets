@@ -1,0 +1,303 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+    ReferencedTextures[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=Maintex_CenterScaleUV }
+                    ParameterInfos[1] = { Name=Color_Mask_Multiply }
+                    ParameterInfos[2] = { Name=MaskB_Power }
+                    ParameterInfos[3] = { Name=MaskB_Muitiply }
+                    ParameterInfos[4] = { Name=Dissolve_Smooth }
+                    ParameterInfos[5] = { Name=Mask_Muitiply }
+                    ParameterInfos[6] = { Name=Color_Mask_Power_Value }
+                    ParameterInfos[7] = { Name=NoiseFix_Min }
+                    ParameterInfos[8] = { Name=Noise_Int }
+                    ParameterInfos[9] = { Name=Flash_Speed }
+                    ParameterInfos[10] = { Name=NoiseFix_Max }
+                    ParameterInfos[11] = { Name=Delete_Color }
+                    ParameterInfos[12] = { Name=Mask_Power }
+                    ParameterInfos[13] = { Name=Flash_Disorder }
+                    ParameterInfos[14] = { Name=Dissolve_Muitiply }
+                    ParameterInfos[15] = { Name=Noise_y_Int }
+                    ParameterInfos[16] = { Name=Noise_x_Int }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Main_Refine }
+                    ParameterInfos[1] = { Name=Main_Color }
+                    ParameterInfos[2] = { Name=Main_UV_02 }
+                    ParameterInfos[3] = { Name=Mask_UV_01 }
+                    ParameterInfos[4] = { Name=MaskB_UV_01 }
+                    ParameterInfos[5] = { Name=Dissolve_UV_02 }
+                    ParameterInfos[6] = { Name=Dissolve_UV_01 }
+                    ParameterInfos[7] = { Name=Main_UV_01 }
+                    ParameterInfos[8] = { Name=Dissolvemask_uv }
+                    ParameterInfos[9] = { Name=Noise_UV_01 }
+                    ParameterInfos[10] = { Name=MaskB_UV_02 }
+                    ParameterInfos[11] = { Name=Mask_UV_02 }
+                    ParameterInfos[12] = { Name=FlipBook }
+                    ParameterInfos[13] = { Name=Noise_UV_02 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=MaskB }
+                    ParameterInfos[3] = { Name=Dissolve }
+                    ParameterInfos[4] = { Name=Main_Tex }
+                    ParameterInfos[5] = { Name=Dissolvemask }
+                    ParameterInfos[6] = { Name=Noise_mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 0.586185
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 2
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 0
+            ScalarValues[9] = 5
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1.123
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+        }
+        VectorValues[14] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+            VectorValues[7] = { R=1, G=1, B=0, A=0 }
+            VectorValues[8] = { R=1, G=1, B=0, A=0 }
+            VectorValues[9] = { R=1, G=1, B=0, A=0 }
+            VectorValues[10] = { R=0, G=0, B=0, A=0 }
+            VectorValues[11] = { R=0, G=0, B=0, A=0 }
+            VectorValues[12] = { R=1, G=1, B=0, A=0 }
+            VectorValues[13] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+            TextureValues[4] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+            TextureValues[5] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+            TextureValues[6] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+        Name = MaskB
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+        Name = Dissolve
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+        Name = Main_Tex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/UI/T_UI_5004_1.T_UI_5004_1'
+        Name = Dissolvemask
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Glow/T_glo_0021.T_glo_0021'
+        Name = Noise_mask
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.586185
+        Name = Maintex_CenterScaleUV
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Color_Mask_Multiply, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=MaskB_Power, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=MaskB_Muitiply, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Dissolve_Smooth, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Mask_Muitiply, Group=None }
+    CollectedScalarParameters[6] = { Value=2, Name=Color_Mask_Power_Value, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=NoiseFix_Min, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Noise_Int, Group=None }
+    CollectedScalarParameters[9] = { Value=5, Name=Flash_Speed, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=NoiseFix_Max, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Delete_Color, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Mask_Power, Group=None }
+    CollectedScalarParameters[13] = { Value=1.123, Name=Flash_Disorder, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Dissolve_Muitiply, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Noise_y_Int, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=Noise_x_Int, Group=None }
+}
+CollectedVectorParameters[14] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Main_Refine
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Main_Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Main_UV_02
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask_UV_01
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MaskB_UV_01
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Dissolve_UV_02
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Dissolve_UV_01
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Main_UV_01
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Dissolvemask_uv
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Noise_UV_01
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = MaskB_UV_02
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Mask_UV_02
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = FlipBook
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Noise_UV_02
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

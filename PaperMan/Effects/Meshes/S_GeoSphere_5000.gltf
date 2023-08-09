@@ -1,0 +1,112 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "S_GeoSphere_5000",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "WorldGridMaterial",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "S_GeoSphere_5000"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "S_GeoSphere_5000.bin",
+      "byteLength" : 71952
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 13248
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 13248,
+      "byteLength" : 14676
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 27924,
+      "byteLength" : 14676
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 42600,
+      "byteLength" : 19568
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 62168,
+      "byteLength" : 9784
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 6624,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -0.257027, -0.257027, -0.257027 ],
+      "max" : [ 0.257027, 0.257027, 0.257027 ],
+      "componentType" : 5126,
+      "count" : 1223,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 1223,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1223,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1223,
+      "type" : "VEC2"
+    }
+  ]
+}

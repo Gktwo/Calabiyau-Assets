@@ -1,0 +1,130 @@
+Parent = MaterialInstanceConstant'/PM/Content/PaperMan/MaterialMaster/Scene/MI_PM_CommonMaster_Mutl.MI_PM_CommonMaster_Mutl'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Brightness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Alpha }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/CommonProps/T_Envi_Common_Mask_03a.T_Envi_Common_Mask_03a'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=D }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/CommonProps/T_Envi_Common_Wall_10_D.T_Envi_Common_Wall_10_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=N }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/CommonProps/T_Envi_Common_Wall_10_N.T_Envi_Common_Wall_10_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=ORM }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/CommonProps/T_Envi_Common_Wall_10_ORM.T_Envi_Common_Wall_10_ORM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color_UV3_A }
+        ParameterValue = { R=0.052678, G=0.094842, B=0.114583, A=0.447 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color_UV4_B }
+        ParameterValue = { R=0.048808, G=0.092831, B=0.109375, A=0.25 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Color_UV4_G }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Color_UV4_R }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.776755, G=0.806143, B=0.822917, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseUVLayer }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Envi_Common_Wall_10_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Envi_Common_Wall_10_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Envi_Common_Wall_10_ORM
+    }
+}

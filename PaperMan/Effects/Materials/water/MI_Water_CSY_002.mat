@@ -1,0 +1,7 @@
+Diffuse=T_DefaultBlack_Gamma
+Other[0]=T_Water_CSY_002
+Other[1]=T_Mask
+Other[2]=T_Noise_0027
+Other[3]=T_Mask_0010_1
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=T_DefaultWhite_Gamma

@@ -1,0 +1,412 @@
+Parent = Material3'/PM/Content/PaperMan/Environment/Materials/Common/M_BarCrystal_Translucent.M_BarCrystal_Translucent'
+ScalarParameterValues[33] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Metallic }
+        ParameterValue = 2.8351
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Specular }
+        ParameterValue = 2.16604
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 6.14471
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=NormalIntensity }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=EmissiveDesaturation }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Opacity_Hard }
+        ParameterValue = -0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Opacity_Radius }
+        ParameterValue = 0.055
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=SceneColorBrightness }
+        ParameterValue = 0.057958
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=RefractionIntensity }
+        ParameterValue = 0.445078
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=FresnelContrast }
+        ParameterValue = 200
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Fresnel Boundingbox power }
+        ParameterValue = -0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Fresnel Boundingbox v }
+        ParameterValue = -0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=NoiseHeight }
+        ParameterValue = -2
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=NoiseHeightRatio }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Noise qiangdu }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=NoiseContrast }
+        ParameterValue = 2.7606
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Boundingbox power }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Boundingbox v }
+        ParameterValue = 0.107363
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=add }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=divide }
+        ParameterValue = 0.348595
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=qiangdu }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=fangkuai_Height }
+        ParameterValue = -0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=fangkuai_HeightRatio }
+        ParameterValue = -1
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=fangkuai Boundingbox power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=fangkuai Boundingbox v }
+        ParameterValue = -0.07651
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=Hard }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=Radius }
+        ParameterValue = 0.45
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=rongjie biankuandu }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=rongjie mask power }
+        ParameterValue = 0.219046
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=rongjie qiangdu }
+        ParameterValue = 0.3726
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=rongjie touming }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColorTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_010.T_Object_Cbn_010'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=NormalTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_009.T_Object_Cbn_009'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=EmissiveTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black.black'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=NoiseTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5031_3.T_Noise_5031_3'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=fangkuai }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2018.T_Noise_2018'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=rongjie mask }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_012.T_Object_Cbn_012'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=rongjie_fangkuai }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_017.T_Object_Cbn_017'
+        ParameterName = None
+    }
+}
+VectorParameterValues[14] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColorTint }
+        ParameterValue = { R=0.121, G=0.5605, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=EmissiveTint }
+        ParameterValue = { R=0, G=0.416665, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Opacity_spheremask uv }
+        ParameterValue = { R=1, G=1, B=0, A=1.75539 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Param_1 }
+        ParameterValue = { R=5, G=5, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=FresnelTintColor }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=NoiseTexUVControl }
+        ParameterValue = { R=7, G=7, B=0, A=-0.05 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=NoiseColor_BrightArea }
+        ParameterValue = { R=0.022784, G=0.075948, B=0.182292, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=NoiseColor_DarkArea }
+        ParameterValue = { R=0.152145, G=0.328929, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=basetex color }
+        ParameterValue = { R=0.405428, G=0.970145, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=fangkuai TexUVControl }
+        ParameterValue = { R=1, G=1, B=0, A=0.05 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=fangkuai spheremask uv }
+        ParameterValue = { R=1, G=1, B=1.02884, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=color }
+        ParameterValue = { R=0, G=0.473208, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[12] =
+    {
+        ParameterInfo = { Name=Param }
+        ParameterValue = { R=0, G=200, B=250, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[13] =
+    {
+        ParameterInfo = { Name=rongjie TexUVControl }
+        ParameterValue = { R=10, G=10, B=0, A=0.3 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.001
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=T SphereMask F Boundingbox }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=add multiply }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[6] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.625
+        UVChannelIndex = 1
+        TextureName = T_Noise_2018
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 7.09277
+        UVChannelIndex = 1
+        TextureName = T_Noise_5031_3
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Object_Cbn_010
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 2
+        TextureName = T_Object_Cbn_012
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 10
+        UVChannelIndex = 2
+        TextureName = T_Object_Cbn_017
+    }
+}

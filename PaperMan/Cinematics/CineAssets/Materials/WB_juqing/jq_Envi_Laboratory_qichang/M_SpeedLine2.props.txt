@@ -1,0 +1,170 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5001.T_Mask_5001'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/wb_1/T_wb_Qhl_050.T_wb_Qhl_050'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=$$$$$ }
+                    ParameterInfos[1] = { Name=Mask Power }
+                    ParameterInfos[2] = { Name=Tilling V }
+                    ParameterInfos[3] = { Name=Speed U }
+                    ParameterInfos[4] = { Name=mul }
+                    ParameterInfos[5] = { Name=Param_1 }
+                    ParameterInfos[6] = { Name=Power }
+                    ParameterInfos[7] = { Name=$$$$ }
+                    ParameterInfos[8] = { Name=sub }
+                    ParameterInfos[9] = { Name=Param }
+                    ParameterInfos[10] = { Name=$$$$ }
+                    ParameterInfos[11] = { Name=$$$$$ }
+                    ParameterInfos[12] = { Name=Use TextureMask }
+                    ParameterInfos[13] = { Name=Use UV }
+                    ParameterInfos[14] = { Name=Speed V }
+                    ParameterInfos[15] = { Name=Param_2 }
+                    ParameterInfos[16] = { Name=Tilling U }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=MaskTexture UV }
+                    ParameterInfos[1] = { Name=Colorliang }
+                    ParameterInfos[2] = { Name=Coloran }
+                    ParameterInfos[3] = { Name=Main Texture UV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Mask }
+                    ParameterInfos[1] = { Name=Param }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = -1.56123
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.5
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 0.419048
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0.5
+            ScalarValues[16] = 0
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5001.T_Mask_5001'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/wb_1/T_wb_Qhl_050.T_wb_Qhl_050'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/wb_1/T_wb_Qhl_050.T_wb_Qhl_050'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5001.T_Mask_5001'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_5001.T_Mask_5001'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/wb_1/T_wb_Qhl_050.T_wb_Qhl_050'
+        Name = Param
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=-1.56123, Name=$$$$$, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Mask Power, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Tilling V, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Speed U, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=mul, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=Param_1, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Power, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=$$$$, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=sub, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=$$$$, Group=None }
+    CollectedScalarParameters[11] = { Value=0.419048, Name=$$$$$, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Use TextureMask, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Use UV, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Speed V, Group=None }
+    CollectedScalarParameters[15] = { Value=0.5, Name=Param_2, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=Tilling U, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MaskTexture UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Colorliang
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Coloran
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Main Texture UV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

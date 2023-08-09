@@ -1,0 +1,6 @@
+Diffuse=T_Envi_Umeda_Building_002_D
+Normal=BaseFlattenNormalMap
+Opacity=T_Envi_Umeda_Decal_01_Mask
+Other[0]=T_Envi_Wlbl_Vision_02_ORM
+Other[1]=T_Notex_D
+Other[2]=T_Notex_RMO

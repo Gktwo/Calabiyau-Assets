@@ -1,0 +1,148 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/FX/M_FX_StylizedFlowingWater.M_FX_StylizedFlowingWater'
+ScalarParameterValues[8] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=WaterBaseColorB_MaskPower }
+        ParameterValue = 18.6489
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=WaveFadeOpacityScale }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=EdgeDepth }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=ZDepthOffset }
+        ParameterValue = -5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=EdgeWaveWidth }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=EdgeWaveSoft }
+        ParameterValue = 0.03
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=DisturbanceIntensity }
+        ParameterValue = 0.03
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=WaterBaseColor_Texture }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Ramp/T_Ramp_NB_001.T_Ramp_NB_001'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=FlowWaveTexture }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_StylizedWaterWave.T_Noise_StylizedWaterWave'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=WaterBaseColor }
+        ParameterValue = { R=0.165132, G=0.361307, B=0.346704, A=0.780952 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=FlowWaveTextureUV }
+        ParameterValue = { R=1, G=0.7, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=FlowWaveTexturePanner }
+        ParameterValue = { R=0.01, G=-0.05, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=WaveColor }
+        ParameterValue = { R=0, G=0.03133, B=0.036458, A=0.52381 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=EdgeWaveColor }
+        ParameterValue = { R=0.767076, G=1, B=0.959996, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_WaterBaseColor_Texture }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_Cell_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.03125
+        UVChannelIndex = 0
+        TextureName = T_StylizedWater_03_N
+    }
+}

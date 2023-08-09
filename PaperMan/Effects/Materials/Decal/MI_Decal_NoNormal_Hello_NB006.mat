@@ -1,0 +1,7 @@
+Diffuse=T_UI_HELLO_001
+Normal=BaseFlattenNormalMap
+Other[0]=DefaultDiffuse
+Other[1]=DefaultTexture
+Other[2]=DebugNumberStrip
+Other[3]=DebugNumberPeriod
+Other[4]=flipbook

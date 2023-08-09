@@ -1,0 +1,5 @@
+Diffuse=T_DefaultBlack_Gamma
+Other[0]=MI_Mask_WZ_007
+Other[1]=T_Mask_WZ_008
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=T_DefaultWhite_Gamma

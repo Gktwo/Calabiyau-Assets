@@ -1,0 +1,14 @@
+Diffuse=T_JQ_BBLCrystal_Mesh_D
+Normal=T_JQ_BBLCrystal_Mesh_N
+Other[0]=T_JQ_BBLCrystal_Mesh_RMO
+Other[1]=black_mask
+Other[2]=T_Noise_0018
+Other[3]=T_Crystal_FlowMap
+Other[4]=10015__2_
+Other[5]=BlendFunc_DefBase
+Other[6]=BlendFunc_DefBlend
+Other[7]=T_Crystal_BubbleMask
+Other[8]=T_DefaultNormal
+Other[9]=T_DefaultWhite_Gamma
+Other[10]=T_DefaultWhite_Linear
+Other[11]=173422gvp1popogdroy3zg

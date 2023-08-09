@@ -1,0 +1,6 @@
+Diffuse=T_DefaultBlack_Gamma
+Opacity=T_Object_Cbn_021
+Other[0]=T_Mask_Cbn_041
+Other[1]=T_Mask_Cbn_040
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=T_DefaultWhite_Gamma

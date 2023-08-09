@@ -1,0 +1,5 @@
+Diffuse=T_Envi_Train_Ground_01_D
+Normal=T_Envi_Train_Ground_01_N
+Other[0]=T_Noise_0003
+Other[1]=T_DefaultNormal
+Other[2]=T_DefaultWhite_Gamma
