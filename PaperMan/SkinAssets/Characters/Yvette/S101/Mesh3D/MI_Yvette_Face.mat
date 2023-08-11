@@ -1,0 +1,12 @@
+Diffuse=Yvette_Face_D
+Normal=T_DefaultNormal
+Other[0]=Yvette_InterpSDF
+Other[1]=Yvette_Face_Mask1
+Other[2]=Yvette_Face_Mask2
+Other[3]=Black
+Other[4]=DefaultTexture
+Other[5]=T_DefaultBlack_Gamma
+Other[6]=T_DefaultBlack_Linear
+Other[7]=T_DefaultBlue_Linear
+Other[8]=T_DefaultWhite_Gamma
+Other[9]=T_DefaultWhite_Grayscale

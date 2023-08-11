@@ -1,0 +1,12 @@
+Diffuse=Yvette_Body_007_D
+Normal=Yvette_Body_N
+Other[0]=Yvette_Body_Mask1
+Other[1]=Yvette_Body_Mask2
+Other[2]=leishe
+Other[3]=DefaultTexture
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultWhite_Gamma
+Other[9]=T_DefaultWhite_Grayscale

@@ -1,0 +1,11 @@
+Diffuse=T_Yvette_PPM_004
+Normal=T_Maddelena_Body_N
+Other[0]=Green_Mask
+Other[1]=T_Maddelena_Body_Mask2_Map
+Other[2]=DefaultTexture
+Other[3]=T_DefaultBlack_Gamma
+Other[4]=T_DefaultBlack_Linear
+Other[5]=T_DefaultBlue_Linear
+Other[6]=T_DefaultNormal
+Other[7]=T_DefaultWhite_Gamma
+Other[8]=T_DefaultWhite_Grayscale

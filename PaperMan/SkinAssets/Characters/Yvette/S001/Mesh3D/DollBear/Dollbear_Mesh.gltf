@@ -1,0 +1,318 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "Dollbear_Mesh",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ 3.06162e-17, -0, -0, 1 ]
+    },
+    {
+      "name" : "Body",
+      "children" : [ 3, 6, 12, 15, 18, 21, 23, 25 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Hand_r_01",
+      "children" : [ 4 ],
+      "translation" : [ -0.05562, 0.0629995, 2.7538e-09 ],
+      "rotation" : [ 0.326307, -0.627314, 0.627314, -0.326308 ]
+    },
+    {
+      "name" : "Hand_r_02",
+      "children" : [ 5 ],
+      "translation" : [ 0.0498231, -9.53674e-09, -5.39933e-09 ],
+      "rotation" : [ -3.77774e-08, 0.127582, -4.8931e-08, -0.991828 ]
+    },
+    {
+      "name" : "Hand_r_03",
+      "translation" : [ 0.0437678, -1.19209e-08, -1.97079e-09 ],
+      "rotation" : [ -1.62921e-07, -3.16259e-08, -4.37114e-08, -1 ]
+    },
+    {
+      "name" : "Head_01",
+      "children" : [ 7, 8, 10 ],
+      "translation" : [ 0, 0.0653139, 4.37114e-09 ],
+      "rotation" : [ -0.5, -0.5, -0.5, -0.5 ]
+    },
+    {
+      "name" : "Head_02",
+      "translation" : [ 0.154724, 6.76328e-09, 2.52076e-08 ],
+      "rotation" : [ 1.11195e-16, -2.64698e-23, -3.06162e-17, -1 ]
+    },
+    {
+      "name" : "Ear_l_01",
+      "children" : [ 9 ],
+      "translation" : [ 0.138811, -0.017005, 0.0619992 ],
+      "rotation" : [ -0.177077, 0.331298, 0.0711159, -0.924028 ]
+    },
+    {
+      "name" : "Ear_l_02",
+      "translation" : [ 0.0618829, 1.18895e-08, 4.5589e-09 ],
+      "rotation" : [ 1.47561e-07, 1.22294e-07, -5.82349e-08, -1 ]
+    },
+    {
+      "name" : "Ear_r_01",
+      "children" : [ 11 ],
+      "translation" : [ 0.138811, -0.017005, -0.062 ],
+      "rotation" : [ -0.924028, 0.071116, 0.331299, -0.177077 ]
+    },
+    {
+      "name" : "Ear_r_02",
+      "translation" : [ 0.0618829, 1.90528e-08, 1.33422e-08 ],
+      "rotation" : [ -1.72487e-08, 6.71159e-08, 1.21935e-09, -1 ]
+    },
+    {
+      "name" : "Hand_l_01",
+      "children" : [ 13 ],
+      "translation" : [ 0.0556232, 0.0629995, 2.7538e-09 ],
+      "rotation" : [ -0.627314, 0.326307, 0.326308, -0.627314 ]
+    },
+    {
+      "name" : "Hand_l_02",
+      "children" : [ 14 ],
+      "translation" : [ 0.0498231, 2.67127e-09, -9.53576e-09 ],
+      "rotation" : [ -2.5915e-08, 0.127582, -3.33353e-09, -0.991828 ]
+    },
+    {
+      "name" : "Hand_l_03",
+      "translation" : [ 0.0437678, 4.6605e-09, -9.44324e-10 ],
+      "rotation" : [ 1.71754e-15, -8.24099e-09, 4.8079e-15, -1 ]
+    },
+    {
+      "name" : "Leg_r_01",
+      "children" : [ 16 ],
+      "translation" : [ -0.03878, -0.0618412, -2.70317e-09 ],
+      "rotation" : [ 0.472814, -0.525782, 0.525782, -0.472815 ]
+    },
+    {
+      "name" : "Leg_r_02",
+      "children" : [ 17 ],
+      "translation" : [ 0.0221628, -1.77187e-16, 2.63987e-10 ],
+      "rotation" : [ -2.82488e-07, -0.00842541, -4.13328e-08, -0.999965 ]
+    },
+    {
+      "name" : "Leg_r_03",
+      "translation" : [ 0.0191347, -9.53674e-09, 1.85845e-09 ],
+      "rotation" : [ 1.94707e-07, -5.6602e-08, -4.37114e-08, -1 ]
+    },
+    {
+      "name" : "Leg_l_01",
+      "children" : [ 19 ],
+      "translation" : [ 0.0387786, -0.0618412, -2.70317e-09 ],
+      "rotation" : [ -0.525782, 0.472814, 0.472814, -0.525782 ]
+    },
+    {
+      "name" : "Leg_l_02",
+      "children" : [ 20 ],
+      "translation" : [ 0.0221628, 1.01818e-09, 1.86565e-09 ],
+      "rotation" : [ 2.3841e-07, -0.00842545, -2.00878e-09, -0.999964 ]
+    },
+    {
+      "name" : "Leg_l_03",
+      "translation" : [ 0.0191348, 7.91388e-10, 5.26197e-09 ],
+      "rotation" : [ 3.40008e-14, -2.89155e-09, -2.68398e-15, -1 ]
+    },
+    {
+      "name" : "Tail_01",
+      "children" : [ 22 ],
+      "translation" : [ 1.85859e-09, -0.0467799, -0.0425196 ],
+      "rotation" : [ 0.520556, -0.520556, -0.478562, -0.478562 ]
+    },
+    {
+      "name" : "Tail_02",
+      "translation" : [ 0.0447035, -3.89432e-09, -4.76837e-09 ],
+      "rotation" : [ 2.22045e-16, -1.11022e-16, 3.88578e-16, -1 ]
+    },
+    {
+      "name" : "Bowknot_r_01",
+      "children" : [ 24 ],
+      "translation" : [ -0.0473065, 0.0534364, 0.03271 ],
+      "rotation" : [ 0.0424601, 0.705831, 0.705831, 0.0424609 ]
+    },
+    {
+      "name" : "Bowknot_r_02",
+      "translation" : [ 0.040873, 2.38419e-09, -0 ],
+      "rotation" : [ -6.63094e-15, 3.46945e-17, -4.39685e-14, -1 ]
+    },
+    {
+      "name" : "Bowknot_l_01",
+      "children" : [ 26 ],
+      "translation" : [ -0.0368643, 0.0527634, 0.0372858 ],
+      "rotation" : [ -0.607448, 0.322827, -0.205253, -0.696176 ]
+    },
+    {
+      "name" : "Bowknot_l_02",
+      "translation" : [ 0.0432402, -5.53851e-09, -4.93e-09 ],
+      "rotation" : [ 2.33234e-12, -5.5942e-09, 6.96314e-08, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_DollBear_Body",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "COLOR_0" : 5,
+            "JOINTS_0" : 6,
+            "WEIGHTS_0" : 7,
+            "TEXCOORD_0" : 8
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "Dollbear_Mesh"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "Dollbear_Mesh.bin",
+      "byteLength" : 173840
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1664
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1664,
+      "byteLength" : 23184
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 24848,
+      "byteLength" : 27936
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 52784,
+      "byteLength" : 27936
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 80720,
+      "byteLength" : 37248
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 117968,
+      "byteLength" : 9312
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 127280,
+      "byteLength" : 18624
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 145904,
+      "byteLength" : 9312
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 155216,
+      "byteLength" : 18624
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 26,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 11592,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.11164, -0.099926, -0.086352 ],
+      "max" : [ 0.11164, 0.256786, 0.080432 ],
+      "componentType" : 5126,
+      "count" : 2328,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 2328,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 2328,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2328,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5123,
+      "count" : 2328,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2328,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5126,
+      "count" : 2328,
+      "type" : "VEC2"
+    }
+  ]
+}
