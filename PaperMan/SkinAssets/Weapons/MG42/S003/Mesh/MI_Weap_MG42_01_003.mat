@@ -1,0 +1,9 @@
+Diffuse=T_Weap_MG42_01_003_D
+Normal=T_Weap_MG42_01_003_N
+Other[0]=T_Weap_MG42_01_003_RMO
+Other[1]=T_Weapon_MG42_000_OverheatMask_1024
+Other[2]=black_mask
+Other[3]=T_DefaultNormal
+Other[4]=T_DefaultWhite_Gamma
+Other[5]=T_DefaultWhite_Linear
+Other[6]=T_Weap_AK47_RMO

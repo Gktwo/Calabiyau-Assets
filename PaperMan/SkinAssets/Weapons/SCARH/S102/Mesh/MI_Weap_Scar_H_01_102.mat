@@ -1,0 +1,8 @@
+Diffuse=T_Weap_Scar_H_102_01_D
+Normal=T_Weap_Scar_H_102_01_N
+Other[0]=T_Weap_Scar_H_102_01_RMO
+Other[1]=T_Weap_Scar_H_102_01_mask
+Other[2]=black_mask
+Other[3]=T_DefaultNormal
+Other[4]=T_DefaultWhite_Gamma
+Other[5]=T_DefaultWhite_Linear

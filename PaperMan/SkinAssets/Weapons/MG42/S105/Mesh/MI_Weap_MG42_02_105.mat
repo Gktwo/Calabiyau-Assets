@@ -1,0 +1,8 @@
+Diffuse=T_Weap_MG42_02_105_D
+Normal=T_Weap_MG42_02_105_N
+Other[0]=T_Weap_MG42_02_105_RMO
+Other[1]=black_mask
+Other[2]=T_DefaultNormal
+Other[3]=T_DefaultWhite_Gamma
+Other[4]=T_DefaultWhite_Linear
+Other[5]=T_Weap_AK47_RMO

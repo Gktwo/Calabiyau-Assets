@@ -1,0 +1,6 @@
+Diffuse=T_Weap_MP5_A5_01_053_D
+Normal=T_Weap_MP5_A5_01_053_N
+Other[0]=T_Weap_MP5_A5_01_053_RMO
+Other[1]=T_DefaultNormal
+Other[2]=T_DefaultWhite_Gamma
+Other[3]=T_DefaultWhite_Linear

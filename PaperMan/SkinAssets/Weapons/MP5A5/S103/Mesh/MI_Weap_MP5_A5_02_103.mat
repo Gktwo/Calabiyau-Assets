@@ -1,0 +1,10 @@
+Diffuse=T_Weap_MP5_A5_02_103_D
+Normal=T_Weap_MP5_A5_02_103_N
+Other[0]=T_Weap_MP5_A5_02_103_RMO
+Other[1]=T_Weap_MP5_A5_02_103_MASK
+Other[2]=SK_Weap_MP5_A5_103_tex
+Other[3]=black
+Other[4]=black_mask
+Other[5]=T_DefaultNormal
+Other[6]=T_DefaultWhite_Gamma
+Other[7]=T_DefaultWhite_Linear
