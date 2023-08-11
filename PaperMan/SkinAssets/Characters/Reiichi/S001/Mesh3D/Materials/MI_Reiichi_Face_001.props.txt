@@ -1,0 +1,104 @@
+Parent = MaterialInstanceConstant'/PM/Content/PaperMan/MaterialMaster/Character/mat_toon_ThreeMaterialStatic.mat_toon_ThreeMaterialStatic'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=HairShadowBias }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=MiddleValue }
+        ParameterValue = -0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RampID }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseMap }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Reiichi/S001/Mesh3D/Textuers/T_Reiichi_Face_001.T_Reiichi_Face_001'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=FaceShadowMask }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Reiichi/S001/Mesh3D/Textuers/T_Reiichi_SDF.T_Reiichi_SDF'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mask1 }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Reiichi/S001/Mesh3D/Textuers/T_Reiichi_Face_Mask1Map_001.T_Reiichi_Face_Mask1Map_001'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Mask2 }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Reiichi/S001/Mesh3D/Textuers/T_Reiichi_Skin_mask2.T_Reiichi_Skin_mask2'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=RimLightColor }
+        ParameterValue = { R=0.088542, G=0.079223, B=0.077728, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Reiichi_Face_001
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Reiichi_SDF
+    }
+}

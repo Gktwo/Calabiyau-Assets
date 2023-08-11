@@ -1,0 +1,98 @@
+Parent = MaterialInstanceConstant'/PM/Content/PaperMan/MaterialMaster/Character/mat_toon_ForeMaterialStatic_True.mat_toon_ForeMaterialStatic_True'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=MatCapPow }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseMap }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Reiichi/S055/Mesh3D/T_Reiichi_Body_055.T_Reiichi_Body_055'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=NormalMap }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Reiichi/S001/Mesh3D/Textuers/T_Reiichi_Body_N_001.T_Reiichi_Body_N_001'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mask1 }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Reiichi/S001/Mesh3D/Textuers/T_Reiichi_Body_Mask1Map_001.T_Reiichi_Body_Mask1Map_001'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Mask2 }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Reiichi/S001/Mesh3D/Textuers/T_Reiichi_Body_Mask2_Map.T_Reiichi_Body_Mask2_Map'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=MatCapTexture }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/PBR/leather.leather'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=EmissiveColor }
+        ParameterValue = { R=10, G=1.15187, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=RimLightColor }
+        ParameterValue = { R=0.041388, G=0.046356, B=0.083333, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Reiichi_Body_055
+    }
+}

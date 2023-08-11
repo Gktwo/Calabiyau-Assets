@@ -1,0 +1,452 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SK_Weap_Umbrella",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "root",
+      "children" : [ 2, 6 ],
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ 3.06162e-17, -0, -0, 1 ]
+    },
+    {
+      "name" : "Bone001",
+      "children" : [ 3, 4, 5 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0.707107, -0.707107, 1.99496e-07, 1.99496e-07 ]
+    },
+    {
+      "name" : "duiqi01",
+      "translation" : [ 0.463238, -4.43035e-09, 0.00413934 ],
+      "rotation" : [ -0.707107, -0.707107, 1.79826e-07, 1.79826e-07 ]
+    },
+    {
+      "name" : "duiqi02",
+      "translation" : [ 0.463238, -3.00171e-09, -0.00404183 ],
+      "rotation" : [ -0.707107, -0.707107, 1.79826e-07, 1.79826e-07 ]
+    },
+    {
+      "name" : "duiqi05",
+      "translation" : [ 0.470392, -8.67362e-21, -1.47664e-07 ],
+      "rotation" : [ -3.25841e-07, -2.38419e-07, -2.38418e-07, -1 ]
+    },
+    {
+      "name" : "diyijie",
+      "children" : [ 7, 11, 15, 16, 17, 18 ],
+      "translation" : [ 4.16604e-14, 0.470392, -2.88032e-17 ],
+      "rotation" : [ -0.707107, -0.707107, 4.74853e-07, 4.74854e-07 ]
+    },
+    {
+      "name" : "Bone003",
+      "children" : [ 8, 10 ],
+      "translation" : [ -0.175757, 1.26467e-07, -0.0160663 ],
+      "rotation" : [ -0.86527, 5.10556e-07, 0.501307, 1.33581e-08 ]
+    },
+    {
+      "name" : "Bone006",
+      "children" : [ 9 ],
+      "translation" : [ 0.0824472, 1.04314e-15, -0.00462703 ],
+      "rotation" : [ -4.4695e-08, -0.859432, 7.51339e-08, -0.51125 ]
+    },
+    {
+      "name" : "Bone007",
+      "translation" : [ 0.0840968, 6.53387e-08, 1.74552e-07 ],
+      "rotation" : [ -2.92798e-07, 1.4127e-06, 1.63856e-07, -1 ]
+    },
+    {
+      "name" : "sanye_01",
+      "translation" : [ 0.163594, -0.00191479, 1.71022e-08 ],
+      "rotation" : [ 2.65001e-15, -1.89596e-09, -4.58372e-15, -1 ]
+    },
+    {
+      "name" : "Bone003(mirrored)",
+      "children" : [ 12, 14 ],
+      "translation" : [ -0.175757, 1.51496e-07, 0.01607 ],
+      "rotation" : [ -0.86527, 6.18971e-07, -0.501307, -5.88885e-07 ]
+    },
+    {
+      "name" : "Bone006(mirrored)",
+      "children" : [ 13 ],
+      "translation" : [ 0.0824472, -3.8147e-08, 0.00462716 ],
+      "rotation" : [ 1.21892e-07, 0.859432, 2.04905e-07, -0.51125 ]
+    },
+    {
+      "name" : "Bone007(mirrored)",
+      "translation" : [ 0.084097, 3.03204e-08, -1.05718e-08 ],
+      "rotation" : [ 3.3651e-07, 2.90715e-06, 2.07566e-07, -1 ]
+    },
+    {
+      "name" : "sanye_02",
+      "translation" : [ 0.163627, -1.90735e-07, -3.66302e-08 ],
+      "rotation" : [ -4.01339e-07, -1.86669e-07, 4.01339e-07, -1 ]
+    },
+    {
+      "name" : "IK-Chain001",
+      "translation" : [ -0.0865851, -1.9141e-08, -0.0137146 ],
+      "rotation" : [ -0.707107, -0.707106, -3.06266e-07, -3.06266e-07 ]
+    },
+    {
+      "name" : "IK-Chain002",
+      "translation" : [ -0.086585, 1.16589e-08, 0.0137183 ],
+      "rotation" : [ -0.707107, -0.707106, -3.06266e-07, -3.06266e-07 ]
+    },
+    {
+      "name" : "duiqi_zhong",
+      "translation" : [ -0.0865851, 5.55044e-19, -4.44583e-06 ],
+      "rotation" : [ -0.707107, -0.707106, -3.06266e-07, -3.06266e-07 ]
+    },
+    {
+      "name" : "dierjie",
+      "children" : [ 19, 21, 26, 31, 36, 40, 44, 45, 47 ],
+      "translation" : [ 0.273654, -2.16393e-07, 1.3316e-07 ],
+      "rotation" : [ 8.62283e-07, -0, -0, -1 ]
+    },
+    {
+      "name" : "duiqi06",
+      "children" : [ 20 ],
+      "translation" : [ -0.161613, 1.40099e-07, 3.65281e-07 ],
+      "rotation" : [ -5.96047e-08, -2.68497e-07, 1.12026e-13, -1 ]
+    },
+    {
+      "name" : "zhongjiansangu",
+      "translation" : [ 0.00468056, 3.63798e-14, 6.21461e-09 ],
+      "rotation" : [ 8.66251e-07, -1.92446e-07, -2.38419e-07, -1 ]
+    },
+    {
+      "name" : "Point002",
+      "children" : [ 22 ],
+      "translation" : [ -0.108251, 0.00452968, -0.00674619 ],
+      "rotation" : [ -0.797636, -0.160914, 0.529096, 0.24071 ]
+    },
+    {
+      "name" : "Bone008(mirrored)",
+      "children" : [ 23 ],
+      "translation" : [ 0.00126778, -1.36563e-06, 0.000699403 ],
+      "rotation" : [ -6.20344e-07, 1.58141e-07, -2.6495e-08, -1 ]
+    },
+    {
+      "name" : "Bone011",
+      "children" : [ 24 ],
+      "translation" : [ 0.114476, 1.30195e-06, -0.0102013 ],
+      "rotation" : [ 5.15155e-07, -0.0310535, 7.98071e-08, -0.999518 ]
+    },
+    {
+      "name" : "sanye_05",
+      "children" : [ 25 ],
+      "translation" : [ 0.00102075, -1.30572e-06, 0.0102845 ],
+      "rotation" : [ -6.00431e-07, 0.0409436, -1.2236e-07, -0.999161 ]
+    },
+    {
+      "name" : "sanye_09",
+      "translation" : [ 0.163494, -0.0635545, 0.0921492 ],
+      "rotation" : [ 0.15114, 0.209222, -0.264197, -0.929292 ]
+    },
+    {
+      "name" : "Point003",
+      "children" : [ 27 ],
+      "translation" : [ -0.109505, 0.0045427, 0.00670733 ],
+      "rotation" : [ 0.242229, 0.522746, -0.159305, -0.801676 ]
+    },
+    {
+      "name" : "Bone012",
+      "children" : [ 28 ],
+      "translation" : [ 0.00290264, -4.19099e-08, 0.00101702 ],
+      "rotation" : [ 0.0178322, -1.24952e-06, -4.0626e-05, -0.999841 ]
+    },
+    {
+      "name" : "Bone013",
+      "children" : [ 29 ],
+      "translation" : [ 0.111637, 0.000371886, -0.0104128 ],
+      "rotation" : [ -0.0178322, -0.04093, -0.00101368, -0.999002 ]
+    },
+    {
+      "name" : "sanye_06",
+      "children" : [ 30 ],
+      "translation" : [ 0.0024244, -1.6851e-06, 0.0106536 ],
+      "rotation" : [ 0.0178438, 0.0409249, 0.000730239, -0.999003 ]
+    },
+    {
+      "name" : "sanye_010",
+      "translation" : [ 0.157524, 0.0560964, 0.1067 ],
+      "rotation" : [ -0.192164, -0.0752644, 0.935219, 0.287704 ]
+    },
+    {
+      "name" : "Point004",
+      "children" : [ 32 ],
+      "translation" : [ -0.108519, -0.00511212, 0.00778907 ],
+      "rotation" : [ -0.527669, -0.246552, 0.797411, 0.157839 ]
+    },
+    {
+      "name" : "Bone014",
+      "children" : [ 33 ],
+      "translation" : [ -0.000957367, 1.85345e-07, 3.49061e-08 ],
+      "rotation" : [ -3.04441e-07, -1, -5.16295e-07, -6.67815e-08 ]
+    },
+    {
+      "name" : "Bone015",
+      "children" : [ 34 ],
+      "translation" : [ 0.113717, -2.77627e-07, 0.00941399 ],
+      "rotation" : [ -5.86042e-08, 0.0308361, 3.46235e-07, -0.999524 ]
+    },
+    {
+      "name" : "sanye_04",
+      "children" : [ 35 ],
+      "translation" : [ 0.000760209, 2.78178e-07, -0.00947885 ],
+      "rotation" : [ -0.00172611, -0.040933, 7.35188e-05, -0.99916 ]
+    },
+    {
+      "name" : "sanye_011",
+      "translation" : [ 0.128184, -0.0520234, -0.0798736 ],
+      "rotation" : [ -0.26817, -0.900879, 0.077851, 0.332327 ]
+    },
+    {
+      "name" : "Point005",
+      "children" : [ 37 ],
+      "translation" : [ -0.109032, -0.00548833, -0.00778781 ],
+      "rotation" : [ -0.801169, 0.159563, 0.524493, -0.239946 ]
+    },
+    {
+      "name" : "Bone016",
+      "children" : [ 38 ],
+      "translation" : [ 0.00129349, 7.1171e-08, 7.64775e-08 ],
+      "rotation" : [ 0.0070625, 5.62199e-07, 1.67185e-07, -0.999975 ]
+    },
+    {
+      "name" : "Bone017",
+      "children" : [ 39 ],
+      "translation" : [ 0.112942, 0.000132476, -0.00937727 ],
+      "rotation" : [ -0.00705719, -0.0387654, -0.000273976, -0.999223 ]
+    },
+    {
+      "name" : "sanye_03",
+      "translation" : [ 0.000946236, -2.33749e-09, 0.00947996 ],
+      "rotation" : [ 0.00705759, 0.0409425, 0.000258428, -0.999137 ]
+    },
+    {
+      "name" : "Point006",
+      "children" : [ 41 ],
+      "translation" : [ -0.00864914, 0.0112475, 6.91156e-08 ],
+      "rotation" : [ 0.626873, 0.327156, -0.327155, -0.626872 ]
+    },
+    {
+      "name" : "Bone020",
+      "children" : [ 42 ],
+      "translation" : [ -1.74642e-07, 2.05532e-07, -1.32588e-07 ],
+      "rotation" : [ -1.88184e-07, -4.05717e-07, -1.50993e-06, -1 ]
+    },
+    {
+      "name" : "Bone021",
+      "children" : [ 43 ],
+      "translation" : [ 0.0804065, -2.18304e-07, 1.97833e-07 ],
+      "rotation" : [ 4.26604e-07, 4.95124e-07, 7.94194e-08, -1 ]
+    },
+    {
+      "name" : "sanye_08",
+      "translation" : [ -1.73286e-07, 2.18304e-07, -1.07507e-07 ],
+      "rotation" : [ -4.26604e-07, -4.01799e-07, -7.94193e-08, -1 ]
+    },
+    {
+      "name" : "diqi08",
+      "translation" : [ -0.0876624, 6.8948e-08, 1.28e-07 ],
+      "rotation" : [ -0.5, -0.499999, 0.5, -0.500001 ]
+    },
+    {
+      "name" : "diqi07",
+      "children" : [ 46 ],
+      "translation" : [ 8.55493e-14, 2.16393e-07, 2.16393e-07 ],
+      "rotation" : [ 6.2581e-08, 7.15256e-07, -2.38419e-07, -1 ]
+    },
+    {
+      "name" : "shangmiansangu",
+      "translation" : [ 0, -1.47445e-07, -1.90735e-08 ],
+      "rotation" : [ -0.5, -0.5, 0.5, -0.5 ]
+    },
+    {
+      "name" : "Point008",
+      "children" : [ 48 ],
+      "translation" : [ -0.00884903, -0.0113298, 7.59657e-08 ],
+      "rotation" : [ -0.626859, 0.327183, 0.32718, -0.626859 ]
+    },
+    {
+      "name" : "Bone018",
+      "children" : [ 49 ],
+      "translation" : [ 1.44168e-07, -2.13448e-07, 1.11407e-07 ],
+      "rotation" : [ 2.22116e-07, 3.96847e-07, 3.72775e-07, -1 ]
+    },
+    {
+      "name" : "Bone019",
+      "children" : [ 50 ],
+      "translation" : [ 0.0794988, 2.67795e-07, -2.12651e-07 ],
+      "rotation" : [ -2.22116e-07, -3.07439e-07, -3.72775e-07, -1 ]
+    },
+    {
+      "name" : "sanye_07",
+      "children" : [ 51, 52 ],
+      "translation" : [ 1.89533e-07, -3.49013e-07, 1.47623e-07 ],
+      "rotation" : [ 2.0394e-07, 4.71934e-07, 3.72775e-07, -1 ]
+    },
+    {
+      "name" : "sanye_012",
+      "translation" : [ 0.100051, -0.219542, 0.107363 ],
+      "rotation" : [ -0.210739, 0.210739, 0.674975, -0.674972 ]
+    },
+    {
+      "name" : "sanye_013",
+      "translation" : [ 0.100053, 0.215244, 0.107362 ],
+      "rotation" : [ -0.210739, 0.210739, 0.674975, -0.674972 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,
+        33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Weap_Umbrella",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SK_Weap_Umbrella"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SK_Weap_Umbrella.bin",
+      "byteLength" : 194212
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 3328
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 3328,
+      "byteLength" : 16464
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 19792,
+      "byteLength" : 34884
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 54676,
+      "byteLength" : 34884
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 89560,
+      "byteLength" : 46512
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 136072,
+      "byteLength" : 23256
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 159328,
+      "byteLength" : 11628
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 170956,
+      "byteLength" : 23256
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 52,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 8232,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.527646, -0.132088, -0.532671 ],
+      "max" : [ 0.531669, 0.794366, 0.532671 ],
+      "componentType" : 5126,
+      "count" : 2907,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 2907,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 2907,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 2907,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2907,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 2907,
+      "type" : "VEC2"
+    }
+  ]
+}

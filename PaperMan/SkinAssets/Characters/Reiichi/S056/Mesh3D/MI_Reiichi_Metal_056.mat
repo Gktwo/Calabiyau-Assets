@@ -1,0 +1,12 @@
+Diffuse=T_Reiichi_Body_056
+Normal=T_Reiichi_Body_N_001
+Other[0]=T_Reiichi_Body_Mask1Map_001
+Other[1]=T_Reiichi_Body_Mask2_Map
+Other[2]=10011
+Other[3]=DefaultTexture
+Other[4]=T_DefaultWhite_Grayscale
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultNormal
+Other[9]=T_DefaultWhite_Gamma
