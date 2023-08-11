@@ -1,0 +1,277 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "S_Envi_Umeda_Drone_01",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "root",
+      "children" : [ 2 ],
+      "translation" : [ -0.00405937, 0.00270545, 1.18259e-10 ],
+      "rotation" : [ 0.707107, -0, -0, 0.707107 ]
+    },
+    {
+      "name" : "Dummy010",
+      "children" : [ 3 ],
+      "translation" : [ 0.00405937, -0.0326911, -0.292161 ],
+      "rotation" : [ -1.32349e-23, -0, 0, -1 ]
+    },
+    {
+      "name" : "Dummy001",
+      "children" : [ 4, 5, 6, 7, 8, 14 ],
+      "translation" : [ 0, -1.43387e-08, -8.5571e-08 ],
+      "rotation" : [ 4.47151e-15, -0, -0, -1 ]
+    },
+    {
+      "name" : "Dummy004",
+      "translation" : [ 0.537559, -1.92653e-05, -0.0795544 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Dummy006",
+      "translation" : [ 0.643718, 0.000112344, -0.228537 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Dummy005",
+      "translation" : [ -0.53756, -1.92653e-05, -0.0795544 ],
+      "rotation" : [ -1, 0, 0, -7.54979e-08 ]
+    },
+    {
+      "name" : "Dummy007",
+      "translation" : [ -0.64372, 0.000112344, -0.228537 ],
+      "rotation" : [ -1, -0, -0, 4.37114e-08 ]
+    },
+    {
+      "name" : "Point002",
+      "children" : [ 9 ],
+      "translation" : [ -0.36746, -0.0972807, 0.00159125 ],
+      "rotation" : [ -0.189717, 0.189717, -0.681181, -0.681181 ]
+    },
+    {
+      "name" : "Bone001",
+      "children" : [ 10 ],
+      "translation" : [ 0.0357415, 3.1505e-06, 0.010602 ],
+      "rotation" : [ 3.43617e-09, 6.19966e-08, 1.02445e-08, -1 ]
+    },
+    {
+      "name" : "Dummy002",
+      "children" : [ 11 ],
+      "translation" : [ 0.323174, 0.000163419, 0.0540971 ],
+      "rotation" : [ -0.347518, 0.347518, 0.615818, -0.615818 ]
+    },
+    {
+      "name" : "Bone002",
+      "children" : [ 12, 13 ],
+      "translation" : [ -0.0784687, -0.00255307, 0.0191032 ],
+      "rotation" : [ -0.566495, 0.566495, 0.423183, 0.423183 ]
+    },
+    {
+      "name" : "Dummy009",
+      "translation" : [ 0.0925205, 4.70086e-06, -0.081172 ],
+      "rotation" : [ -0.0249906, 2.39535e-07, 0.999688, -3.81049e-08 ]
+    },
+    {
+      "name" : "Point004",
+      "translation" : [ 0.388476, 4.64846e-06, -1.51478e-07 ],
+      "rotation" : [ 2.33522e-07, 4.83234e-07, 1, 2.33498e-07 ]
+    },
+    {
+      "name" : "Point001",
+      "children" : [ 15 ],
+      "translation" : [ 0.36746, -0.0972807, 0.00159125 ],
+      "rotation" : [ -0.681181, -0.681181, -0.189717, 0.189717 ]
+    },
+    {
+      "name" : "Bone004",
+      "children" : [ 16 ],
+      "translation" : [ 0.0357416, -1.50841e-08, -0.0106021 ],
+      "rotation" : [ -8.74228e-08, 4.43241e-09, 4.54647e-18, -1 ]
+    },
+    {
+      "name" : "Dummy003",
+      "children" : [ 17 ],
+      "translation" : [ 0.323174, 0.00017022, -0.0540971 ],
+      "rotation" : [ -0.347518, -0.347517, -0.615818, -0.615818 ]
+    },
+    {
+      "name" : "Bone003",
+      "children" : [ 18, 19 ],
+      "translation" : [ 0.0784699, 0.00255305, -0.0191033 ],
+      "rotation" : [ -0.566495, -0.566495, -0.423182, 0.423183 ]
+    },
+    {
+      "name" : "Dummy008",
+      "translation" : [ 0.0925203, 7.1544e-08, 0.081172 ],
+      "rotation" : [ 1.95739e-07, -0.024991, 3.88318e-08, -0.999688 ]
+    },
+    {
+      "name" : "Point003",
+      "translation" : [ 0.388475, -8.95288e-08, 7.75955e-08 ],
+      "rotation" : [ 2.76817e-14, -1.11756e-08, -8.49065e-14, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Envi_Umeda_Drone_01",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7,
+            "TEXCOORD_1" : 8
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "S_Envi_Umeda_Drone_01"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "S_Envi_Umeda_Drone_01.bin",
+      "byteLength" : 376612
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1216
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1216,
+      "byteLength" : 23972
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 25188,
+      "byteLength" : 62016
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 87204,
+      "byteLength" : 62016
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 149220,
+      "byteLength" : 82688
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 231908,
+      "byteLength" : 41344
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 273252,
+      "byteLength" : 20672
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 293924,
+      "byteLength" : 41344
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 335268,
+      "byteLength" : 41344
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 19,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 11985,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.695926, 0.0219807, -0.671265 ],
+      "max" : [ 0.695926, 0.787566, 0.500885 ],
+      "componentType" : 5126,
+      "count" : 5168,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 5168,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 5168,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 5168,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 5168,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 5168,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5126,
+      "count" : 5168,
+      "type" : "VEC2"
+    }
+  ]
+}

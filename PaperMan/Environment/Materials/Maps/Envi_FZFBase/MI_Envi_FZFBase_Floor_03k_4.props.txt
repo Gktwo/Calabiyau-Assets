@@ -1,0 +1,214 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Scene/M_BlendMaster.M_BlendMaster'
+ScalarParameterValues[12] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tiling U }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tiling V }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=AO Pow }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Roughness Pow }
+        ParameterValue = 4.5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=BaseBlendBlur }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=BaseBlendRange }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Blend Tiling U }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Blend Tiling V }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Blend Roughness Pow }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=OverlayBlur }
+        ParameterValue = 0.59254
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=OverlayRange }
+        ParameterValue = 4.96528
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AO_R_M_MASK }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_FZFBase/T_Envi_FZFBase_Floor_10a_RMO.T_Envi_FZFBase_Floor_10a_RMO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=DiffuseAndAlpha }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_FZFBase/T_Envi_FZFBase_Floor_10a_D.T_Envi_FZFBase_Floor_10a_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_FZFBase/T_Envi_FZFBase_Floor_10a_N.T_Envi_FZFBase_Floor_10a_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Blend_AO_R_M_MASK }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Olgk/T_Envi_Olgk_Wall_01c_ORM.T_Envi_Olgk_Wall_01c_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=BlendBase }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Olgk/T_Envi_Olgk_Crane_01a_D.T_Envi_Olgk_Crane_01a_D'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=BlendNormal }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Olgk/T_Envi_Olgk_Crane_01a_N.T_Envi_Olgk_Crane_01a_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=MulDiffuseColor }
+        ParameterValue = { R=0.364583, G=0.281681, B=0.209991, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=AddDiffuseColor }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=BlendColor }
+        ParameterValue = { R=0.3125, G=0.256027, B=0.246667, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=OverlayColor }
+        ParameterValue = { R=0.213542, G=0.075565, B=0.017278, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseBlendTexture }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseBlendOther }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseLayer }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = false
+            ParameterInfo = { Name=UseUVLayer }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = T_Envi_FZFBase_Floor_10a_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = T_Envi_FZFBase_Floor_10a_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = T_Envi_Olgk_Wall_01c_ORM
+    }
+}

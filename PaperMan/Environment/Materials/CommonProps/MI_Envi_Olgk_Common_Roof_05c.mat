@@ -1,0 +1,5 @@
+Diffuse=T_Notex_D
+Normal=BaseFlattenNormalMap
+Opacity=T_Envi_Olgk_Checkpoint_01b_M
+Other[0]=T_Notex_RMO
+Other[1]=T_Envi_Umeda_Decal_01_Mask

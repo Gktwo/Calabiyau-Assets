@@ -1,0 +1,202 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Scene/M_BlendMaster_UseUVLaer.M_BlendMaster_UseUVLaer'
+ScalarParameterValues[7] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Roughness Pow }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseBlendBlur }
+        ParameterValue = 0.306349
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=BaseBlendRange }
+        ParameterValue = 111.824
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Blend Roughness Pow }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=OverlayBlur }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=OverlayRange }
+        ParameterValue = 6.90843
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AO_R_M_MASK }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Fyz/T_Envi_Fyz_Floor_01a_ORM.T_Envi_Fyz_Floor_01a_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=DiffuseAndAlpha }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Fyz/T_Envi_Fyz_Floor_01a_D.T_Envi_Fyz_Floor_01a_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Fyz/T_Envi_Fyz_Floor_01a_N.T_Envi_Fyz_Floor_01a_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Blend_AO_R_M_MASK }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Fyz/T_Envi_Fyz_Floor_02a_ORM.T_Envi_Fyz_Floor_02a_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=BlendBase }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Fyz/T_Envi_Fyz_Floor_02a_D.T_Envi_Fyz_Floor_02a_D'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=BlendNormal }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Fyz/T_Envi_Fyz_Floor_02a_N.T_Envi_Fyz_Floor_02a_N'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=Alpha }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Decals/T_Envi_Umeda_Decal_01_Mask.T_Envi_Umeda_Decal_01_Mask'
+        ParameterName = None
+    }
+}
+VectorParameterValues[7] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=MulDiffuseColor }
+        ParameterValue = { R=0.518003, G=0.561721, B=0.592708, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=AddDiffuseColor }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=BlendColor }
+        ParameterValue = { R=0.422339, G=0.589267, B=0.8, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Color_UV3_A }
+        ParameterValue = { R=0.833333, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Color_UV4_B }
+        ParameterValue = { R=0.833333, G=0, B=0, A=0.022 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Color_UV4_G }
+        ParameterValue = { R=0.833333, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=Color_UV4_R }
+        ParameterValue = { R=0.833333, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseBlendTexture }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseBlendOther }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseUVLayer }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Envi_Fyz_Floor_01a_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Envi_Fyz_Floor_01a_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Envi_Fyz_Floor_02a_ORM
+    }
+}

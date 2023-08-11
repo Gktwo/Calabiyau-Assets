@@ -1,0 +1,136 @@
+Parent = MaterialInstanceConstant'/PM/Content/PaperMan/MaterialMaster/Scene/MI_PM_CommonMaster_Mutl_ORMVariable.MI_PM_CommonMaster_Mutl_ORMVariable'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Brightness }
+        ParameterValue = 0.909524
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Alpha }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Olgk/T_Envi_Olgk_HWR_01c_M.T_Envi_Olgk_HWR_01c_M'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=D }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Olgk/T_Envi_Olgk_PipeBox_02_D.T_Envi_Olgk_PipeBox_02_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=N }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Olgk/T_Envi_Olgk_PipeBox_02_N.T_Envi_Olgk_PipeBox_02_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=ORM }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Maps/Envi_Olgk/T_Envi_Olgk_PipeBox_02_ORM.T_Envi_Olgk_PipeBox_02_ORM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color_UV3_A }
+        ParameterValue = { R=0.291667, G=0.077984, B=0.054687, A=0.234 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color_UV4_B }
+        ParameterValue = { R=0.182292, G=0.061422, B=0.048708, A=0.299 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Color_UV4_G }
+        ParameterValue = { R=0.322917, G=0.146517, B=0.035319, A=0.383 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Color_UV4_R }
+        ParameterValue = { R=0.203125, G=0.058717, B=0.085145, A=0.32381 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=1, G=0.904661, B=0.887923, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=Alpha is Emissive? }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseUVLayer }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Envi_Olgk_PipeBox_02_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Envi_Olgk_PipeBox_02_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Envi_Olgk_PipeBox_02_ORM
+    }
+}

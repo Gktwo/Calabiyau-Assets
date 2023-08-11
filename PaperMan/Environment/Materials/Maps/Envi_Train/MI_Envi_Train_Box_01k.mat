@@ -1,0 +1,8 @@
+Diffuse=S_Envi_Train_Wall_D
+Normal=S_Envi_Train_Wall_N
+Opacity=T_Envi_Train_Box_01a_M
+Other[0]=T_Envi_Train_Box_01a_ORM
+Other[1]=T_Envi_Umeda_Decal_01_Mask
+Other[2]=T_Notex_D
+Other[3]=BaseFlattenNormalMap
+Other[4]=T_Notex_RMO

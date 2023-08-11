@@ -1,0 +1,124 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "S_Envi_olgk_Prop_Container_Merge_01g",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Envi_Olgk_Prop_Container_Merge_01b",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4,
+            "TEXCOORD_1" : 5
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "S_Envi_olgk_Prop_Container_Merge_01g"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "S_Envi_olgk_Prop_Container_Merge_01g.bin",
+      "byteLength" : 182332
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 9516
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 9516,
+      "byteLength" : 37032
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 46548,
+      "byteLength" : 37032
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 83580,
+      "byteLength" : 49376
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 132956,
+      "byteLength" : 24688
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 157644,
+      "byteLength" : 24688
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 4758,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ 12.9467, -1.44607, 62.5508 ],
+      "max" : [ 24.4249, 1.5228, 75.6481 ],
+      "componentType" : 5126,
+      "count" : 3086,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 3086,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 3086,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 3086,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 3086,
+      "type" : "VEC2"
+    }
+  ]
+}

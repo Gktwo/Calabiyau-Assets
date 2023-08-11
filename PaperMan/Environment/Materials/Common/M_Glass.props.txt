@@ -1,0 +1,111 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Bump UV Tilling }
+                    ParameterInfos[2] = { Name=Metallic }
+                    ParameterInfos[3] = { Name=Inside Scale }
+                    ParameterInfos[4] = { Name=Inside Depth }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Base Texture }
+                    ParameterInfos[1] = { Name=Inside Texture }
+                    ParameterInfos[2] = { Name=Bump }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0.07619, 1, 0.190477, 0.5, 0 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.057805, G=0.057805, B=0.057805, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+            TextureValues[2] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+        Name = Base Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/T_Notex_D.T_Notex_D'
+        Name = Inside Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Bump
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0.07619, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Bump UV Tilling, Group=None }
+    CollectedScalarParameters[2] = { Value=0.190477, Name=Metallic, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Inside Scale, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Inside Depth, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.057805, G=0.057805, B=0.057805, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

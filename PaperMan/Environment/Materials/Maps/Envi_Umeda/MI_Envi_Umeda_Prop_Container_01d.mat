@@ -1,0 +1,8 @@
+Diffuse=T_Envi_Umeda_Prop_Container_01_D
+Normal=T_Envi_Umeda_Prop_Container_01_N
+Opacity=T_Envi_Olgk_HWR_01c_M
+Other[0]=T_Envi_Umeda_Prop_Container_01_RMO
+Other[1]=T_Notex_D
+Other[2]=BaseFlattenNormalMap
+Other[3]=T_Notex_RMO
+Other[4]=T_Envi_Umeda_Decal_01_Mask

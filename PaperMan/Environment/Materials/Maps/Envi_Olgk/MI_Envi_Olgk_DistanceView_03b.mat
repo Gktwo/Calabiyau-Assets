@@ -1,0 +1,8 @@
+Diffuse=T_Envi_Olgk_DistanceView_03b_D
+Normal=T_Envi_Olgk_DistanceView_03b_N
+Opacity=T_S_Envi_Olgk_Door_01b_M
+Other[0]=T_S_Envi_Olgk_Door_01_ORM
+Other[1]=BaseFlattenNormalMap
+Other[2]=T_Notex_RMO
+Other[3]=T_Notex_D
+Other[4]=T_Envi_Umeda_Decal_01_Mask

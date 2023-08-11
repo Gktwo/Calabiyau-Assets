@@ -1,0 +1,11 @@
+Diffuse=T_Envi_FZFBase_Floor_02c_D
+Normal=T_Envi_FZFBase_Floor_05d_N
+Opacity=T_Envi_FZFBase_Floor_02c_D
+Other[0]=T_Envi_FZFBase_Floor_02d_ORM
+Other[1]=T_Envi_FZFBase_PipeBox_01b_Mask
+Other[2]=DefaultTexture
+Other[3]=T_Envi_Umeda_Decal_01_Mask
+Other[4]=black_mask
+Other[5]=Blend_N
+Other[6]=Wall
+Other[7]=Wall_N

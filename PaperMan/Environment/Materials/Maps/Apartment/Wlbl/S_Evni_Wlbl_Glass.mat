@@ -1,0 +1,7 @@
+Diffuse=S_Evni_Wlbl_Glass_D
+Normal=S_Evni_Wlbl_Glass_N
+Other[0]=S_Evni_Wlbl_Glass_ORM
+Other[1]=T_Notex_D
+Other[2]=BaseFlattenNormalMap
+Other[3]=T_Notex_RMO
+Other[4]=T_Envi_Umeda_Decal_01_Mask

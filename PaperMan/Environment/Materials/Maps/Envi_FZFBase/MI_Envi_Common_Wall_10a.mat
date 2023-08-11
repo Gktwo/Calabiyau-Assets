@@ -1,0 +1,7 @@
+Diffuse=T_Envi_FZFBase_Building_1e_D_3
+Normal=T_Envi_Common_Wall_10_N
+Other[0]=T_Envi_Common_Wall_10_ORM
+Other[1]=T_Notex_D
+Other[2]=BaseFlattenNormalMap
+Other[3]=T_Notex_RMO
+Other[4]=T_Envi_Umeda_Decal_01_Mask

@@ -1,0 +1,7 @@
+Diffuse=T_Interior_Plates_06_C_D
+Normal=T_Interior_Plates_06_C_N
+Other[0]=T_Interior_Plates_06_C_RMO
+Other[1]=T_Notex_D
+Other[2]=BaseFlattenNormalMap
+Other[3]=T_Notex_RMO
+Other[4]=T_Envi_Umeda_Decal_01_Mask

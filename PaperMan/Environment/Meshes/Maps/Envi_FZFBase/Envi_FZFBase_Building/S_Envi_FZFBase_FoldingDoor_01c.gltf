@@ -1,0 +1,148 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "S_Envi_FZFBase_FoldingDoor_01c",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Envi_FZFBase_FoldingDoor_01a",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4,
+            "TEXCOORD_1" : 5,
+            "TEXCOORD_2" : 6,
+            "TEXCOORD_3" : 7
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "S_Envi_FZFBase_FoldingDoor_01c"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "S_Envi_FZFBase_FoldingDoor_01c.bin",
+      "byteLength" : 70284
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 3324
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 3324,
+      "byteLength" : 11160
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 14484,
+      "byteLength" : 11160
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 25644,
+      "byteLength" : 14880
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 40524,
+      "byteLength" : 7440
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 47964,
+      "byteLength" : 7440
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 55404,
+      "byteLength" : 7440
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 62844,
+      "byteLength" : 7440
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 1662,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -2.44141e-06, -0.283013, -4.15883 ],
+      "max" : [ 5.47073, 0.15717, 0.142557 ],
+      "componentType" : 5126,
+      "count" : 930,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 930,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 930,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 930,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 930,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5126,
+      "count" : 930,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 930,
+      "type" : "VEC2"
+    }
+  ]
+}

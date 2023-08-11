@@ -1,0 +1,6 @@
+Diffuse=T_Envi_FZFBase_Glass_01_D
+Normal=T_Noise_5031_4
+Other[0]=T_Notex_RMO
+Other[1]=BaseFlattenNormalMap
+Other[2]=T_Notex_D
+Other[3]=T_Envi_Umeda_Decal_01_Mask

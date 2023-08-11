@@ -1,0 +1,6 @@
+Diffuse=DefaultTexture
+Normal=BaseFlattenNormalMap
+Other[0]=DefaultDiffuse
+Other[1]=DebugNumberStrip
+Other[2]=DebugNumberPeriod
+Other[3]=flipbook

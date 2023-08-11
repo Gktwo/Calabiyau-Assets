@@ -1,0 +1,8 @@
+Diffuse=T_Envi_Olgk_Checkpoint_merge_01_D
+Normal=T_Envi_Olgk_Checkpoint_merge_01_N
+Opacity=T_Envi_Olgk_BMonomer_01a_M
+Other[0]=T_Envi_Olgk_Checkpoint_merge_01_ORM
+Other[1]=T_Envi_Umeda_Decal_01_Mask
+Other[2]=T_Notex_D
+Other[3]=BaseFlattenNormalMap
+Other[4]=T_Notex_RMO

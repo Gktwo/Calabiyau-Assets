@@ -1,0 +1,8 @@
+Diffuse=T_Envi_Common_Ground_03_D
+Normal=T_Envi_Common_Ground_03_N
+Opacity=S_Envi_Fyz_Building_117e_Mask
+Other[0]=T_Envi_Common_Ground_03_RMO
+Other[1]=T_Envi_Umeda_Decal_01_Mask
+Other[2]=T_Notex_D
+Other[3]=BaseFlattenNormalMap
+Other[4]=T_Notex_RMO

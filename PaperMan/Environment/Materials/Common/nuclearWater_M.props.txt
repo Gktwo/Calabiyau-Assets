@@ -1,0 +1,159 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8001_1.T_Noise_8001_1'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8009.T_Noise_8009'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/T_StylizedWater_03_N.T_StylizedWater_03_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=FadeDistance }
+                    ParameterInfos[1] = { Name=Mask_Intensity }
+                    ParameterInfos[2] = { Name=Opacity }
+                    ParameterInfos[3] = { Name=MaskUV_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=NormalMapA_Tiling }
+                    ParameterInfos[1] = { Name=NormalMapB_Tiling }
+                    ParameterInfos[2] = { Name=MaskUV1 }
+                    ParameterInfos[3] = { Name=MaskColor }
+                    ParameterInfos[4] = { Name=WaterColorDepth }
+                    ParameterInfos[5] = { Name=WaterColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=NormalMapB }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=Disturb }
+                    ParameterInfos[3] = { Name=NormalMapA }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0, 0, 0.6, 0 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=33, G=5, B=0.1, A=0.1 }
+            VectorValues[1] = { R=22, G=11, B=0.2, A=-0.1 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0.175038, G=0.231539, B=0.401042, A=1 }
+            VectorValues[5] = { R=0.274209, G=0.646375, B=0.680208, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/T_StylizedWater_03_N.T_StylizedWater_03_N'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8001_1.T_Noise_8001_1'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8009.T_Noise_8009'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/T_StylizedWater_03_N.T_StylizedWater_03_N'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/T_StylizedWater_03_N.T_StylizedWater_03_N'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8001_1.T_Noise_8001_1'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8009.T_Noise_8009'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/T_StylizedWater_03_N.T_StylizedWater_03_N'
+        Name = NormalMapB
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8001_1.T_Noise_8001_1'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8009.T_Noise_8009'
+        Name = Disturb
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/T_StylizedWater_03_N.T_StylizedWater_03_N'
+        Name = NormalMapA
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Mask_Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0.6, Name=Opacity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=MaskUV_Intensity, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=33, G=5, B=0.1, A=0.1 }
+        Name = NormalMapA_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=22, G=11, B=0.2, A=-0.1 }
+        Name = NormalMapB_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MaskUV1
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = MaskColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.175038, G=0.231539, B=0.401042, A=1 }
+        Name = WaterColorDepth
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.274209, G=0.646375, B=0.680208, A=1 }
+        Name = WaterColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

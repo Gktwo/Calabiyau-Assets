@@ -1,0 +1,6 @@
+Diffuse=T_Envi_Train_Building_03a_D
+Normal=T_Envi__Floor_01_N
+Other[0]=BaseFlattenNormalMap
+Other[1]=T_Notex_RMO
+Other[2]=T_Notex_D
+Other[3]=T_Envi_Umeda_Decal_01_Mask

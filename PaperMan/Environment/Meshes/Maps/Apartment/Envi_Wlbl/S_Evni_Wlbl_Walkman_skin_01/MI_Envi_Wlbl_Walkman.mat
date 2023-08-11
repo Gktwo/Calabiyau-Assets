@@ -1,0 +1,6 @@
+Diffuse=T_Envi_Wlbl_Walkman_D
+Normal=T_Envi_Wlbl_Walkman_N
+Other[0]=T_Envi_Wlbl_Walkman_RMO
+Other[1]=T_DefaultNormal
+Other[2]=T_DefaultWhite_Gamma
+Other[3]=T_DefaultWhite_Linear

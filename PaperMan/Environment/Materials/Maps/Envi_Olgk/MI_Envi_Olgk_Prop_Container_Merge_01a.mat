@@ -1,0 +1,8 @@
+Diffuse=T_Envi_olgk_Prop_Container_Merge_01a_D
+Normal=T_Envi_olgk_Prop_Container_Merge_01a_N
+Opacity=T_Envi_Common_Decal_04a
+Other[0]=T_Envi_olgk_Prop_Container_Merge_01a_ORM
+Other[1]=T_Notex_D
+Other[2]=BaseFlattenNormalMap
+Other[3]=T_Notex_RMO
+Other[4]=T_Envi_Umeda_Decal_01_Mask

@@ -1,0 +1,148 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "S_Envi_Umeda_Building_004e",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Envi_Umeda_Building_004d",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4,
+            "TEXCOORD_1" : 5,
+            "TEXCOORD_2" : 6,
+            "TEXCOORD_3" : 7
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "S_Envi_Umeda_Building_004e"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "S_Envi_Umeda_Building_004e.bin",
+      "byteLength" : 413448
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 16656
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 16656,
+      "byteLength" : 66132
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 82788,
+      "byteLength" : 66132
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 148920,
+      "byteLength" : 88176
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 237096,
+      "byteLength" : 44088
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 281184,
+      "byteLength" : 44088
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 325272,
+      "byteLength" : 44088
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 369360,
+      "byteLength" : 44088
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 8328,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -8.62616, 3.54692, -6.3689 ],
+      "max" : [ 18.9211, 11.3485, 47.0601 ],
+      "componentType" : 5126,
+      "count" : 5511,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 5511,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 5511,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 5511,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 5511,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5126,
+      "count" : 5511,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 5511,
+      "type" : "VEC2"
+    }
+  ]
+}

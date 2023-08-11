@@ -1,0 +1,7 @@
+Diffuse=T_CartoonFoam_M
+Normal=T_StylizedWater_03_N
+Other[0]=T_Water_new_height
+Other[1]=WaterNormalA
+Other[2]=WaterNormalB
+Other[3]=water_paome
+Other[4]=T_CartoonFoam_05_M

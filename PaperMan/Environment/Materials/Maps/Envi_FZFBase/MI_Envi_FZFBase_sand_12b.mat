@@ -1,0 +1,14 @@
+Diffuse=T_Envi_FZFBase_Ground_02b_D
+Normal=T_Envi_Common_Ground_01_N_B
+Opacity=T_Envi_FZFBase_Ground_02b_D
+Other[0]=T_Envi_Common_Ground_01_ORM_B
+Other[1]=T_Envi_FZFBase_Ground_02a_ORM
+Other[2]=T_Envi_FZFBase_Ground_02a_D
+Other[3]=T_Envi_FZFBase_Ground_02a_N
+Other[4]=T_Envi_FZFBase_PipeBox_01b_Mask
+Other[5]=DefaultTexture
+Other[6]=T_Envi_Umeda_Decal_01_Mask
+Other[7]=black_mask
+Other[8]=Blend_N
+Other[9]=Wall
+Other[10]=Wall_N

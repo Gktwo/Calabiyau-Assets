@@ -1,0 +1,5 @@
+Diffuse=T_Envi_Jdhcz_Background_01a_D
+Normal=BaseFlattenNormalMap
+Other[0]=T_Notex_RMO
+Other[1]=T_Notex_D
+Other[2]=T_Envi_Umeda_Decal_01_Mask

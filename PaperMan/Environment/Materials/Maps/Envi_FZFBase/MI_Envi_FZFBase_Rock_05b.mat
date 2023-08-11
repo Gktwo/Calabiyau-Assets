@@ -1,0 +1,13 @@
+Diffuse=T_Envi_FZFBase_Stone_04e_D
+Normal=T_Envi_FZFBase_Stone_04e_N
+Opacity=T_Envi_FZFBase_Stone_04e_D
+Other[0]=T_Envi_FZFBase_Stone_04e_ORM
+Other[1]=T_Envi_FZFBase_Stone_05g_ORM
+Other[2]=T_Envi_FZFBase_Stone_05g_D
+Other[3]=T_Envi_FZFBase_Stone_05g_N
+Other[4]=DefaultTexture
+Other[5]=T_Envi_Umeda_Decal_01_Mask
+Other[6]=black_mask
+Other[7]=Blend_N
+Other[8]=Wall
+Other[9]=Wall_N

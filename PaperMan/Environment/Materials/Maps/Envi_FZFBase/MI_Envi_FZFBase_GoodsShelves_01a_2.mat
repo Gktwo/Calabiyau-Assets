@@ -1,0 +1,8 @@
+Diffuse=T_Envi_FZFBase_GoodsShelves_01b_D
+Normal=T_Envi_FZFBase_GoodsShelves_01b_N
+Opacity=T_Envi_Olgk_MASK_02a
+Other[0]=T_Envi_FZFBase_GoodsShelves_01b_ORM
+Other[1]=T_Notex_D
+Other[2]=BaseFlattenNormalMap
+Other[3]=T_Notex_RMO
+Other[4]=T_Envi_Umeda_Decal_01_Mask

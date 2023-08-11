@@ -1,0 +1,211 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "S_Evni_Wlbl_Botany_02a",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Envi_Wlbl_Mousepad_02a",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    },
+    {
+      "name" : "MI_Envi_Wlbl_Leaf_01",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.9, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4,
+            "TEXCOORD_1" : 5
+          },
+          "indices" : 0,
+          "material" : 0
+        },
+        {
+          "attributes" : {
+            "POSITION" : 7,
+            "NORMAL" : 8,
+            "TANGENT" : 9,
+            "TEXCOORD_0" : 10,
+            "TEXCOORD_1" : 11
+          },
+          "indices" : 6,
+          "material" : 1
+        }
+      ],
+      "name" : "S_Evni_Wlbl_Botany_02a"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "S_Evni_Wlbl_Botany_02a.bin",
+      "byteLength" : 223752
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 17724
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 17724,
+      "byteLength" : 25080
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 42804,
+      "byteLength" : 25080
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 67884,
+      "byteLength" : 33440
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 101324,
+      "byteLength" : 16720
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 118044,
+      "byteLength" : 16720
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 134764,
+      "byteLength" : 7844
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 142608,
+      "byteLength" : 17388
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 159996,
+      "byteLength" : 17388
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 177384,
+      "byteLength" : 23184
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 200568,
+      "byteLength" : 11592
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 212160,
+      "byteLength" : 11592
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 8862,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -0.0478516, -2.42545e-18, -0.0481621 ],
+      "max" : [ 0.0478514, 0.0607632, 0.0481504 ],
+      "componentType" : 5126,
+      "count" : 2090,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 2090,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 2090,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 2090,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 2090,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5123,
+      "count" : 3921,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 7,
+      "min" : [ -0.0450249, 0.0442611, -0.0398393 ],
+      "max" : [ 0.0473836, 0.118884, 0.0432099 ],
+      "componentType" : 5126,
+      "count" : 1449,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5126,
+      "count" : 1449,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 9,
+      "componentType" : 5126,
+      "count" : 1449,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 10,
+      "componentType" : 5126,
+      "count" : 1449,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 11,
+      "componentType" : 5126,
+      "count" : 1449,
+      "type" : "VEC2"
+    }
+  ]
+}

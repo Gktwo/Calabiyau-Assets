@@ -1,0 +1,137 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0012.T_Noise_0012'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0013.T_Noise_0013'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5031_4.T_Noise_5031_4'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Height }
+                    ParameterInfos[2] = { Name=C2 Pow }
+                    ParameterInfos[3] = { Name=Texture Scale }
+                    ParameterInfos[4] = { Name=Tex1 U Scroll }
+                    ParameterInfos[5] = { Name=Exponentln }
+                    ParameterInfos[6] = { Name=NormalMap Tilling }
+                    ParameterInfos[7] = { Name=Tex1 V Scroll }
+                    ParameterInfos[8] = { Name=Tex1 Tilling }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Color2 }
+                    ParameterInfos[1] = { Name=Color3 }
+                    ParameterInfos[2] = { Name=Color1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=InsideTex }
+                    ParameterInfos[1] = { Name=SurfaceTex }
+                    ParameterInfos[2] = { Name=NormalMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 0.01, 0.5, 1, 0.22, 0, 0, 1, 0, 1 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0, B=1, A=1 }
+            VectorValues[1] = { R=0.824171, G=0, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0.022569, B=0.130208, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0012.T_Noise_0012'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0013.T_Noise_0013'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5031_4.T_Noise_5031_4'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0012.T_Noise_0012'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0013.T_Noise_0013'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5031_4.T_Noise_5031_4'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0012.T_Noise_0012'
+        Name = InsideTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0013.T_Noise_0013'
+        Name = SurfaceTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5031_4.T_Noise_5031_4'
+        Name = NormalMap
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0.01, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Height, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=C2 Pow, Group=None }
+    CollectedScalarParameters[3] = { Value=0.22, Name=Texture Scale, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Tex1 U Scroll, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Exponentln, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=NormalMap Tilling, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Tex1 V Scroll, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Tex1 Tilling, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.824171, G=0, B=1, A=1 }
+        Name = Color3
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0.022569, B=0.130208, A=1 }
+        Name = Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,185 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Horizon Falloff }
+                    ParameterInfos[1] = { Name=SkyTexture_Offset }
+                    ParameterInfos[2] = { Name=Sun brightness }
+                    ParameterInfos[3] = { Name=random_size }
+                    ParameterInfos[4] = { Name=sin_speed }
+                    ParameterInfos[5] = { Name=Cloud speed }
+                    ParameterInfos[6] = { Name=Stars brightness }
+                    ParameterInfos[7] = { Name=Sun height }
+                    ParameterInfos[8] = { Name=sin_v }
+                    ParameterInfos[9] = { Name=sin_u }
+                    ParameterInfos[10] = { Name=Sun Radius }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=LightningColor }
+                    ParameterInfos[1] = { Name=noiseUV_speed }
+                    ParameterInfos[2] = { Name=Horizon color }
+                    ParameterInfos[3] = { Name=Zenith Color }
+                    ParameterInfos[4] = { Name=Overall Color }
+                    ParameterInfos[5] = { Name=strength_RM_BP }
+                    ParameterInfos[6] = { Name=Sun color }
+                    ParameterInfos[7] = { Name=Light direction }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=noise }
+                    ParameterInfos[1] = { Name=StarTexture }
+                    ParameterInfos[2] = { Name=SkyTexture }
+                    ParameterInfos[3] = { Name=sin_noise }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 3, 0, 50, 0, 0.08, 0.1, 0.1, 1, 0, 0, 0.0003 }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0.940601, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0.085177, G=0.153746, B=0.35, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+            VectorValues[6] = { R=1, G=0.8, B=0.4, A=1 }
+            VectorValues[7] = { R=-2, G=0, B=-1, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[1] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[2] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+            TextureValues[3] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = StarTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = SkyTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultWhite_Gamma.T_DefaultWhite_Gamma'
+        Name = sin_noise
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Horizon Falloff, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=SkyTexture_Offset, Group=None }
+    CollectedScalarParameters[2] = { Value=50, Name=Sun brightness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=random_size, Group=None }
+    CollectedScalarParameters[4] = { Value=0.08, Name=sin_speed, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=Cloud speed, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=Stars brightness, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Sun height, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=sin_v, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=sin_u, Group=None }
+    CollectedScalarParameters[10] = { Value=0.0003, Name=Sun Radius, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LightningColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = noiseUV_speed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.940601, G=1, B=1, A=1 }
+        Name = Horizon color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.085177, G=0.153746, B=0.35, A=1 }
+        Name = Zenith Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Overall Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = strength_RM_BP
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=0.8, B=0.4, A=1 }
+        Name = Sun color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=-2, G=0, B=-1, A=1 }
+        Name = Light direction
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

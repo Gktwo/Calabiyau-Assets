@@ -1,0 +1,128 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/ControlPanel-1.ControlPanel-1'
+    ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/ControlPanel-2.ControlPanel-2'
+    ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/ControlPanel-press.ControlPanel-press'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=Start }
+                    ParameterInfos[1] = { Name=Icon_PosY }
+                    ParameterInfos[2] = { Name=PRESS_Size }
+                    ParameterInfos[3] = { Name=Down_PosX }
+                    ParameterInfos[4] = { Name=Up_PosY }
+                    ParameterInfos[5] = { Name=Line Num }
+                    ParameterInfos[6] = { Name=Up-Down }
+                    ParameterInfos[7] = { Name=Up-Down_Size }
+                    ParameterInfos[8] = { Name=Up_PosX }
+                    ParameterInfos[9] = { Name=IsUp }
+                    ParameterInfos[10] = { Name=Down_PosY }
+                    ParameterInfos[11] = { Name=Icon_PosX }
+                    ParameterInfos[12] = { Name=PRESS_PosX }
+                    ParameterInfos[13] = { Name=Icon_Size }
+                    ParameterInfos[14] = { Name=PRESS_PosY }
+                    ParameterInfos[15] = { Name=UpDown Scroll }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Up Color }
+                    ParameterInfos[1] = { Name=Down Color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = -1.23753
+            ScalarValues[2] = 1.62861
+            ScalarValues[3] = -0.592679
+            ScalarValues[4] = -0.609524
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 3.27579
+            ScalarValues[8] = -0.592679
+            ScalarValues[9] = 1
+            ScalarValues[10] = 2.8
+            ScalarValues[11] = -1.86323
+            ScalarValues[12] = -0.074409
+            ScalarValues[13] = 2.89327
+            ScalarValues[14] = -0.308219
+            ScalarValues[15] = 1.5
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=20.6578, G=0.043087, B=0.252306, A=1 }
+            VectorValues[1] = { R=0, G=0.283016, B=12.632, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/ControlPanel-1.ControlPanel-1'
+        ReferencedTextures[1] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/ControlPanel-2.ControlPanel-2'
+        ReferencedTextures[2] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/ControlPanel-press.ControlPanel-press'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Start, Group=None }
+    CollectedScalarParameters[1] = { Value=-1.23753, Name=Icon_PosY, Group=None }
+    CollectedScalarParameters[2] = { Value=1.62861, Name=PRESS_Size, Group=None }
+    CollectedScalarParameters[3] = { Value=-0.592679, Name=Down_PosX, Group=None }
+    CollectedScalarParameters[4] = { Value=-0.609524, Name=Up_PosY, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Line Num, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Up-Down, Group=None }
+    CollectedScalarParameters[7] = { Value=3.27579, Name=Up-Down_Size, Group=None }
+    CollectedScalarParameters[8] = { Value=-0.592679, Name=Up_PosX, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=IsUp, Group=None }
+    CollectedScalarParameters[10] = { Value=2.8, Name=Down_PosY, Group=None }
+    CollectedScalarParameters[11] = { Value=-1.86323, Name=Icon_PosX, Group=None }
+    CollectedScalarParameters[12] = { Value=-0.074409, Name=PRESS_PosX, Group=None }
+    CollectedScalarParameters[13] = { Value=2.89327, Name=Icon_Size, Group=None }
+    CollectedScalarParameters[14] = { Value=-0.308219, Name=PRESS_PosY, Group=None }
+    CollectedScalarParameters[15] = { Value=1.5, Name=UpDown Scroll, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=20.6578, G=0.043087, B=0.252306, A=1 }
+        Name = Up Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0.283016, B=12.632, A=1 }
+        Name = Down Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,10 @@
+Diffuse=S_Envi_Fyz_Distance_01u_A_D
+Normal=S_Envi_Fyz_Distance_01u_A_N
+Opacity=S_Envi_Fyz_Distance_01u_A_D
+Other[0]=S_Envi_Fyz_Distance_01u_A_ORM
+Other[1]=DefaultTexture
+Other[2]=T_Envi_Umeda_Decal_01_Mask
+Other[3]=black_mask
+Other[4]=Blend_N
+Other[5]=Wall
+Other[6]=Wall_N

@@ -1,0 +1,124 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "S_Envi_Olgk_Common_Pipe_Merge_01i",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Envi_Common_Pipe_02d",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4,
+            "TEXCOORD_1" : 5
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "S_Envi_Olgk_Common_Pipe_Merge_01i"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "S_Envi_Olgk_Common_Pipe_Merge_01i.bin",
+      "byteLength" : 1065756
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 107820
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 107820,
+      "byteLength" : 205272
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 313092,
+      "byteLength" : 205272
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 518364,
+      "byteLength" : 273696
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 792060,
+      "byteLength" : 136848
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 928908,
+      "byteLength" : 136848
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 53910,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -14.0413, -6.38349, -42.6379 ],
+      "max" : [ 38.3297, 31.7693, 18.8253 ],
+      "componentType" : 5126,
+      "count" : 17106,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 17106,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 17106,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 17106,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 17106,
+      "type" : "VEC2"
+    }
+  ]
+}

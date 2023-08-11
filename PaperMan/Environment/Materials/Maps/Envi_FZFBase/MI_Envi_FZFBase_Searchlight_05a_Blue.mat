@@ -1,0 +1,8 @@
+Diffuse=T_Envi_FZFBase_searchlight_05b_D
+Normal=T_Envi_FZFBase_searchlight_05b_N
+Opacity=T_Envi_FZFBase_Erengybox_01a_M
+Other[0]=T_Envi_FZFBase_searchlight_05b_ORM
+Other[1]=T_Notex_D
+Other[2]=BaseFlattenNormalMap
+Other[3]=T_Notex_RMO
+Other[4]=T_Envi_Umeda_Decal_01_Mask

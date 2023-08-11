@@ -1,0 +1,7 @@
+Diffuse=T_sofa_06_BC
+Normal=T_sofa_06_N
+Other[0]=T_sofa_06_ORM
+Other[1]=T_Notex_D
+Other[2]=BaseFlattenNormalMap
+Other[3]=T_Notex_RMO
+Other[4]=T_Envi_Umeda_Decal_01_Mask

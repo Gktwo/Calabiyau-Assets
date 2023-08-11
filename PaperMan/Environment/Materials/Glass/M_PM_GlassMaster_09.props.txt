@@ -1,0 +1,103 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Glass/T_PM_Glass_01_N.T_PM_Glass_01_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=UV Tile }
+                    ParameterInfos[2] = { Name=Metallic }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=Frensel Amount }
+                    ParameterInfos[5] = { Name=Opacity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0.25, 5, 1, 10, 4, 0.3 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.8, G=0.8, B=0.8, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Glass/T_PM_Glass_01_N.T_PM_Glass_01_N'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/PM/Content/PaperMan/Environment/Textures/Glass/T_PM_Glass_01_N.T_PM_Glass_01_N'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/PM/Content/PaperMan/Environment/Textures/Glass/T_PM_Glass_01_N.T_PM_Glass_01_N'
+        Name = Param
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0.25, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=UV Tile, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Metallic, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=4, Name=Frensel Amount, Group=None }
+    CollectedScalarParameters[5] = { Value=0.3, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.8, G=0.8, B=0.8, A=0 }
+        Name = Base Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_PM_Glass_01_N
+    }
+}

@@ -1,0 +1,8 @@
+Diffuse=T_Envi_FZFBase_Wall_07b_D
+Normal=T_Envi_FZFBase_Wall_07a_N
+Opacity=T_Envi_FZFBase_PipeBox_01b_Mask
+Other[0]=T_Envi_FZFBase_Wall_07a_ORM
+Other[1]=T_Notex_D
+Other[2]=BaseFlattenNormalMap
+Other[3]=T_Notex_RMO
+Other[4]=T_Envi_Umeda_Decal_01_Mask

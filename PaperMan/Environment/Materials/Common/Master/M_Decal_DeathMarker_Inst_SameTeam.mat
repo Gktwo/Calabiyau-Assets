@@ -1,0 +1,7 @@
+Diffuse=T_Dynamic_DeathMarker_50000001
+Normal=BaseFlattenNormalMap
+Other[0]=DefaultTexture
+Other[1]=DefaultDiffuse
+Other[2]=DebugNumberStrip
+Other[3]=DebugNumberPeriod
+Other[4]=flipbook

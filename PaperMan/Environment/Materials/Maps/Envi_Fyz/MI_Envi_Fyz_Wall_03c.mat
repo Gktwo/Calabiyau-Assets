@@ -1,0 +1,8 @@
+Diffuse=T_Envi_Fyz_Wall_03a_D2
+Normal=T_Envi_Fyz_Wall_03a_N
+Opacity=T_Envi_Fyz_Wall_01a_M
+Other[0]=T_Envi_Fyz_Wall_03a_ORM
+Other[1]=T_Envi_Umeda_Decal_01_Mask
+Other[2]=T_Notex_D
+Other[3]=BaseFlattenNormalMap
+Other[4]=T_Notex_RMO

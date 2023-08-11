@@ -1,0 +1,8 @@
+Diffuse=T_Envi_Common_NoCoast_01a_D
+Normal=T_Envi_Common_NoCoast_01a_N
+Opacity=T_Envi_Common_Mask_02a
+Other[0]=T_Envi_Common_NoCoast_01a_ORM
+Other[1]=T_Envi_Umeda_Decal_01_Mask
+Other[2]=T_Notex_D
+Other[3]=BaseFlattenNormalMap
+Other[4]=T_Notex_RMO

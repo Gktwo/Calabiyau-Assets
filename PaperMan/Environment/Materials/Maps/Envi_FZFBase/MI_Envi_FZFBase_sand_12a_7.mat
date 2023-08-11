@@ -1,0 +1,14 @@
+Diffuse=T_Envi_FZFBase_sand_12a_D
+Normal=T_Envi_FZFBase_sand_12a_N
+Opacity=T_Envi_FZFBase_sand_12a_D
+Other[0]=T_Envi_FZFBase_sand_12a_ORM
+Other[1]=T_Envi_Common_Ground_01_ORM_a
+Other[2]=T_Envi_Common_Ground_01_D_B
+Other[3]=T_Envi_Common_Ground_01_N_B
+Other[4]=T_Envi_FZFBase_Policeroom_01b_M
+Other[5]=DefaultTexture
+Other[6]=T_Envi_Umeda_Decal_01_Mask
+Other[7]=black_mask
+Other[8]=Blend_N
+Other[9]=Wall
+Other[10]=Wall_N

@@ -1,0 +1,335 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Scene/M_Water_4.M_Water_4'
+ScalarParameterValues[32] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=River_Depth }
+        ParameterValue = -30
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=River_DepthPower }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=River_DepthScale }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Normals UV Tiling }
+        ParameterValue = 3000
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Normals UV Speed }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Normals Strength Near }
+        ParameterValue = 0.746835
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Normals Strength Far }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Normals Strength Grazing Angle }
+        ParameterValue = 1.4
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Grazing Angle Exponent }
+        ParameterValue = 9
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo =
+        {
+            Name = Fade to Stronger Normals at Distance Start
+        }
+        ParameterValue = 1500
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Fade to Stronger Normals at Distance End }
+        ParameterValue = 3000
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=FadeDistance }
+        ParameterValue = 80
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=OpacityDeep }
+        ParameterValue = 1.1
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=paome_lerp }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=paome_Normal }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=paome_kz }
+        ParameterValue = 3.5
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=paome_uv_cs }
+        ParameterValue = 200
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Opacity_paome_cs }
+        ParameterValue = 3.4353
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=water_baime_start }
+        ParameterValue = 500
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=water_baime_end }
+        ParameterValue = 150
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=DiffuseCoe }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=SeaFoamClamp }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=SeaFoamFade }
+        ParameterValue = 20000
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=SeaFoamFallof }
+        ParameterValue = 3000
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=SeaFoamNormalIntensity }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=SeaFoamTiling }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=CompareTolerance }
+        ParameterValue = 200
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=EdgeFadeDistance }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=NumStep }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=ReflectDistance }
+        ParameterValue = 30
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=NormalMapA }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/T_StylizedWater_03_N.T_StylizedWater_03_N'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=NormalMapB }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Normal/T_Water_new_height.T_Water_new_height'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normals Texture A }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/WaterNormalA.WaterNormalA'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Normals Texture B }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/WaterNormalB.WaterNormalB'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=paome }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Environment/Textures/Common/water_paome.water_paome'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=SeaFoamTexture }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Water/T_CartoonFoam_05_M.T_CartoonFoam_05_M'
+        ParameterName = None
+    }
+}
+VectorParameterValues[9] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=WaterColor }
+        ParameterValue = { R=0.057292, G=0.057292, B=0.057292, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=WaterColorDepth }
+        ParameterValue = { R=0.132487, G=0.229167, B=0.186361, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=LightDir }
+        ParameterValue = { R=0.5, G=0.5, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=NormalMapA_Tiling }
+        ParameterValue = { R=2, G=3, B=-0.05, A=0.02 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=NormalMapB_Tiling }
+        ParameterValue = { R=0.8, G=0.5, B=0.01, A=0.012 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=paome_uv }
+        ParameterValue = { R=2.67855, G=0.843384, B=0, A=0.32381 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=uv_speed }
+        ParameterValue = { R=-0, G=0.270833, B=-0.270833, A=-0.05 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=SeafoamColor }
+        ParameterValue = { R=0.713542, G=0.713542, B=0.713542, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=SeaFoamNormal }
+        ParameterValue = { R=0.674649, G=0.674649, B=0.674649, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2.62769
+        UVChannelIndex = 0
+        TextureName = water_paome
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = WaterNormalA
+    }
+}
