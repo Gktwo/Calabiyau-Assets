@@ -1,0 +1,12 @@
+Diffuse=T_Lawine_Body_104_D
+Normal=T_Lawine_Body_104_N
+Other[0]=T_Lawine_Body_Mask1_104_Map
+Other[1]=T_Lawine_Body_Mask2_Map
+Other[2]=leather2
+Other[3]=DefaultTexture
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultWhite_Gamma
+Other[9]=T_DefaultWhite_Grayscale
