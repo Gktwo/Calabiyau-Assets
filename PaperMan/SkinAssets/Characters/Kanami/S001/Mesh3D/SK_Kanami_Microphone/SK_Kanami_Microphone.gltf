@@ -1,0 +1,200 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SK_Kanami_Microphone",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ 0.707107, -0, -0, 0.707107 ]
+    },
+    {
+      "name" : "Bone006",
+      "children" : [ 3 ],
+      "translation" : [ 0, -1.52588e-07, -1.33 ],
+      "rotation" : [ -1.30936e-23, -9.31323e-10, 1.51732e-16, -1 ]
+    },
+    {
+      "name" : "Bone001",
+      "children" : [ 4 ],
+      "translation" : [ -2.47732e-09, 1.52588e-07, 1.33 ],
+      "rotation" : [ -5.96046e-08, 1.03638e-16, 4.65736e-10, -1 ]
+    },
+    {
+      "name" : "Bone004",
+      "children" : [ 5 ],
+      "translation" : [ 6.37541e-10, -0.00574205, -0.204656 ],
+      "rotation" : [ -2.65492e-06, -0.707107, 2.85442e-06, -0.707107 ]
+    },
+    {
+      "name" : "Bone005",
+      "children" : [ 6 ],
+      "translation" : [ 0.978196, 0.00219212, -1.36774e-07 ],
+      "rotation" : [ -1.5487e-07, 4.88835e-06, 0.999968, -0.00802562 ]
+    },
+    {
+      "name" : "Bone003",
+      "children" : [ 7 ],
+      "translation" : [ -8.33477e-05, 0.00206619, 1.2517e-08 ],
+      "rotation" : [ 0.707084, -0.00567664, 0.707084, 0.00567299 ]
+    },
+    {
+      "name" : "Bone002",
+      "translation" : [ 0.000158054, -0.0110037, -0.173856 ],
+      "rotation" : [ 0.251478, 0.658546, -0.252912, -0.662655 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Kanami_Microphone",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SK_Kanami_Microphone"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SK_Kanami_Microphone.bin",
+      "byteLength" : 295420
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 448
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 448,
+      "byteLength" : 30012
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 30460,
+      "byteLength" : 52992
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 83452,
+      "byteLength" : 52992
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 136444,
+      "byteLength" : 70656
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 207100,
+      "byteLength" : 35328
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 242428,
+      "byteLength" : 17664
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 260092,
+      "byteLength" : 35328
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 7,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 15006,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.210241, 0.00503876, -0.225728 ],
+      "max" : [ 0.210241, 1.41435, 0.159286 ],
+      "componentType" : 5126,
+      "count" : 4416,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 4416,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 4416,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 4416,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 4416,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 4416,
+      "type" : "VEC2"
+    }
+  ]
+}

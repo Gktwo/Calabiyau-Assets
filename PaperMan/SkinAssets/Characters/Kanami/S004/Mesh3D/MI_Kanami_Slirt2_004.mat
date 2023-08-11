@@ -1,0 +1,12 @@
+Diffuse=T_Kanami_Body_004_D
+Normal=T_Kanami_Body_N
+Other[0]=T_Kanami_Body_Mask1_Map
+Other[1]=T_Kanami_Body_Mask2_Map
+Other[2]=10019__2__11
+Other[3]=DefaultTexture
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultWhite_Gamma
+Other[9]=T_DefaultWhite_Grayscale
