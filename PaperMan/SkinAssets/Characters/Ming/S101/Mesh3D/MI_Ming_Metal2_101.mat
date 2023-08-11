@@ -1,0 +1,12 @@
+Diffuse=T_Ming_Body_101_D
+Normal=T_Ming_Body_101_N
+Other[0]=T_Ming_Body_Mask1_Map
+Other[1]=T_Ming_Body_Mask2_Map
+Other[2]=190415h1y5zru5ktpg51ql
+Other[3]=DefaultTexture
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultWhite_Gamma
+Other[9]=T_DefaultWhite_Grayscale

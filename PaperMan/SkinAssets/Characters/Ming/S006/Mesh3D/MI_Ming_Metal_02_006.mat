@@ -1,0 +1,12 @@
+Diffuse=T_Ming_Body_S006_D
+Normal=T_Ming_Body_N
+Other[0]=T_Ming_Body_Mask1
+Other[1]=T_Ming_Body_Mask2
+Other[2]=Metal_MatCap
+Other[3]=DefaultTexture
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultWhite_Gamma
+Other[9]=T_DefaultWhite_Grayscale
