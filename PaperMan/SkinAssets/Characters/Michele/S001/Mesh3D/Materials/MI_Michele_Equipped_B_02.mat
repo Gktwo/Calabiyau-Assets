@@ -1,0 +1,11 @@
+Diffuse=T_Michele_Equipped_B_02
+Normal=T_DefaultNormal
+Other[0]=T_Michele_Equipped_matcap_mask
+Other[1]=T_Michele_Equipped_C
+Other[2]=T_Michele_Equipped_sp_mask
+Other[3]=DefaultTexture
+Other[4]=T_DefaultBlack_Gamma
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultWhite_Gamma
+Other[8]=T_DefaultWhite_Grayscale

@@ -1,0 +1,12 @@
+Diffuse=T_Michele_Body2_051
+Normal=T_Michele_Body__N_051
+Other[0]=T_Michele_Body2_Mask1_2
+Other[1]=T_Michele_Body_Mask2-1
+Other[2]=leather
+Other[3]=DefaultTexture
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultWhite_Gamma
+Other[9]=T_DefaultWhite_Grayscale

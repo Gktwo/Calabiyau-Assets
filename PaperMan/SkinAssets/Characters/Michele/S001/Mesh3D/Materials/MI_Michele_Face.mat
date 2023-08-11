@@ -1,0 +1,15 @@
+Diffuse=T_Michele_Face
+Normal=T_DefaultNormal
+Other[0]=expression_Mask
+Other[1]=blush
+Other[2]=perspire
+Other[3]=tears
+Other[4]=T_Michele_SDF
+Other[5]=T_Michele_Face2_Mask1
+Other[6]=T_Michele_Face2_Mask2
+Other[7]=DefaultTexture
+Other[8]=T_DefaultWhite_Grayscale
+Other[9]=T_DefaultBlack_Linear
+Other[10]=T_DefaultBlue_Linear
+Other[11]=T_DefaultBlack_Gamma
+Other[12]=T_DefaultWhite_Gamma

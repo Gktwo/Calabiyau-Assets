@@ -1,0 +1,215 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SK_Weap_Michele_Neko_Bot_Mesh",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2, 4, 6, 8 ],
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ 3.06162e-17, -0, -0, 1 ]
+    },
+    {
+      "name" : "Foot_B",
+      "children" : [ 3 ],
+      "translation" : [ 0, 0.0229565, -0.0825123 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Bone001",
+      "translation" : [ 3.57628e-09, 0.0177503, 0.00178518 ],
+      "rotation" : [ -0.129731, 0.129731, -0.695104, -0.695104 ]
+    },
+    {
+      "name" : "Foot_R",
+      "children" : [ 5 ],
+      "translation" : [ -0.0727619, 0.0229565, 0.0835319 ],
+      "rotation" : [ -0, -0.300706, 0, -0.953717 ]
+    },
+    {
+      "name" : "Bone003",
+      "translation" : [ 0.00398243, 0.0162156, 0.000215416 ],
+      "rotation" : [ -0.607935, -0.405388, -0.363099, -0.57813 ]
+    },
+    {
+      "name" : "Foot_L",
+      "children" : [ 7 ],
+      "translation" : [ 0.0701805, 0.0229565, 0.0819479 ],
+      "rotation" : [ -0, 0.300706, -0, -0.953717 ]
+    },
+    {
+      "name" : "Bone005",
+      "translation" : [ -0.00199344, 0.0171045, -0.000362716 ],
+      "rotation" : [ -0.391113, -0.572364, 0.595771, 0.40557 ]
+    },
+    {
+      "name" : "Ball_Socket",
+      "children" : [ 9 ],
+      "translation" : [ 0, 0.123997, 1.08944e-09 ],
+      "rotation" : [ 5.19501e-40, 0.707107, 5.19501e-40, -0.707107 ]
+    },
+    {
+      "name" : "Cat",
+      "children" : [ 10 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -1.46937e-39, 1.32349e-23, -6.16298e-33, -1 ]
+    },
+    {
+      "name" : "Effect",
+      "translation" : [ 0.073165, -0.000368767, -1.37949e-05 ],
+      "rotation" : [ -1.46937e-39, -1.32349e-23, -6.16298e-33, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Weap_Michele_Neko_Bot_Mesh",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SK_Weap_Michele_Neko_Bot_Mesh"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SK_Weap_Michele_Neko_Bot_Mesh.bin",
+      "byteLength" : 273484
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 640
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 640,
+      "byteLength" : 32604
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 33244,
+      "byteLength" : 48048
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 81292,
+      "byteLength" : 48048
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 129340,
+      "byteLength" : 64064
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 193404,
+      "byteLength" : 32032
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 225436,
+      "byteLength" : 16016
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 241452,
+      "byteLength" : 32032
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 10,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 16302,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.0935665, -6.25849e-09, -0.104304 ],
+      "max" : [ 0.0935665, 0.220266, 0.104304 ],
+      "componentType" : 5126,
+      "count" : 4004,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 4004,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 4004,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 4004,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 4004,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 4004,
+      "type" : "VEC2"
+    }
+  ]
+}
