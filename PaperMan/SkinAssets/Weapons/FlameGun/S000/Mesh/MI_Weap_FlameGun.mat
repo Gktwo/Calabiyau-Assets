@@ -1,0 +1,6 @@
+Diffuse=T_Weap_FlameGun_D
+Normal=T_Weap_FlameGun_N
+Other[0]=T_Weap_FlameGun_RMO
+Other[1]=T_DefaultNormal
+Other[2]=T_DefaultWhite_Gamma
+Other[3]=T_DefaultWhite_Linear

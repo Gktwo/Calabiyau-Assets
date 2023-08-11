@@ -1,0 +1,14 @@
+Diffuse=T_Weap_FAMAS_102_01_V_D
+Normal=T_Weap_FAMAS_102_01_V_N
+Other[0]=T_Weap_FAMAS_102_01_V_RMO
+Other[1]=T_Weap_FAMAS_102_01_V_mask
+Other[2]=T_sparks_01
+Other[3]=T_Crystal_FlowMap
+Other[4]=BlendFunc_DefBase
+Other[5]=BlendFunc_DefBlend
+Other[6]=T_Crystal_BubbleMask
+Other[7]=black_mask
+Other[8]=T_DefaultNormal
+Other[9]=T_DefaultWhite_Gamma
+Other[10]=T_DefaultWhite_Linear
+Other[11]=173422gvp1popogdroy3zg

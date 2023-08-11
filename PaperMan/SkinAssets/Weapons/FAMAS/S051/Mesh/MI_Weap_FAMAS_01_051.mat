@@ -1,0 +1,16 @@
+Diffuse=T_Weap_FAMAS_01_051_D
+Normal=T_Weap_FAMAS_01_051_N
+Other[0]=T_Weap_FAMAS_01_051_RMO
+Other[1]=T_Weap_FAMAS_01_051_MASK
+Other[2]=T_Weap_G28_051_03_logo
+Other[3]=T_Weap_G28_051_01_logo
+Other[4]=DefaultDiffuse
+Other[5]=DebugNumberStrip
+Other[6]=DebugNumberPeriod
+Other[7]=flipbook
+Other[8]=black
+Other[9]=black_mask
+Other[10]=white
+Other[11]=T_DefaultNormal
+Other[12]=T_DefaultWhite_Gamma
+Other[13]=T_DefaultWhite_Linear

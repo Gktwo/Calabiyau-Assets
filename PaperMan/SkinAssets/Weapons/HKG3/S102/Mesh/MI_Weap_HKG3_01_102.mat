@@ -1,0 +1,12 @@
+Diffuse=T_Weap_HKG3_01_102_D
+Normal=T_Weap_HKG3_01_102_N
+Other[0]=T_Weap_HKG3_01_102_RMO
+Other[1]=T_Weap_HKG3_01_102_AdditionalFXMask_1024
+Other[2]=T_Weap_HKG3_01_102_DissolveMask_02
+Other[3]=T_Crystal_FlowMap
+Other[4]=T_Crystal_BubbleMask
+Other[5]=T_Crystal_FlowMap
+Other[6]=black_mask
+Other[7]=T_DefaultNormal
+Other[8]=T_DefaultWhite_Gamma
+Other[9]=T_DefaultWhite_Linear
