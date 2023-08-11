@@ -1,0 +1,12 @@
+Diffuse=T_Maddelena_Body_006
+Normal=T_Maddelena_Body_N
+Other[0]=T_Maddelena_Body_MASK1
+Other[1]=Blue_Mask
+Other[2]=192439uxdsi5xj7ah74ohs
+Other[3]=DefaultTexture
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultWhite_Gamma
+Other[9]=T_DefaultWhite_Grayscale

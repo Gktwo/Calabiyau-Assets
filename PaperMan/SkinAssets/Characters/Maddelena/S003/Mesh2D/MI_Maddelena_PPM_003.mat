@@ -1,0 +1,9 @@
+Diffuse=T_Madeleina_PPM_003
+Normal=T_DefaultNormal
+Other[0]=Green_Mask
+Other[1]=DefaultTexture
+Other[2]=T_DefaultBlack_Gamma
+Other[3]=T_DefaultBlack_Linear
+Other[4]=T_DefaultBlue_Linear
+Other[5]=T_DefaultWhite_Gamma
+Other[6]=T_DefaultWhite_Grayscale

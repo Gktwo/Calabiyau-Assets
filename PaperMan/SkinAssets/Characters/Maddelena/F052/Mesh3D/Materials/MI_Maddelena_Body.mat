@@ -1,0 +1,13 @@
+Diffuse=T_Maddelena_Body
+Normal=T_Maddelena_Body_N
+Other[0]=T_Maddelena_Body_S
+Other[1]=T_Maddelena_Body_Mask1_Map
+Other[2]=T_Maddelena_Body_Mask2_Map
+Other[3]=leather
+Other[4]=DefaultTexture
+Other[5]=T_DefaultBlack_Gamma
+Other[6]=T_DefaultBlack_Linear
+Other[7]=T_DefaultBlue_Linear
+Other[8]=T_DefaultNormal
+Other[9]=T_DefaultWhite_Gamma
+Other[10]=T_DefaultWhite_Grayscale
