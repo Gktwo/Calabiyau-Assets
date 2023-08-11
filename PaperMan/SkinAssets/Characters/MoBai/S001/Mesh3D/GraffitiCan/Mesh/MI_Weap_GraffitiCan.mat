@@ -1,0 +1,6 @@
+Diffuse=SK_Weap_GraffitiCan_D
+Normal=SK_Weap_GraffitiCan_N
+Other[0]=SK_Weap_GraffitiCan_RMO
+Other[1]=T_DefaultNormal
+Other[2]=T_DefaultWhite_Gamma
+Other[3]=T_DefaultWhite_Linear

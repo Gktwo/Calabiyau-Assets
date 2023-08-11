@@ -1,0 +1,11 @@
+Diffuse=T_MoBai_PPM_007
+Normal=T_MoBai_Body_N_001
+Other[0]=Green_Mask
+Other[1]=T_MoBai_Body_Mask2Map_001
+Other[2]=DefaultTexture
+Other[3]=T_DefaultBlack_Gamma
+Other[4]=T_DefaultBlack_Linear
+Other[5]=T_DefaultBlue_Linear
+Other[6]=T_DefaultNormal
+Other[7]=T_DefaultWhite_Gamma
+Other[8]=T_DefaultWhite_Grayscale

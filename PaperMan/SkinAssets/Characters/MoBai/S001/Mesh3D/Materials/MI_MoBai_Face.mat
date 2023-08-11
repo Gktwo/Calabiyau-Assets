@@ -1,0 +1,11 @@
+Diffuse=T_MoBai_Face_001
+Normal=T_DefaultNormal
+Other[0]=T_MoBai_SDF
+Other[1]=T_MoBai_Face_Mask1Map_001
+Other[2]=T_MoBai_Face_Mask2Map_Map
+Other[3]=DefaultTexture
+Other[4]=T_DefaultWhite_Grayscale
+Other[5]=T_DefaultBlack_Linear
+Other[6]=T_DefaultBlue_Linear
+Other[7]=T_DefaultBlack_Gamma
+Other[8]=T_DefaultWhite_Gamma
