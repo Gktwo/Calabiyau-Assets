@@ -1,0 +1,17 @@
+Diffuse=T_Weap_XM8_02_051_D
+Normal=T_Weap_XM8_02_051_N
+Other[0]=T_Weap_XM8_02_051_RMO
+Other[1]=T_Weap_XM8_02_051_MASK
+Other[2]=T_Weap_SVD_051_04_LOGO
+Other[3]=BlendFunc_DefBase
+Other[4]=BlendFunc_DefBlend
+Other[5]=DefaultDiffuse
+Other[6]=DebugNumberStrip
+Other[7]=DebugNumberPeriod
+Other[8]=flipbook
+Other[9]=black_mask
+Other[10]=white
+Other[11]=T_DefaultNormal
+Other[12]=T_DefaultWhite_Gamma
+Other[13]=T_DefaultWhite_Linear
+Other[14]=173422gvp1popogdroy3zg

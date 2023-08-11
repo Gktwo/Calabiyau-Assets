@@ -1,0 +1,8 @@
+Diffuse=T_Weap_XM8_01_052_D
+Normal=T_Weap_XM8_01_052_N
+Other[0]=T_Weap_XM8_01_052_RMO
+Other[1]=T_Weap_XM8_01_052_MASK
+Other[2]=T_Noise_0061
+Other[3]=T_DefaultNormal
+Other[4]=T_DefaultWhite_Gamma
+Other[5]=T_DefaultWhite_Linear

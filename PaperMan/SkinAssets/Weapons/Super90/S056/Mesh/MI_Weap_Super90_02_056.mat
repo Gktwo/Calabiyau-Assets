@@ -1,0 +1,10 @@
+Diffuse=T_Weap_Super90_02_056_D
+Normal=T_Weap_Super90_02_056_N
+Other[0]=T_Weap_Super90_02_056_RMO
+Other[1]=T_Weap_Super90_02_056_MASK
+Other[2]=T_Noise_5061_1
+Other[3]=black
+Other[4]=black_mask
+Other[5]=T_DefaultNormal
+Other[6]=T_DefaultWhite_Gamma
+Other[7]=T_DefaultWhite_Linear

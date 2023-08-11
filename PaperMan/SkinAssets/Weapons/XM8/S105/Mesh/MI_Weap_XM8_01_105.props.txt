@@ -1,0 +1,178 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Weapon/WeaponEffect/M_Nys_Weap_Crystal_MetalIrisation.M_Nys_Weap_Crystal_MetalIrisation'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Emissive Scale }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=CrystalRoughness }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=CrystalMetallic }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=CrystalSpecular }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Content_01_Contrast }
+        ParameterValue = 2.5
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor_LOW }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S105/Mesh/T_Weap_XM8_105_01_D.T_Weap_XM8_105_01_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=N }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S105/Mesh/T_Weap_XM8_105_01_N.T_Weap_XM8_105_01_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=RM }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S105/Mesh/T_Weap_XM8_105_01_RMO.T_Weap_XM8_105_01_RMO'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=CombineMaskTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S105/Mesh/T_Weap_XM8_105_01_mask.T_Weap_XM8_105_01_mask'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=CrystalContentTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_sparks_01.T_sparks_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[6] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=CrystalContentUVControl }
+        ParameterValue = { R=4, G=4, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=CrystalContentPannerControl }
+        ParameterValue = { R=0, G=0, B=1, A=20 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Content_01_Emissive_Bright }
+        ParameterValue = { R=0.424711, G=0, B=4, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Content_01_Emissive_Dark }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Content_02_Emissive_Bright }
+        ParameterValue = { R=0, G=0.8, B=0.220099, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Content_02_Emissive_Dark }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnableEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnableCrystal }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=CrystalUseMask }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_XM8_105_01_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_XM8_105_01_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_XM8_105_01_RMO
+    }
+}

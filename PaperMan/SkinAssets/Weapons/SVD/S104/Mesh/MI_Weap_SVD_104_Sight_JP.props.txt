@@ -1,0 +1,146 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Weapon/M_GunSight_1P.M_GunSight_1P'
+ScalarParameterValues[10] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RedPointRadius }
+        ParameterValue = 0.0055
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BloomRadius }
+        ParameterValue = 0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=CrossWidthness }
+        ParameterValue = 0.0025
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=BlankBeginPosition }
+        ParameterValue = 0.015
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=BlankEndPosition }
+        ParameterValue = 0.295238
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Progress }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=PB_RemapMin }
+        ParameterValue = 0.066667
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=PB_RemapMax }
+        ParameterValue = 0.379656
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=PB_Contrast }
+        ParameterValue = 45
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=MainTexture }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/SVD/S104/Mesh/T_Weap_SVD_Sight_104_H.T_Weap_SVD_Sight_104_H'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=ProgressBarMask }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/SVD/S104/Mesh/T_Weap_SVD_Sight_104_H2.T_Weap_SVD_Sight_104_H2'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=2, G=2, B=2, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=CrossColor }
+        ParameterValue = { R=0, G=0, B=0, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=ProgressBar_Color }
+        ParameterValue = { R=0.228534, G=0.97015, B=1, A=0.5 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnableCross }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_ProgressBar }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=IF_ProgressBarFlip }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,11 @@
+Diffuse=T_Weap_XM8_101_01_D
+Normal=T_Weap_XM8_101_01_N
+Other[0]=T_Weap_XM8_101_01_RMO
+Other[1]=T_Weap_XM8_101_01_mask
+Other[2]=BlendFunc_DefBase
+Other[3]=BlendFunc_DefBlend
+Other[4]=black_mask
+Other[5]=T_DefaultNormal
+Other[6]=T_DefaultWhite_Gamma
+Other[7]=T_DefaultWhite_Linear
+Other[8]=173422gvp1popogdroy3zg

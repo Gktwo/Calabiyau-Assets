@@ -1,0 +1,10 @@
+Diffuse=T_Weap_Super90_01_103_D
+Normal=T_Weap_Super90_01_103_N
+Cube=T_HDR_Panorama_Ball
+Other[0]=T_Weap_Super90_01_103_RMO
+Other[1]=black_mask
+Other[2]=DefaultTexture
+Other[3]=T_Mask_0042
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultWhite_Gamma
+Other[6]=T_DefaultWhite_Linear

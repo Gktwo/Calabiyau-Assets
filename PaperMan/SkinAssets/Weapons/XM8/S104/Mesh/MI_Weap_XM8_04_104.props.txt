@@ -1,0 +1,134 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Weapon/M_Nys_Weap_Glass_01.M_Nys_Weap_Glass_01'
+ScalarParameterValues[7] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=ColorPow }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Metal }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=HDR }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=OpacityAdd }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=MaskPower }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor_LOW }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S104/Mesh/T_Weap_XM8_02_104_D.T_Weap_XM8_02_104_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=N }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S104/Mesh/T_Weap_XM8_02_104_N.T_Weap_XM8_02_104_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=RM }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S104/Mesh/T_Weap_XM8_02_104_RMO.T_Weap_XM8_02_104_RMO'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Mask_A_Dissolve }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Maps/DebugMaps/Toon/black_mask.black_mask'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=SphereReflectionTexture }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Weapons/Common/T_HDR_Panorama_Ball.T_HDR_Panorama_Ball'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=EnableEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use1PMask }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = black_mask
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_XM8_02_104_D
+    }
+}

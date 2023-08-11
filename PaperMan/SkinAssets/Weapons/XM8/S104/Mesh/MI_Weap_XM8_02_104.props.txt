@@ -1,0 +1,322 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Weapon/M_Nys_Weap_01.M_Nys_Weap_01'
+ScalarParameterValues[10] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Emissive Scale }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=FrameChangingSpeed }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=FrameChangingTimePeriod }
+        ParameterValue = 2000
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=TransitionTimeContrast }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=TransitionDirectionSign }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=TransitionAreaContrast }
+        ParameterValue = 8
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=HueOffsetPerFrame }
+        ParameterValue = 0.17
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=DyeIntensity }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=PureColor }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor_LOW }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S104/Mesh/T_Weap_XM8_02_104_D.T_Weap_XM8_02_104_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=N }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S104/Mesh/T_Weap_XM8_02_104_N.T_Weap_XM8_02_104_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=RM }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S104/Mesh/T_Weap_XM8_02_104_RMO.T_Weap_XM8_02_104_RMO'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=CombineMaskTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/XM8/S104/Mesh/T_Weap_XM8_02_104_mask.T_Weap_XM8_02_104_mask'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=LabelTex }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=FXTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_2013.T_Noise_2013'
+        ParameterName = None
+    }
+}
+VectorParameterValues[19] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=DyeMaskChannel }
+        ParameterValue = { R=1, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColor_HSV_Control }
+        ParameterValue = { R=0, G=0.561115, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Emissive_HSV_Control }
+        ParameterValue = { R=0, G=0, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=TransitionAxis }
+        ParameterValue = { R=0, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=InnerLabelMaskChannel }
+        ParameterValue = { R=0, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=LabelCenterPosition }
+        ParameterValue = { R=0, G=21.2785, B=5.56574, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=PointAPosition(LS) }
+        ParameterValue = { R=0, G=20, B=13, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=LabelSize }
+        ParameterValue = { R=-18, G=18, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=PointCPosition(LS) }
+        ParameterValue = { R=0, G=2, B=-5, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=LabelTexTintColor }
+        ParameterValue = { R=0.6, G=0.6, B=0.6, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=AdditionalFXMaskChannel }
+        ParameterValue = { R=1, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=FXAlphaChannel }
+        ParameterValue = { R=1, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[12] =
+    {
+        ParameterInfo = { Name=FXUVControl }
+        ParameterValue = { R=10, G=10, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[13] =
+    {
+        ParameterInfo = { Name=FXPannerControl }
+        ParameterValue = { R=0.05, G=0, B=20, A=20 }
+        ParameterName = None
+    }
+    VectorParameterValues[14] =
+    {
+        ParameterInfo = { Name=FXLocalUVScale }
+        ParameterValue = { R=0.5, G=0.5, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[15] =
+    {
+        ParameterInfo = { Name=FXLocalUVOffset }
+        ParameterValue = { R=1, G=1, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[16] =
+    {
+        ParameterInfo = { Name=FXLocalUVPannerControl }
+        ParameterValue = { R=0.2, G=5, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[17] =
+    {
+        ParameterInfo = { Name=FXBaseColorTint }
+        ParameterValue = { R=0.075196, G=0.056545, B=0.291667, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[18] =
+    {
+        ParameterInfo = { Name=FXEmissiveTint }
+        ParameterValue = { R=3.34156, G=10, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[9] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnableEmissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=DyeUseMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=SelfRandomDying }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = false
+            ParameterInfo = { Name=TransitionTypeA }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = false
+            ParameterInfo = { Name=TransitionTypeB }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=TransitionTypeC }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=LabelTexUseMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnableAdditionalFX }
+            bOverride = true
+        }
+        StaticSwitchParameters[8] =
+        {
+            Value = true
+            ParameterInfo = { Name=AdditionalFXUseMask }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_XM8_02_104_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_XM8_02_104_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_XM8_02_104_RMO
+    }
+}
