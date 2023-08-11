@@ -1,0 +1,9 @@
+Diffuse=T_Weap_AKM_02_103_D
+Normal=T_Weap_AKM_02_103_N
+Other[0]=T_Weap_AKM_02_103_RMO
+Other[1]=T_Noise_2009
+Other[2]=T_Mask_0010_4
+Other[3]=T_tra_0001
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultWhite_Gamma
+Other[6]=T_DefaultWhite_Linear

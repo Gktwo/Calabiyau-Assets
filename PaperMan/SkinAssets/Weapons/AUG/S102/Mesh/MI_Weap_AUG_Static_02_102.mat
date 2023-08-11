@@ -1,0 +1,9 @@
+Diffuse=T_Weap_AUG_102_02_D
+Normal=T_Weap_AUG_102_02_N
+Other[0]=T_Weap_AUG_102_02_RMO
+Other[1]=T_Weap_AUG_102_02_MASK
+Other[2]=T_Weap_AUG_102_Mask_02
+Other[3]=black
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultWhite_Gamma
+Other[6]=T_DefaultWhite_Linear

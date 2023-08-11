@@ -1,0 +1,8 @@
+Diffuse=T_Weap_Alarm_03_D
+Normal=T_Weap_Alarm_01_N
+Emissive=T_Weap_Alarm_01_DropEmissive
+Other[0]=T_Weap_Alarm_01_RMO
+Other[1]=black_mask
+Other[2]=blue
+Other[3]=white
+Other[4]=white_mask
