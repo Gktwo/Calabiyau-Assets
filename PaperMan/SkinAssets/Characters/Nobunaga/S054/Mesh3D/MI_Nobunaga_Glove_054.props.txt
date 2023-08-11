@@ -1,0 +1,84 @@
+Parent = MaterialInstanceConstant'/PM/Content/PaperMan/MaterialMaster/Character/mat_toon_ForeMaterialStatic_False.mat_toon_ForeMaterialStatic_False'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=HightLightPow }
+        ParameterValue = 0.07
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=ViewLimit }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseMap }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Nobunaga/S054/Mesh3D/T_Nobunaga_Body_054.T_Nobunaga_Body_054'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=NormalMap }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Nobunaga/S001/Mesh3D/Textuers/T_Nobunaga_Body_N.T_Nobunaga_Body_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mask1 }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Nobunaga/S001/Mesh3D/Textuers/T_Nobunaga_Glove_Mask1.T_Nobunaga_Glove_Mask1'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Mask2 }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Characters/Nobunaga/S001/Mesh3D/Textuers/T_Nobunaga_Glove_Mask2.T_Nobunaga_Glove_Mask2'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Nobunaga_Body_054
+    }
+}

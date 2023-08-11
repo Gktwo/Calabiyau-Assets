@@ -1,0 +1,235 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SK_Weap_Trap_weakness",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ -0, -0, -0, 1 ]
+    },
+    {
+      "name" : "Roll",
+      "children" : [ 3, 6, 9, 12 ],
+      "translation" : [ 0, 0.0529828, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_A",
+      "children" : [ 4, 5 ],
+      "translation" : [ 0.0530094, 0.0216231, 1.37091e-08 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_A_02",
+      "translation" : [ 0.0569906, 0.0153942, 0.00999999 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_A_01",
+      "translation" : [ 0.0569906, 0.0153942, -0.01 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_C",
+      "children" : [ 7, 8 ],
+      "translation" : [ -0.05301, 0.0216231, 1.37091e-08 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_C_01",
+      "translation" : [ -0.05699, 0.0153942, 0.00999999 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_C_02",
+      "translation" : [ -0.05699, 0.0153942, -0.01 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_D",
+      "children" : [ 10, 11 ],
+      "translation" : [ 0, 0.0216272, -0.05301 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_D_02",
+      "translation" : [ 0.01, 0.01539, -0.05699 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_D_01",
+      "translation" : [ -0.01, 0.01539, -0.05699 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_B",
+      "children" : [ 13, 14 ],
+      "translation" : [ 0, 0.0216272, 0.05301 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_B_01",
+      "translation" : [ 0.01, 0.01539, 0.05699 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Leaf_B_02",
+      "translation" : [ -0.01, 0.01539, 0.05699 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MI_Weap_Trap_weakness",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SK_Weap_Trap_weakness"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SK_Weap_Trap_weakness.bin",
+      "byteLength" : 211412
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 896
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 896,
+      "byteLength" : 17256
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 18152,
+      "byteLength" : 38652
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 56804,
+      "byteLength" : 38652
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 95456,
+      "byteLength" : 51536
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 146992,
+      "byteLength" : 25768
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 172760,
+      "byteLength" : 12884
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 185644,
+      "byteLength" : 25768
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 14,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 8628,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.239042, -9.77025e-09, -0.239042 ],
+      "max" : [ 0.239042, 0.183125, 0.239042 ],
+      "componentType" : 5126,
+      "count" : 3221,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 3221,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 3221,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 3221,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 3221,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 3221,
+      "type" : "VEC2"
+    }
+  ]
+}

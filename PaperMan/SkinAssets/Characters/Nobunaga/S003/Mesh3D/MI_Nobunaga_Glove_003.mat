@@ -1,0 +1,11 @@
+Diffuse=T_Nobunaga_Body_003
+Normal=T_Nobunaga_Body_N
+Other[0]=T_Nobunaga_Glove_Mask1
+Other[1]=T_Nobunaga_Glove_Mask2
+Other[2]=DefaultTexture
+Other[3]=T_DefaultNormal
+Other[4]=T_DefaultBlack_Linear
+Other[5]=T_DefaultBlue_Linear
+Other[6]=T_DefaultBlack_Gamma
+Other[7]=T_DefaultWhite_Gamma
+Other[8]=T_DefaultWhite_Grayscale
