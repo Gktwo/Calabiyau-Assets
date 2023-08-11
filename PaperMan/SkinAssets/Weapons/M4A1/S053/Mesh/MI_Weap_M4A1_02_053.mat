@@ -1,0 +1,15 @@
+Diffuse=T_Weap_M4A1_053_D
+Normal=T_Weap_M4A1_053_N
+Other[0]=T_Weap_M4A1_053_RMO
+Other[1]=T_Weap_M4A1_053_MASK
+Other[2]=T_Weap_M4A1_053_logo
+Other[3]=DefaultDiffuse
+Other[4]=DebugNumberStrip
+Other[5]=DebugNumberPeriod
+Other[6]=flipbook
+Other[7]=black
+Other[8]=black_mask
+Other[9]=white
+Other[10]=T_DefaultNormal
+Other[11]=T_DefaultWhite_Gamma
+Other[12]=T_DefaultWhite_Linear

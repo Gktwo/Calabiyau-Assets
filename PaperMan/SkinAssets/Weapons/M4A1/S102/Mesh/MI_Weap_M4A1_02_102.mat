@@ -1,0 +1,9 @@
+Diffuse=T_Weap_M4A1_02_102_D
+Normal=T_Weap_M4A1_02_102_N
+Other[0]=T_Weap_M4A1_02_102_RMO
+Other[1]=T_Weap_M4A1_02_102_mask
+Other[2]=black
+Other[3]=black_mask
+Other[4]=T_DefaultNormal
+Other[5]=T_DefaultWhite_Gamma
+Other[6]=T_DefaultWhite_Linear

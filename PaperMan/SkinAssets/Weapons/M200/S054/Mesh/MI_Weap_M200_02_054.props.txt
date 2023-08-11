@@ -1,0 +1,196 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/Weapon/WeaponEffect/M_Nys_Weap_InnerLabelDouble.M_Nys_Weap_InnerLabelDouble'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=ColorPow }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Metal }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor_LOW }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/M200/S054/Mesh/T_Weap_M200_054_02_D.T_Weap_M200_054_02_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=N }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/M200/S054/Mesh/T_Weap_M200_054_02_N.T_Weap_M200_054_02_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=RM }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/M200/S054/Mesh/T_Weap_M200_054_02_RMO.T_Weap_M200_054_02_RMO'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=CombineMaskTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/M200/S054/Mesh/T_Weap_M200_054_02_MASK.T_Weap_M200_054_02_MASK'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=LabelTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/M200/S054/Mesh/T_Weap_M200_054_03_logo.T_Weap_M200_054_03_logo'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=LabelTex_02 }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/SkinAssets/Weapons/M200/S054/Mesh/T_Weap_M200_054_MASK.T_Weap_M200_054_MASK'
+        ParameterName = None
+    }
+}
+VectorParameterValues[10] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=InnerLabelMaskChannel }
+        ParameterValue = { R=0, G=0, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=InnerLabelMaskChannel_02 }
+        ParameterValue = { R=1, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=LabelCenterPosition }
+        ParameterValue = { R=1.3, G=19.4677, B=3.24567, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=LabelSize }
+        ParameterValue = { R=-35, G=35, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=LabelTexTintColor }
+        ParameterValue = { R=0.5, G=0.5, B=0.5, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=LabelTex_02_OpacityChannel }
+        ParameterValue = { R=1, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=LabelCenterPosition_02 }
+        ParameterValue = { R=0, G=5, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=LabelSize_02 }
+        ParameterValue = { R=55, G=55, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=InnerLabelPannerControl_02 }
+        ParameterValue = { R=-2.2, G=-2.2, B=25, A=25 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=LabelTexTintColor_02 }
+        ParameterValue = { R=0.770833, G=0.713733, B=0.473741, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=EnableInnerLabelSequence }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=ClampBorder_02 }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_M200_054_02_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_M200_054_02_MASK
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_M200_054_02_N
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Weap_M200_054_02_RMO
+    }
+}

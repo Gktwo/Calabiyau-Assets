@@ -1,0 +1,14 @@
+Diffuse=T_Weap_M82_01_102_D
+Normal=T_Weap_M82_01_102_N
+Other[0]=T_Weap_M82_01_102_RMO
+Other[1]=T_Weap_M82_01_102_MASK
+Other[2]=T_Noise_MM_7
+Other[3]=BlendFunc_DefBase
+Other[4]=BlendFunc_DefBlend
+Other[5]=T_Crystal_BubbleMask
+Other[6]=T_Crystal_FlowMap
+Other[7]=black_mask
+Other[8]=T_DefaultNormal
+Other[9]=T_DefaultWhite_Gamma
+Other[10]=T_DefaultWhite_Linear
+Other[11]=173422gvp1popogdroy3zg

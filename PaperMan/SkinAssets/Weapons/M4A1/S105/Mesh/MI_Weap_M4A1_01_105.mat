@@ -1,0 +1,12 @@
+Diffuse=T_Weap_M4A1_01_105_D
+Normal=T_Weap_M4A1_01_105_N
+Other[0]=T_Weap_M4A1_01_105_RMO
+Other[1]=T_Weap_M4A1_01_105_mask
+Other[2]=Metal_MatCap
+Other[3]=BlendFunc_DefBase
+Other[4]=BlendFunc_DefBlend
+Other[5]=black_mask
+Other[6]=T_DefaultNormal
+Other[7]=T_DefaultWhite_Gamma
+Other[8]=T_DefaultWhite_Linear
+Other[9]=173422gvp1popogdroy3zg
