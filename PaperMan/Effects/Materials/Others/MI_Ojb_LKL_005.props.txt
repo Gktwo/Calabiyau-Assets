@@ -31,7 +31,7 @@ TextureParameterValues[2] =
     TextureParameterValues[1] =
     {
         ParameterInfo = { Name=AlphaMaskA_Tex }
-        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_0041.T_Noise_0041'
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_NB002.T_Noise_NB002'
         ParameterName = None
     }
 }
@@ -39,8 +39,8 @@ VectorParameterValues[4] =
 {
     VectorParameterValues[0] =
     {
-        ParameterInfo = { Name=Color }
-        ParameterValue = { R=3, G=3, B=3, A=1 }
+        ParameterInfo = { Name=Alpha_Depth }
+        ParameterValue = { R=-1, G=1, B=600, A=0.5 }
         ParameterName = None
     }
     VectorParameterValues[1] =
@@ -73,15 +73,21 @@ BasePropertyOverrides =
 }
 StaticParameters =
 {
-    StaticSwitchParameters[2] =
+    StaticSwitchParameters[3] =
     {
         StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_AlphaDepth }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
         {
             Value = true
             ParameterInfo = { Name=IF_DepthFade }
             bOverride = true
         }
-        StaticSwitchParameters[1] =
+        StaticSwitchParameters[2] =
         {
             Value = true
             ParameterInfo = { Name=IF_AlphaMask }
@@ -101,12 +107,4 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[1] =
-{
-    TextureStreamingData[0] =
-    {
-        SamplingScale = 1
-        UVChannelIndex = 0
-        TextureName = T_Noise_0041
-    }
-}
+TextureStreamingData[0] = {}

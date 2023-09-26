@@ -41,15 +41,9 @@ BasePropertyOverrides =
 }
 StaticParameters =
 {
-    StaticSwitchParameters[2] =
+    StaticSwitchParameters[1] =
     {
         StaticSwitchParameters[0] =
-        {
-            Value = true
-            ParameterInfo = { Name=IF_DepthFade }
-            bOverride = true
-        }
-        StaticSwitchParameters[1] =
         {
             Value = true
             ParameterInfo = { Name=IF_MainTexture_SubUV }

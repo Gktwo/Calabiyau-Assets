@@ -1,10 +1,16 @@
 Parent = Material3'/PM/Content/PaperMan/Effects/MainMaterials/M_FxBasic.M_FxBasic'
-ScalarParameterValues[1] =
+ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
     {
         ParameterInfo = { Name=AlphaMaskA_UV_Uspeed }
-        ParameterValue = 0.15
+        ParameterValue = 0.12
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
         ParameterName = None
     }
 }
@@ -13,17 +19,17 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=MainTexture }
-        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/wb_1/T_wb_Wcc_039.T_wb_Wcc_039'
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_057.T_Object_Cbn_057'
         ParameterName = None
     }
     TextureParameterValues[1] =
     {
         ParameterInfo = { Name=AlphaMaskA_Tex }
-        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/wb_1/T_wb_Wcc_043.T_wb_Wcc_043'
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Object/T_Object_Cbn_058.T_Object_Cbn_058'
         ParameterName = None
     }
 }
-VectorParameterValues[4] =
+VectorParameterValues[5] =
 {
     VectorParameterValues[0] =
     {
@@ -40,20 +46,26 @@ VectorParameterValues[4] =
     VectorParameterValues[2] =
     {
         ParameterInfo = { Name=MainTex_Refine }
-        ParameterValue = { R=8, G=2, B=0.3, A=0.5 }
+        ParameterValue = { R=1.06611, G=2.98729, B=1, A=0.5 }
         ParameterName = None
     }
     VectorParameterValues[3] =
     {
+        ParameterInfo = { Name=MainTex_RGBChannelAsAlpha }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
         ParameterInfo = { Name=AlphaMaskA_UVTiling }
-        ParameterValue = { R=0.03, G=1, B=0, A=0 }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
         ParameterName = None
     }
 }
 BasePropertyOverrides =
 {
     bOverride_BlendMode = true
-    BlendMode = BLEND_Translucent (2)
+    BlendMode = BLEND_Masked (1)
     bOverride_TwoSided = true
     TwoSided = true
     bOverride_OpacityMaskClipValue = false
@@ -61,7 +73,7 @@ BasePropertyOverrides =
 }
 StaticParameters =
 {
-    StaticSwitchParameters[4] =
+    StaticSwitchParameters[5] =
     {
         StaticSwitchParameters[0] =
         {
@@ -78,13 +90,19 @@ StaticParameters =
         StaticSwitchParameters[2] =
         {
             Value = true
-            ParameterInfo = { Name=IF_MainTexture_SubUV }
+            ParameterInfo = { Name=IF_MainTex_RGBChannelAsAlpha }
             bOverride = true
         }
         StaticSwitchParameters[3] =
         {
             Value = true
             ParameterInfo = { Name=IF_AlphaMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_AlphaMaskA_UV1 }
             bOverride = true
         }
     }
@@ -101,4 +119,12 @@ bUseMobileSpecular = false
 MobileSpecularPower = 16
 MobileSpecularMask = MSM_Constant (0)
 MobileMaskTexture = None
-TextureStreamingData[0] = {}
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Object_Cbn_058
+    }
+}

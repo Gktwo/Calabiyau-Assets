@@ -136,9 +136,18 @@ StaticParameters =
             bOverride = true
         }
     }
-    StaticComponentMaskParameters[2] =
+    StaticComponentMaskParameters[3] =
     {
         StaticComponentMaskParameters[0] =
+        {
+            R = false
+            G = false
+            B = false
+            A = true
+            ParameterInfo = { Name=Main_Channel }
+            bOverride = true
+        }
+        StaticComponentMaskParameters[1] =
         {
             R = true
             G = false
@@ -147,7 +156,7 @@ StaticParameters =
             ParameterInfo = { Name=Mask_Channel }
             bOverride = true
         }
-        StaticComponentMaskParameters[1] =
+        StaticComponentMaskParameters[2] =
         {
             R = true
             G = false

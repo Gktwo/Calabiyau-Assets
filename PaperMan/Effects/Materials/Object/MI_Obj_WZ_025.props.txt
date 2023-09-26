@@ -92,7 +92,7 @@ ScalarParameterValues[15] =
         ParameterName = None
     }
 }
-TextureParameterValues[3] =
+TextureParameterValues[4] =
 {
     TextureParameterValues[0] =
     {
@@ -103,10 +103,16 @@ TextureParameterValues[3] =
     TextureParameterValues[1] =
     {
         ParameterInfo = { Name=Texture01 }
-        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_WZ_016.T_Noise_WZ_016'
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_WZ_017.T_Noise_WZ_017'
         ParameterName = None
     }
     TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Texture02 }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_WZ_017.T_Noise_WZ_017'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
     {
         ParameterInfo = { Name=VertexOffset_Tex }
         ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8007.T_Noise_8007'
@@ -148,13 +154,13 @@ VectorParameterValues[8] =
     VectorParameterValues[5] =
     {
         ParameterInfo = { Name=Tex1_UV }
-        ParameterValue = { R=1, G=5, B=-0.1, A=0 }
+        ParameterValue = { R=5, G=3, B=-0.25, A=0.1 }
         ParameterName = None
     }
     VectorParameterValues[6] =
     {
         ParameterInfo = { Name=Tex2_UV }
-        ParameterValue = { R=1, G=5, B=-0.15, A=0 }
+        ParameterValue = { R=7, G=5, B=-0.3, A=0.1 }
         ParameterName = None
     }
     VectorParameterValues[7] =
@@ -215,18 +221,18 @@ TextureStreamingData[3] =
     {
         SamplingScale = 1
         UVChannelIndex = 0
-        TextureName = T_Noise_0019
+        TextureName = T_Noise_0062
     }
     TextureStreamingData[1] =
     {
-        SamplingScale = 1
+        SamplingScale = 3
         UVChannelIndex = 0
-        TextureName = T_Noise_0062
+        TextureName = T_Noise_WZ_017
     }
     TextureStreamingData[2] =
     {
-        SamplingScale = 1
+        SamplingScale = 5
         UVChannelIndex = 0
-        TextureName = T_Noise_WZ_016
+        TextureName = T_Noise_WZ_017
     }
 }

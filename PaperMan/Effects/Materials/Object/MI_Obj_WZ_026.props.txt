@@ -1,55 +1,61 @@
 Parent = Material3'/PM/Content/PaperMan/Effects/MainMaterials/M_FxBasic.M_FxBasic'
-ScalarParameterValues[9] =
+ScalarParameterValues[10] =
 {
     ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DepthFadeDistance }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
     {
         ParameterInfo = { Name=MainTexUV_Uspeed }
         ParameterValue = 0
         ParameterName = None
     }
-    ScalarParameterValues[1] =
+    ScalarParameterValues[2] =
     {
         ParameterInfo = { Name=Dissolve(0-1) }
         ParameterValue = 0.6
         ParameterName = None
     }
-    ScalarParameterValues[2] =
+    ScalarParameterValues[3] =
     {
         ParameterInfo = { Name=Dissolve_Contrast }
         ParameterValue = 1
         ParameterName = None
     }
-    ScalarParameterValues[3] =
+    ScalarParameterValues[4] =
     {
         ParameterInfo = { Name=DissolveTexUV_Uspeed }
-        ParameterValue = -0.5
+        ParameterValue = -1
         ParameterName = None
     }
-    ScalarParameterValues[4] =
+    ScalarParameterValues[5] =
     {
         ParameterInfo = { Name=Fre_BaseReflectFractionIn }
         ParameterValue = 0.04
         ParameterName = None
     }
-    ScalarParameterValues[5] =
+    ScalarParameterValues[6] =
     {
         ParameterInfo = { Name=Fre_ExponentIn }
         ParameterValue = 1
         ParameterName = None
     }
-    ScalarParameterValues[6] =
+    ScalarParameterValues[7] =
     {
         ParameterInfo = { Name=Fresnel_Contrast }
         ParameterValue = -1
         ParameterName = None
     }
-    ScalarParameterValues[7] =
+    ScalarParameterValues[8] =
     {
         ParameterInfo = { Name=Fresnel_Pow }
         ParameterValue = 3
         ParameterName = None
     }
-    ScalarParameterValues[8] =
+    ScalarParameterValues[9] =
     {
         ParameterInfo = { Name=RefractionDepthBias }
         ParameterValue = 0
@@ -107,7 +113,7 @@ VectorParameterValues[4] =
 BasePropertyOverrides =
 {
     bOverride_BlendMode = true
-    BlendMode = BLEND_Additive (3)
+    BlendMode = BLEND_Translucent (2)
     bOverride_TwoSided = false
     TwoSided = false
     bOverride_OpacityMaskClipValue = false
@@ -115,7 +121,7 @@ BasePropertyOverrides =
 }
 StaticParameters =
 {
-    StaticSwitchParameters[7] =
+    StaticSwitchParameters[9] =
     {
         StaticSwitchParameters[0] =
         {
@@ -126,34 +132,46 @@ StaticParameters =
         StaticSwitchParameters[1] =
         {
             Value = true
-            ParameterInfo = { Name=IF_MainTexUV_Speed }
+            ParameterInfo = { Name=IF_DepthFade }
             bOverride = true
         }
         StaticSwitchParameters[2] =
         {
             Value = true
-            ParameterInfo = { Name=IF_AlphaMask }
+            ParameterInfo = { Name=IF_NoColor }
             bOverride = true
         }
         StaticSwitchParameters[3] =
         {
             Value = true
-            ParameterInfo = { Name=IF_AlphaMaskB }
+            ParameterInfo = { Name=IF_MainTexUV_Speed }
             bOverride = true
         }
         StaticSwitchParameters[4] =
         {
             Value = true
-            ParameterInfo = { Name=IF_Dissolve }
+            ParameterInfo = { Name=IF_AlphaMask }
             bOverride = true
         }
         StaticSwitchParameters[5] =
         {
             Value = true
-            ParameterInfo = { Name=IF_Dissolve_Dynamic }
+            ParameterInfo = { Name=IF_AlphaMaskB }
             bOverride = true
         }
         StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_Dissolve }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=IF_Dissolve_Dynamic }
+            bOverride = true
+        }
+        StaticSwitchParameters[8] =
         {
             Value = true
             ParameterInfo = { Name=IF_Fresnel }

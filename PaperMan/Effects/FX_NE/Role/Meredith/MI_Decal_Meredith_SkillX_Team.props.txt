@@ -1,0 +1,488 @@
+Parent = Material3'/PM/Content/PaperMan/MaterialMaster/FX/M_DecalSphereMask.M_DecalSphereMask'
+ScalarParameterValues[32] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Dissolve }
+        ParameterValue = -0.037141
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=DissolveTexIntensity }
+        ParameterValue = -0.476343
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=DissolveTexIntensityLerpMax }
+        ParameterValue = 7.15781
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=DissolveTexIntensityLerpMin }
+        ParameterValue = -0.375255
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Dissolve_Contrast }
+        ParameterValue = 1.42267
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=DissolveTex_FlowSpeedU }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=DissolveTex_FlowSpeedV }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=X_DissolveTex_FlowSpeedU }
+        ParameterValue = -0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=X_DissolveTex_FlowSpeedV }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Y_DissolveTex_FlowSpeedU }
+        ParameterValue = -0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Y_DissolveTex_FlowSpeedV }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Z_DissolveTex_FlowSpeedU }
+        ParameterValue = -0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Z_DissolveTex_FlowSpeedV }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=MainTex_FlowSpeedU }
+        ParameterValue = -0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=MainTex_FlowSpeedV }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=X_MainTex_FlowSpeedV }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=MainTex2_FlowSpeedU }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=MainTex2_FlowSpeedV }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Mask_FlowSpeedU }
+        ParameterValue = -0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=Mask_FlowSpeedV }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=InsideSphereHardness }
+        ParameterValue = 0.026346
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=InsideSpherePower }
+        ParameterValue = 0.651944
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=InsideSphereRadius }
+        ParameterValue = 0.819047
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=SphereHardness }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=SphereMaskIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=SphereMaskOffset }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=SphereMax }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=SphereMin }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=SpherePower }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=SphereRadius }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=DissolveTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_5053_1.T_Noise_5053_1'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MainTex }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_8010.T_Noise_8010'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=MainTex2 }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Mask/T_Mask_0038.T_Mask_0038'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/PM/Content/PaperMan/Effects/Textures/Noise/T_Noise_WZ_017.T_Noise_WZ_017'
+        ParameterName = None
+    }
+}
+VectorParameterValues[18] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=DissolveTex_ST }
+        ParameterValue = { R=9, G=9, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=DissolveUseChannel }
+        ParameterValue = { R=0, G=0, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=X_DissolveTex_ST }
+        ParameterValue = { R=3, G=16.1058, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Y_DissolveTex_ST }
+        ParameterValue = { R=3, G=16.1058, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Z_DissolveTex_ST }
+        ParameterValue = { R=17.2237, G=11.4353, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=MainColor }
+        ParameterValue = { R=0.296875, G=0.174882, B=0.075765, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=MainColor_Lerp }
+        ParameterValue = { R=2, G=1.03311, B=0.223339, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=MainTex_ST }
+        ParameterValue = { R=18, G=7, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=X_MainTex_ST }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=Y_MainTex_ST }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=Z_MainTex_ST }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=MainColor2 }
+        ParameterValue = { R=1, G=0.518645, B=0.11381, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[12] =
+    {
+        ParameterInfo = { Name=MainColor2_Lerp }
+        ParameterValue = { R=22, G=8.36458, B=0.572917, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[13] =
+    {
+        ParameterInfo = { Name=MainTex2_ST }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[14] =
+    {
+        ParameterInfo = { Name=MainTex2LepColorChannel }
+        ParameterValue = { R=1, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[15] =
+    {
+        ParameterInfo = { Name=Mask_ST }
+        ParameterValue = { R=5, G=2.61301, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[16] =
+    {
+        ParameterInfo = { Name=MaskRemap }
+        ParameterValue = { R=-0.133334, G=1, B=0, A=0.106486 }
+        ParameterName = None
+    }
+    VectorParameterValues[17] =
+    {
+        ParameterInfo = { Name=SphereMaskRemap }
+        ParameterValue = { R=0, G=1, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[21] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=DissolveTexBreakXYZ }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=DissolveTexUseFlow }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=X_DissolveTex_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = false
+            ParameterInfo = { Name=Y_DissolveTex_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=Z_DissolveTex_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=MainTexUseFlow }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=X_MainTex_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=Y_MainTex_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[8] =
+        {
+            Value = true
+            ParameterInfo = { Name=Z_MainTex_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[9] =
+        {
+            Value = true
+            ParameterInfo = { Name=MainTex2UseFlow }
+            bOverride = true
+        }
+        StaticSwitchParameters[10] =
+        {
+            Value = true
+            ParameterInfo = { Name=X_MainTex2_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[11] =
+        {
+            Value = true
+            ParameterInfo = { Name=Y_MainTex2_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[12] =
+        {
+            Value = true
+            ParameterInfo = { Name=Z_MainTex2_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[13] =
+        {
+            Value = true
+            ParameterInfo = { Name=MaskUseFlow }
+            bOverride = true
+        }
+        StaticSwitchParameters[14] =
+        {
+            Value = true
+            ParameterInfo = { Name=X_Mask_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[15] =
+        {
+            Value = true
+            ParameterInfo = { Name=Y_Mask_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[16] =
+        {
+            Value = true
+            ParameterInfo = { Name=Z_Mask_UseRadialUV }
+            bOverride = true
+        }
+        StaticSwitchParameters[17] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSphereMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[18] =
+        {
+            Value = true
+            ParameterInfo = { Name=X_SphereMask_UseRing }
+            bOverride = true
+        }
+        StaticSwitchParameters[19] =
+        {
+            Value = true
+            ParameterInfo = { Name=Y_SphereMask_UseRing }
+            bOverride = true
+        }
+        StaticSwitchParameters[20] =
+        {
+            Value = false
+            ParameterInfo = { Name=Z_SphereMask_UseRing }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

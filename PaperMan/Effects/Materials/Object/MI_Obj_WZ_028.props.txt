@@ -4,13 +4,13 @@ ScalarParameterValues[7] =
     ScalarParameterValues[0] =
     {
         ParameterInfo = { Name=MainTexUV_Uspeed }
-        ParameterValue = -0.2
+        ParameterValue = -0.4
         ParameterName = None
     }
     ScalarParameterValues[1] =
     {
         ParameterInfo = { Name=MainTexUV_Vspeed }
-        ParameterValue = 0.1
+        ParameterValue = 0.5
         ParameterName = None
     }
     ScalarParameterValues[2] =
